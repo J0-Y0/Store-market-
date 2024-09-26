@@ -15,14 +15,14 @@
            <th> id </th>
            <th> title </th>
            <th> price </th>
-           <th> inventory  </th>
+           <th> collection  </th>
         </tr>
         {% for data in datas%}
         <tr>
            <td> {{data.id}} </td>
            <td> {{data.title}} </td>
            <td> {{data.price}} </td>
-           <td> {{data.collection__name}} </td>
+           <td> {{data.collection__title}} </td>
         </tr>
         {%endfor%}
     </table>
