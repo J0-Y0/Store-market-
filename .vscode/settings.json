@@ -1,3 +1,6 @@
 {
-"python.pipenvPath": "pipenv"
+"python.pipenvPath": "pipenv",
+"cSpell.words": [
+    "DBPASSWORD"
+]
 }

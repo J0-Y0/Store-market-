@@ -8,7 +8,7 @@ class Product(models.Model):
     inventory = models.IntegerField()
     last_update = models.DateTimeField(auto_now=True)
     created_at = models.DateTimeField(auto_now_add=True)
-    collection = models.ManyToManyField("Collection", on_delete=models.PROTECT)
+    collection = models.ManyToManyField("Collection")
 
 
 class Customer(models.Model):
@@ -73,7 +73,7 @@ class CartItem(models.Model):
 class Promotion(models.Model):
     title = models.CharField(max_length=100)
     description = models.CharField(max_length=255)
-    products = models.ManyToManyField(Product, on_delete=models.PROTECT)
+    products = models.ManyToManyField(Product)
     discount_value = models.FloatField()
     start_date = models.DateTimeField()
     end_date = models.DateTimeField()
