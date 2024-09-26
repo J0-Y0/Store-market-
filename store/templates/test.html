@@ -10,20 +10,20 @@
 
     
     <table >
-        <h5>data</h5>
-           <tr>
-           <th> id </th>
-           <th> title </th>
-           <th> price </th>
-           <th> collection  </th>
-        </tr>
+
         {% for data in datas%}
         <tr>
-           <td> {{data.id}} </td>
-           <td> {{data.title}} </td>
-           <td> {{data.price}} </td>
-           <td> {{data.collection__title}} </td>
+           <td > {{data.id}} </td>
+           <td> {{data.order.created_at}} </td>
+           <td> {{data.order.get_payment_status_display}} </td>
+           <td> {{data.product.title}} </td>
+           <td> {{data.unit_price}} </td>
+           <td> {{data.quantity}} </td>
+
+
+
         </tr>
+        {{datas}}
         {%endfor%}
     </table>
 
