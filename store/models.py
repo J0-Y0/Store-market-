@@ -18,16 +18,16 @@ class Customer(models.Model):
     phone = models.CharField(max_length=255, unique=True)
     birthday = models.DateField(null=True, blank=True)
 
-    membership_choice = [
+    membership_choices = [
         ("B", "bronze"),
         ("S", "Sliver"),
         ("G", "Gold"),
     ]
-    membership = models.CharField(choices=membership_choice, max_length=1, default="B")
+    membership = models.CharField(choices=membership_choices, max_length=1, default="B")
 
 
 class Address(models.Model):
-    Region = models.CharField(max_length=255)
+    region = models.CharField(max_length=255)
     city = models.CharField(max_length=255)
     customer = models.ForeignKey(Customer, on_delete=models.CASCADE)
 
@@ -41,7 +41,7 @@ class Collection(models.Model):
 class OrderItem(models.Model):
     order = models.ForeignKey("Order", on_delete=models.PROTECT)
     product = models.ForeignKey(Product, on_delete=models.PROTECT)
-    unit_price = models.models.DecimalField(max_digits=5, decimal_places=2)
+    unit_price = models.DecimalField(max_digits=10, decimal_places=2)
     quantity = models.PositiveIntegerField()
 
 
@@ -73,4 +73,7 @@ class CartItem(models.Model):
 class Promotion(models.Model):
     title = models.CharField(max_length=100)
     description = models.CharField(max_length=255)
-    product = models.ManyToManyField(Product, on_delete=models.PROTECT)
+    products = models.ManyToManyField(Product, on_delete=models.PROTECT)
+    discount_value = models.FloatField()
+    start_date = models.DateTimeField()
+    end_date = models.DateTimeField()
