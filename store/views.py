@@ -1,9 +1,9 @@
 from django.shortcuts import render
 from .models import Product
-from django.db.models import Q
+from django.db.models import Q, F
 
 
 def test(request):
-    query_set = Product.objects.filter(~Q(id__gt=50) | Q(price__lt=100))
+    query_set = Product.objects.values("id", "title", "price", "collection__name")
     context = {"datas": list(query_set)}
     return render(request, "test.html", context)
