@@ -1,5 +1,6 @@
 from django.contrib import admin
 from django.db.models.query import QuerySet
+from django.http import HttpRequest
 from django.utils.html import format_html, urlencode
 from django.urls import reverse
 from .models import *
@@ -9,13 +10,33 @@ from django.db.models import Count
 
 # Custom admin for Customer model
 class CustomerAdmin(admin.ModelAdmin):
-    list_display = ["first_name", "last_name", "email", "phone", "membership"]
+    list_display = [
+        "first_name",
+        "last_name",
+        "email",
+        "phone",
+        "order_count",
+        "membership",
+    ]
     search_fields = ["first_name", "last_name", "email", "phone"]
     list_filter = ["membership"]
     list_editable = ["membership"]
     list_per_page = 10
 
     ordering = ["first_name", "last_name"]
+
+    @admin.display(ordering="order_count")
+    def order_count(self, customer):
+        url = (
+            reverse("admin:store_order_changelist")
+            + "?"
+            + urlencode({"customer__id__exact": customer.id})
+        )
+
+        return format_html(f"<a href = {url}>{customer.order_count}</a>")
+
+    def get_queryset(self, request):
+        return super().get_queryset(request).annotate(order_count=Count("order"))
 
 
 @admin.register(Product)
