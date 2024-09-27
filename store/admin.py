@@ -1,3 +1,4 @@
+from typing import Any
 from django.contrib import admin
 from django.db.models.query import QuerySet
 from django.http import HttpRequest
@@ -8,7 +9,27 @@ from .models import *
 from django.db.models import Count
 
 
-# Custom admin for Customer model
+class InventoryStatusFilter(admin.SimpleListFilter):
+    title = "by Inventory status"
+    parameter_name = "inventory"
+
+    def lookups(self, request, model_admin):
+        return [
+            (">500", "Enough"),
+            (">50", "Low"),
+            ("<=50", "Very Low"),
+        ]
+
+    def queryset(self, request, queryset: QuerySet):
+        if self.value() == ">500":
+            return queryset.filter(inventory__gt=100)
+        elif self.value() == ">50":
+            return queryset.filter(inventory__gt=50, inventory__lte=100)
+        elif self.value() == "<=50":
+            return queryset.filter(inventory__lte=50)
+
+
+@admin.register(Customer)
 class CustomerAdmin(admin.ModelAdmin):
     list_display = [
         "first_name",
@@ -18,7 +39,9 @@ class CustomerAdmin(admin.ModelAdmin):
         "order_count",
         "membership",
     ]
-    search_fields = ["first_name", "last_name", "email", "phone"]
+    # search_fields = [
+    #     "first_name__istartswith",
+    # ]
     list_filter = ["membership"]
     list_editable = ["membership"]
     list_per_page = 10
@@ -48,9 +71,9 @@ class ProductAdmin(admin.ModelAdmin):
         "last_update",
         "inventory_status",
     ]
-    # list_select_related = ["collection"]
+    list_select_related = ["collection"]
 
-    list_filter = ["collection__title", "last_update"]
+    list_filter = ["collection__title", "last_update", InventoryStatusFilter]
     list_editable = ["price"]
     list_per_page = 10
     search_fields = ["title", "description"]
@@ -58,11 +81,12 @@ class ProductAdmin(admin.ModelAdmin):
 
     @admin.display(ordering="inventory")
     def inventory_status(self, product):
-        if product.inventory > 50:
-            return "Enough"
-        elif product.inventory > 25:
-            return "low"
-        return "Very Low"
+        if product.inventory > 100:
+            return f"Enough {product.inventory}"
+
+        elif product.inventory > 50:
+            return f"low {product.inventory}"
+        return f"Very Low {product.inventory}"
 
 
 @admin.register(Collection)
@@ -86,7 +110,7 @@ class CollectionAdmin(admin.ModelAdmin):
         return super().get_queryset(request).annotate(product_count=Count("product"))
 
 
-# Custom admin for Order model
+@admin.register(Order)
 class OrderAdmin(admin.ModelAdmin):
     list_display = ["id", "created_at", "customer", "items_count", "payment_status"]
     list_filter = ["payment_status", "created_at"]
@@ -117,41 +141,29 @@ class OrderItemAdmin(admin.ModelAdmin):
     ordering = ["order"]
 
 
-# Custom admin for Cart model
+@admin.register(Cart)
 class CartAdmin(admin.ModelAdmin):
     list_display = ["id", "created_at"]
     search_fields = ["id"]
     ordering = ["created_at"]
 
 
-# Custom admin for CartItem model
+@admin.register(CartItem)
 class CartItemAdmin(admin.ModelAdmin):
     list_display = ["cart", "product", "quantity"]
     search_fields = ["cart__id", "product__title"]
     ordering = ["cart"]
 
 
-# Custom admin for Address model
+@admin.register(Address)
 class AddressAdmin(admin.ModelAdmin):
     list_display = ["customer", "region", "city"]
     search_fields = ["customer__first_name", "customer__last_name", "region", "city"]
     ordering = ["customer", "region", "city"]
 
 
-# Custom admin for Promotion model
+@admin.register(Promotion)
 class PromotionAdmin(admin.ModelAdmin):
     list_display = ["title", "discount_value", "start_date", "end_date"]
     search_fields = ["title"]
     ordering = ["start_date"]
-
-
-# Register the models with the custom admin views
-admin.site.register(Customer, CustomerAdmin)
-# admin.site.register(Product, ProductAdmin)
-# admin.site.register(Collection, CollectionAdmin)
-admin.site.register(Order, OrderAdmin)
-# admin.site.register(OrderItem, OrderItemAdmin)
-admin.site.register(Cart, CartAdmin)
-admin.site.register(CartItem, CartItemAdmin)
-admin.site.register(Address, AddressAdmin)
-admin.site.register(Promotion, PromotionAdmin)

@@ -1,6 +1,7 @@
 {
 "python.pipenvPath": "pipenv",
 "cSpell.words": [
-    "DBPASSWORD"
+    "DBPASSWORD",
+    "orderitem"
 ]
 }
