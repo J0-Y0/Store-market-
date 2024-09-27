@@ -6,6 +6,5 @@ from django.db import transaction
 
 
 def test(request):
-    product = OrderItem.objects.filter(pk__in=().delete())
-
+    product = OrderItem.objects.filter(pk__in=(1, 2, 3)).delete()
     return render(request, "test.html")

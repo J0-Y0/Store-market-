@@ -8,7 +8,7 @@ class Product(models.Model):
     inventory = models.IntegerField()
     last_update = models.DateTimeField(auto_now=True)
     created_at = models.DateTimeField(auto_now_add=True)
-    collection = models.ManyToManyField("Collection")
+    collection = models.ForeignKey("Collection", on_delete=models.PROTECT)
 
 
 class Customer(models.Model):
@@ -24,6 +24,9 @@ class Customer(models.Model):
         ("G", "Gold"),
     ]
     membership = models.CharField(choices=membership_choices, max_length=1, default="B")
+
+    def __str__(self):
+        return f"{self.first_name } {self.last_name}"
 
 
 class Address(models.Model):
