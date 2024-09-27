@@ -9,12 +9,12 @@
             <h3>hello drunker </h3>
 
     
-    <table >
+    {% comment %} <table > {% endcomment %}
 
-        {% for data in datas%}
+        {% comment %} {% for data in datas%}
         <tr>
            <td > {{data.id}} </td>
-           <td> {{data.order.created_at}} </td>
+           <td> price={{data.unit_price}} ---</td>
            <td> {{data.order.get_payment_status_display}} </td>
            <td> {{data.product.title}} </td>
            <td> {{data.unit_price}} </td>
@@ -22,10 +22,10 @@
 
 
 
-        </tr>
+        </tr> {% endcomment %}
         {{datas}}
-        {%endfor%}
-    </table>
+        {% comment %} {%endfor%} {% endcomment %}
+    {% comment %} </table> {% endcomment %}
 
 </body>
 </html>

@@ -23,3 +23,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("store/", include("store.urls")),
 ] + debug_toolbar_urls()
+
+admin.site.site_header = "e-Market | Administration"
+admin.site.index_title = "Admin"
+admin.site.site_title = "e-Market"
