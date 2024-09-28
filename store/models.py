@@ -18,6 +18,9 @@ class Product(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     collection = models.ForeignKey("Collection", on_delete=models.PROTECT)
 
+    def __str__(self):
+        return self.title
+
 
 class Customer(models.Model):
     first_name = models.CharField(max_length=255)
