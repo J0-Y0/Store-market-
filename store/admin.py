@@ -39,6 +39,17 @@ def clear_inventory(self, request, queryset):
     )
 
 
+# inline child list
+class OrderItemInline(admin.TabularInline):
+    model = OrderItem
+    autocomplete_fields = ["product"]
+    extra = 0
+    # allowed maximum  amd minimum order item per order
+
+    min_num = 1
+    max_num = 4
+
+
 @admin.register(Customer)
 class CustomerAdmin(admin.ModelAdmin):
     list_display = [
@@ -146,6 +157,8 @@ class OrderAdmin(admin.ModelAdmin):
     list_select_related = ["customer"]
     list_per_page = 15
 
+    inlines = [OrderItemInline]
+
     @admin.display(ordering="items_count")
     def items_count(self, order):
         url = (
@@ -174,6 +187,7 @@ class OrderItemAdmin(admin.ModelAdmin):
         "order__id",
         "product__title",
     ]
+    autocomplete_fields = ["product"]
 
     ordering = ["id"]
 
