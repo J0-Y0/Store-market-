@@ -6,9 +6,10 @@ from django.utils.html import format_html, urlencode
 from django.urls import reverse
 from .models import *
 
-from django.db.models import Count
+from django.db.models import Count, F
 
 
+# custom filter
 class InventoryStatusFilter(admin.SimpleListFilter):
     title = "by Inventory status"
     parameter_name = "inventory"
@@ -29,6 +30,15 @@ class InventoryStatusFilter(admin.SimpleListFilter):
             return queryset.filter(inventory__lte=50)
 
 
+# custom action
+@admin.action(description="Clear inventory")
+def clear_inventory(self, request, queryset):
+    updated_count = queryset.update(inventory=0)
+    self.message_user(
+        request, f"inventory of {updated_count} products cleared successfully"
+    )
+
+
 @admin.register(Customer)
 class CustomerAdmin(admin.ModelAdmin):
     list_display = [
@@ -39,9 +49,9 @@ class CustomerAdmin(admin.ModelAdmin):
         "order_count",
         "membership",
     ]
-    # search_fields = [
-    #     "first_name__istartswith",
-    # ]
+    search_fields = [
+        "first_name__istartswith",
+    ]
     list_filter = ["membership"]
     list_editable = ["membership"]
     list_per_page = 10
@@ -64,6 +74,9 @@ class CustomerAdmin(admin.ModelAdmin):
 
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
+    # action
+    actions = [clear_inventory]
+
     list_display = [
         "title",
         "collection__title",
@@ -77,7 +90,19 @@ class ProductAdmin(admin.ModelAdmin):
     list_editable = ["price"]
     list_per_page = 10
     search_fields = ["title", "description"]
+
     ordering = ["title"]
+
+    # form customization
+    # to limit the fields that appear in  the form
+    # fields = ["title", "inventory", "collection", "description", "price", "last_update"]
+    # readonly_fields = [
+    #     "last_update",
+    # ]
+    # exclude = ["price"]
+
+    autocomplete_fields = ["collection"]
+    prepopulated_fields = {"description": ["title"]}
 
     @admin.display(ordering="inventory")
     def inventory_status(self, product):
@@ -116,13 +141,19 @@ class OrderAdmin(admin.ModelAdmin):
     list_filter = ["payment_status", "created_at"]
     search_fields = ["customer__first_name", "customer__last_name", "customer__email"]
     ordering = ["id"]
+    autocomplete_fields = ["customer"]
 
     list_select_related = ["customer"]
     list_per_page = 15
 
     @admin.display(ordering="items_count")
     def items_count(self, order):
-        return order.items_count
+        url = (
+            reverse("admin:store_orderitem_changelist")
+            + "?"
+            + urlencode({"order__id__exact": order.id})
+        )
+        return format_html(f"<a href = {url}>{order.items_count}</a>")
 
     def get_queryset(self, request):
         return super().get_queryset(request).annotate(items_count=Count("orderitem"))
@@ -130,15 +161,32 @@ class OrderAdmin(admin.ModelAdmin):
 
 @admin.register(OrderItem)
 class OrderItemAdmin(admin.ModelAdmin):
-    list_display = ["order", "product__title", "unit_price", "quantity"]
+    list_display = [
+        "id",
+        "order",
+        "product__title",
+        "unit_price",
+        "quantity",
+        "total_price",
+    ]
     search_fields = [
         "order__customer__first_name",
-        "order__customer__last_name",
+        "order__id",
         "product__title",
     ]
-    list_filter = ["order__customer__first_name"]
 
-    ordering = ["order"]
+    ordering = ["id"]
+
+    @admin.display(ordering="total_price")
+    def total_price(self, orderitem):
+        return orderitem.total_price
+
+    def get_queryset(self, request: HttpRequest) -> QuerySet:
+        return (
+            super()
+            .get_queryset(request)
+            .annotate(total_price=F("quantity") * F("unit_price"))
+        )
 
 
 @admin.register(Cart)

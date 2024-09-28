@@ -39,6 +39,9 @@ class Collection(models.Model):
     title = models.CharField(max_length=255)
     created_at = models.DateTimeField(auto_now_add=True)
 
+    def __str__(self):
+        return self.title
+
 
 # Represents each individual item in an order. While an Order contains overall details,
 class OrderItem(models.Model):
@@ -46,6 +49,9 @@ class OrderItem(models.Model):
     product = models.ForeignKey(Product, on_delete=models.PROTECT)
     unit_price = models.DecimalField(max_digits=10, decimal_places=2)
     quantity = models.PositiveIntegerField()
+
+    def __str__(self):
+        return f"{self.pk}"
 
 
 class Order(models.Model):
