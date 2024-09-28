@@ -19,3 +19,6 @@ class LikeAdmin(admin.ModelAdmin):
 @admin.register(ContentTag)
 class ContentTagAdmin(admin.ModelAdmin):
     list_display = ["tag"] + common_field
+
+
+admin.site.register(Tag)

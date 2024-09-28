@@ -24,7 +24,7 @@ class Comment(GenericContent):
     user = models.ForeignKey(
         User, on_delete=models.CASCADE
     )  # User who made the comment
-    comment_text = models.TextField()  # The comment content
+    comment_text = models.CharField(max_length=500)  # The comment content
 
 
 # Like Model
@@ -44,6 +44,9 @@ class Like(GenericContent):
 # Tag Model
 class Tag(models.Model):
     name = models.CharField(max_length=50, unique=True)  # Tag name (must be unique)
+
+    def __str__(self) -> str:
+        return self.name
 
 
 # Content-Tag Relationship Model

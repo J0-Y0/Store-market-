@@ -3,8 +3,11 @@ from django.contrib import admin
 from django.db.models.query import QuerySet
 from django.http import HttpRequest
 from django.utils.html import format_html, urlencode
+from django.contrib.contenttypes.admin import GenericTabularInline
 from django.urls import reverse
 from .models import *
+from common.models import *
+
 
 from django.db.models import Count, F
 
@@ -37,6 +40,32 @@ def clear_inventory(self, request, queryset):
     self.message_user(
         request, f"inventory of {updated_count} products cleared successfully"
     )
+
+
+# inline child list
+class OrderItemInline(admin.TabularInline):
+    model = OrderItem
+    autocomplete_fields = ["product"]
+    extra = 0
+    # allowed maximum  amd minimum order item per order
+
+    min_num = 1
+    max_num = 4
+
+
+class CommentInline(GenericTabularInline):
+    model = Comment
+    extra = 1  # Number of empty comments to display for adding new ones
+
+
+class LikeInline(GenericTabularInline):
+    model = Like
+    extra = 1
+
+
+class ContentTagInline(GenericTabularInline):
+    model = ContentTag
+    extra = 1
 
 
 @admin.register(Customer)
@@ -93,13 +122,7 @@ class ProductAdmin(admin.ModelAdmin):
 
     ordering = ["title"]
 
-    # form customization
-    # to limit the fields that appear in  the form
-    # fields = ["title", "inventory", "collection", "description", "price", "last_update"]
-    # readonly_fields = [
-    #     "last_update",
-    # ]
-    # exclude = ["price"]
+    inlines = [CommentInline, ContentTagInline]
 
     autocomplete_fields = ["collection"]
     prepopulated_fields = {"description": ["title"]}
@@ -146,6 +169,8 @@ class OrderAdmin(admin.ModelAdmin):
     list_select_related = ["customer"]
     list_per_page = 15
 
+    inlines = [OrderItemInline]
+
     @admin.display(ordering="items_count")
     def items_count(self, order):
         url = (
@@ -174,6 +199,7 @@ class OrderItemAdmin(admin.ModelAdmin):
         "order__id",
         "product__title",
     ]
+    autocomplete_fields = ["product"]
 
     ordering = ["id"]
 
