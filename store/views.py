@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Product, OrderItem, Customer, Order
+from .models import Product, OrderItem
 from django.db.models import Q, F, Value
 from django.db.models.aggregates import Count, Sum
 from django.db import transaction

@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.contenttypes.fields import GenericRelation
 
 
 class Product(models.Model):
@@ -9,6 +10,10 @@ class Product(models.Model):
     last_update = models.DateTimeField(auto_now=True)
     created_at = models.DateTimeField(auto_now_add=True)
     collection = models.ForeignKey("Collection", on_delete=models.PROTECT)
+
+    comments = GenericRelation("common.Comment")  # Generic relation to Comment
+    likes = GenericRelation("common.Like")  # Generic relation to Like
+    tags = GenericRelation("common.ContentTag")  # Generic relation to Tag
 
 
 class Customer(models.Model):
