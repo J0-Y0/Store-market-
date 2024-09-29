@@ -1,17 +1,27 @@
-from django.shortcuts import render
+from django.shortcuts import get_object_or_404
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
 from .models import Product, OrderItem
-from django.db.models import Q, F, Value
-from django.db.models.aggregates import Count, Sum
-from django.db import transaction
+from .serializers import ProductSerializer
 
 
-def test(request):
-    product = Product.objects.get(id=1)
+@api_view(["GET", "POST"])
+def productList(request):
+    if request.method == "GET":
+        products = Product.objects.select_related("collection").all()
+        serializer = ProductSerializer(products, many=True)
+        return Response(serializer.data)
 
-    # Access related comments
-    comments = Product.comments.all()
+    elif request.method == "POST":
+        serializer = ProductSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response("saved")
 
-    # Example: Print all comments
-    for comment in comments:
-        print(comment.comment_text)
-        return render(request, "test.html")
+
+@api_view()
+def productDetail(request, id):
+    product = get_object_or_404(Product, pk=id)
+    serializer = ProductSerializer(product)
+
+    return Response(serializer.data)
