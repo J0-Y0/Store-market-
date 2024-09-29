@@ -171,6 +171,8 @@ class OrderAdmin(admin.ModelAdmin):
 
     inlines = [OrderItemInline]
 
+    inlines = [OrderItemInline]
+
     @admin.display(ordering="items_count")
     def items_count(self, order):
         url = (
@@ -199,6 +201,7 @@ class OrderItemAdmin(admin.ModelAdmin):
         "order__id",
         "product__title",
     ]
+    autocomplete_fields = ["product"]
     autocomplete_fields = ["product"]
 
     ordering = ["id"]

@@ -1,11 +1,19 @@
 from django.db import models
 from django.contrib.contenttypes.fields import GenericRelation
+from django.core.validators import MinValueValidator, MaxValueValidator
 
 
 class Product(models.Model):
     title = models.CharField(max_length=255)
     description = models.TextField()
-    price = models.DecimalField(max_digits=10, decimal_places=2)
+    price = models.DecimalField(
+        max_digits=10,
+        decimal_places=2,
+        validators=[
+            MinValueValidator(0, "price cant me negative"),
+            MaxValueValidator(100000, "unusual value"),
+        ],
+    )
     inventory = models.IntegerField()
     last_update = models.DateTimeField(auto_now=True)
     created_at = models.DateTimeField(auto_now_add=True)
@@ -14,6 +22,9 @@ class Product(models.Model):
     comments = GenericRelation("common.Comment")  # Generic relation to Comment
     likes = GenericRelation("common.Like")  # Generic relation to Like
     tags = GenericRelation("common.ContentTag")  # Generic relation to Tag
+
+    def __str__(self):
+        return self.title
 
 
 class Customer(models.Model):
