@@ -4,9 +4,11 @@ from .models import Collection, Product
 
 
 class CollectionSerializer(serializers.ModelSerializer):
+    product_count = serializers.IntegerField(read_only=True)  # Annotated field
+
     class Meta:
         model = Collection
-        fields = "__all__"  # Or specify needed fields
+        fields = "__all__"
 
 
 class ProductSerializer(serializers.ModelSerializer):
