@@ -6,5 +6,12 @@ from django.db import transaction
 
 
 def test(request):
-    product = OrderItem.objects.filter(pk__in=(1, 2, 3)).delete()
-    return render(request, "test.html")
+    product = Product.objects.get(id=1)
+
+    # Access related comments
+    comments = Product.comments.all()
+
+    # Example: Print all comments
+    for comment in comments:
+        print(comment.comment_text)
+        return render(request, "test.html")
