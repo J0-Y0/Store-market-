@@ -1,2930 +1,3046 @@
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (1, 'Wine - Conde De Valdemar', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
-
-Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 2495.73, 907676466, '2024-01-27', '2024-04-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (2, 'Ice Cream - Turtles Stick Bar', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
-
-Phasellus in felis. Donec semper sapien a libero. Nam dui.', 1144.23, 308192602, '2024-09-14', '2024-01-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (3, 'Assorted Desserts', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 3719.2, 213027952, '2024-07-01', '2023-12-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (4, 'Bay Leaf Fresh', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 4933.78, 91342726, '2023-12-06', '2024-03-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (5, 'Liquid Aminios Acid - Braggs', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.', 4599.19, 2075913322, '2024-02-06', '2024-03-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (6, 'Scallops - 10/20', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 1872.24, 1069952178, '2024-04-29', '2023-12-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (7, 'Nantucket Pine Orangebanana', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 8317.86, 1730492472, '2024-05-05', '2023-11-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (8, 'C - Plus, Orange', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 1436.96, 1260771937, '2024-05-08', '2023-12-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (9, 'Pasta - Bauletti, Chicken White', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 3602.63, 2091690243, '2024-08-15', '2024-01-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (10, 'V8 Splash Strawberry Kiwi', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
-
-Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 6507.2, 1022890589, '2024-08-19', '2024-08-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (11, 'Squash - Pepper', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 3119.06, 819491066, '2024-06-22', '2023-11-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (12, 'Cheese - Fontina', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 1704.65, 1319529630, '2023-09-26', '2024-09-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (13, 'Beans - Kidney, Canned', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 9216.44, 951559888, '2024-03-24', '2024-01-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (14, 'Mini - Vol Au Vents', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
-
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.', 2344.31, 791014004, '2024-06-20', '2024-02-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (15, 'Soup - Campbells', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.', 9692.63, 30898852, '2024-07-18', '2024-07-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (16, 'Lid - 10,12,16 Oz', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
-
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 8864.52, 536004078, '2023-11-01', '2024-09-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (17, 'Beef Wellington', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 7545.24, 1224949459, '2024-01-12', '2024-07-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (18, 'Poppy Seed', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 5925.24, 804779776, '2024-01-16', '2024-08-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (19, 'Sea Urchin', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 3095.34, 2051468829, '2024-01-25', '2024-03-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (20, 'Puree - Pear', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
-
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 1963.73, 612229252, '2024-03-14', '2024-08-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (21, 'Wine - Periguita Fonseca', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 8486.46, 664322669, '2024-08-11', '2024-04-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (22, 'Lettuce - Belgian Endive', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 864.83, 1857554994, '2024-01-06', '2024-01-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (23, 'Wine - Champagne Brut Veuve', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 7169.31, 1470876006, '2024-06-13', '2024-04-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (24, 'Beer - Maudite', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
-
-Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 402.34, 1552749273, '2023-11-05', '2024-07-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (25, 'Lamb - Rack', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 4774.59, 1521525023, '2023-10-24', '2024-04-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (26, 'Napkin - Cocktail,beige 2 - Ply', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 7355.22, 1527445288, '2024-07-12', '2024-08-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (27, 'Remy Red', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 7448.55, 1820536495, '2024-09-05', '2024-02-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (28, 'Juice - Cranberry 284ml', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 4112.1, 1487024462, '2023-11-05', '2023-10-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (29, 'Stock - Fish', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 1629.69, 552509519, '2023-09-26', '2024-02-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (30, 'Nantucket - 518ml', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 6612.5, 1244030386, '2024-01-11', '2024-06-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (31, 'Pork - Inside', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 9628.07, 143772244, '2024-03-14', '2024-01-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (32, 'Tomato - Peeled Italian Canned', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 8467.57, 1896374382, '2023-12-16', '2024-02-23');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (33, 'Gelatine Leaves - Envelopes', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 4611.08, 342943004, '2023-10-27', '2023-10-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (34, 'Muskox - French Rack', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 9927.04, 2042761578, '2024-01-04', '2024-09-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (35, 'Cabbage - Savoy', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.', 2936.75, 1875310645, '2024-04-02', '2023-12-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (36, 'Cheese - Pont Couvert', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
-
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 190.27, 998964180, '2024-07-08', '2024-07-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (37, 'Brownies - Two Bite, Chocolate', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 8996.96, 1068780723, '2024-06-16', '2023-10-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (38, 'Turkey Tenderloin Frozen', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 6684.13, 1834694573, '2024-05-26', '2024-03-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (39, 'Bread - Frozen Basket Variety', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 2954.57, 1975070358, '2024-05-25', '2024-02-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (40, 'Fudge - Chocolate Fudge', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 7038.41, 1445016225, '2024-05-19', '2024-04-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (41, 'Lamb - Bones', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 3409.05, 926171096, '2024-09-17', '2023-12-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (42, 'Spic And Span All Purpose', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 118.93, 857224505, '2024-07-16', '2024-02-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (43, 'Pork - Hock And Feet Attached', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 2754.84, 1687475356, '2024-02-04', '2024-02-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (44, 'Pasta - Orzo, Dry', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 40.01, 764203698, '2024-06-14', '2024-08-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (45, 'Beans - Black Bean, Dry', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 2941.57, 1615076181, '2023-11-08', '2024-01-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (46, 'Mushroom - Trumpet, Dry', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 350.23, 1581464467, '2024-07-21', '2024-08-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (47, 'Wine - Magnotta - Cab Franc', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 7316.76, 1733377619, '2024-02-27', '2024-05-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (48, 'Appetizer - Southwestern', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 6481.14, 1970311842, '2023-12-27', '2024-09-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (49, 'Pepper - Black, Whole', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 9847.42, 897662882, '2024-04-21', '2023-12-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (50, 'Wine - Red, Cabernet Sauvignon', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 2655.0, 1396865004, '2023-12-31', '2023-10-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (51, 'Pepper - Paprika, Spanish', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 9395.63, 885601848, '2024-04-30', '2024-08-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (52, 'Compound - Pear', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 2751.26, 415239190, '2024-01-05', '2024-07-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (53, 'Pepper - Black, Crushed', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 9142.68, 809463512, '2024-08-15', '2024-06-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (54, 'Wine - Marlbourough Sauv Blanc', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 8122.13, 466395057, '2023-10-18', '2024-07-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (55, 'Pail With Metal Handle 16l White', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 7914.26, 613770458, '2024-06-09', '2024-09-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (56, 'Beans - Fine', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 526.2, 34385153, '2023-12-04', '2024-02-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (57, 'Sprite, Diet - 355ml', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 261.34, 1411311781, '2024-03-07', '2024-04-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (58, 'Syrup - Kahlua Chocolate', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 6385.62, 682031505, '2024-03-23', '2023-12-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (59, 'Soupcontfoam16oz 116con', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 6454.34, 2087312989, '2024-02-25', '2023-11-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (60, 'Sambuca Cream', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.', 8562.94, 1013212159, '2023-10-20', '2023-09-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (61, 'Cheese - Grie Des Champ', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 425.73, 1420816183, '2024-01-25', '2024-09-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (62, 'Wine - Vouvray Cuvee Domaine', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 2261.17, 1105256693, '2023-10-04', '2024-03-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (63, 'Squid - Breaded', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 7360.79, 312543014, '2023-11-30', '2024-04-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (64, 'Cocoa Feuilletine', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 7955.46, 381555208, '2024-03-30', '2024-01-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (65, 'Tomatoes - Vine Ripe, Yellow', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 7496.35, 1039009156, '2024-08-21', '2024-09-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (66, 'Cabbage Roll', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 7608.88, 312931130, '2024-05-02', '2024-01-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (67, 'Nantuket Peach Orange', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
-
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.', 8876.01, 2107864457, '2024-01-05', '2024-06-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (68, 'Lamb - Shoulder, Boneless', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 1089.36, 604396043, '2024-01-09', '2024-03-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (69, 'Soup Campbells Split Pea And Ham', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 2913.62, 1568537448, '2024-05-31', '2023-12-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (70, 'Sprite, Diet - 355ml', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 2969.95, 1081640513, '2024-05-26', '2024-05-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (71, 'Salt And Pepper Mix - Black', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 6943.22, 441631748, '2024-02-14', '2024-07-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (72, 'Wanton Wrap', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 2723.53, 108210800, '2024-09-23', '2023-12-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (73, 'Cheese - Sheep Milk', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 9531.18, 642586465, '2024-04-08', '2024-08-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (74, 'Beef - Baby, Liver', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 8220.51, 282127920, '2024-02-21', '2024-05-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (75, 'V8 Splash Strawberry Banana', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 5511.2, 445288664, '2024-04-02', '2024-08-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (76, 'Wine - Casillero Del Diablo', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 3491.9, 85555220, '2024-01-09', '2024-09-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (77, 'Beer - Mcauslan Apricot', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 5809.05, 1708055711, '2024-08-30', '2024-02-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (78, 'Chicken - Base, Ultimate', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 1691.62, 1003822492, '2024-03-26', '2024-03-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (79, 'Wine - Mondavi Coastal Private', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 6272.88, 1502535616, '2024-09-07', '2024-04-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (80, 'Peach - Halves', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 1870.0, 351711556, '2024-04-19', '2023-10-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (81, 'Graham Cracker Mix', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 5007.07, 1327178122, '2024-07-09', '2023-12-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (82, 'Truffle Shells - Semi - Sweet', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 7846.04, 1520722426, '2023-10-08', '2023-11-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (83, 'Bay Leaf', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 1482.92, 1236792271, '2024-02-18', '2024-01-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (84, 'Capon - Breast, Double, Wing On', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 9386.16, 1417762350, '2023-11-15', '2023-10-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (85, 'Chick Peas - Dried', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.', 1346.79, 828809450, '2024-03-26', '2023-12-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (86, 'Carrots - Jumbo', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 6898.99, 1230699, '2023-10-03', '2023-12-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (87, 'Beer - Sleemans Honey Brown', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 38.12, 470473848, '2024-08-23', '2024-09-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (88, 'Salmon - Canned', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 3025.7, 1196675720, '2024-08-31', '2023-11-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (89, 'Steampan - Half Size Shallow', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
-
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 6000.06, 982187885, '2024-01-22', '2024-09-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (90, 'Pie Shells 10', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 9223.19, 545476658, '2024-05-15', '2024-08-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (91, 'Wine - Two Oceans Cabernet', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 8015.06, 644039539, '2024-06-17', '2024-04-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (92, 'Ginger - Pickled', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 9645.08, 2021910111, '2024-08-15', '2024-09-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (93, 'Parsley Italian - Fresh', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 5397.35, 2103913331, '2024-09-17', '2024-06-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (94, 'Cheese - Mix', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
-
-Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 5364.34, 1733399028, '2023-10-18', '2024-04-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (95, 'Scallops - In Shell', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 4841.22, 1011490077, '2024-08-06', '2023-10-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (96, 'Milk - Chocolate 250 Ml', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 2574.85, 2099696595, '2024-05-03', '2024-01-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (97, 'Sauce - White, Mix', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 2408.47, 630254666, '2024-04-13', '2023-10-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (98, 'Shrimp - 16/20, Peeled Deviened', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 8644.47, 573060568, '2024-05-31', '2024-04-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (99, 'Bread - 10 Grain Parisian', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 8972.45, 1482569630, '2024-08-14', '2023-12-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (100, 'Pails With Lids', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 2358.23, 1355455515, '2024-09-25', '2024-05-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (101, 'Toamtoes 6x7 Select', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 1639.98, 1642398564, '2024-08-13', '2024-06-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (102, 'Aromat Spice / Seasoning', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
-
-Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 9456.9, 539314435, '2024-02-25', '2024-01-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (103, 'Ginger - Fresh', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
-
-Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
-
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 2056.77, 681148276, '2023-12-16', '2024-01-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (104, 'Butter Ripple - Phillips', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 2170.41, 606002054, '2024-09-24', '2024-02-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (105, 'Cookies - Amaretto', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
-
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 9736.09, 139398762, '2024-05-15', '2024-01-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (106, 'Ginger - Crystalized', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.', 2118.39, 1615239617, '2024-09-16', '2023-10-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (107, 'Muffin - Carrot Individual Wrap', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 3033.3, 363635631, '2024-06-23', '2023-11-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (108, 'Muffin - Mix - Mango Sour Cherry', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 2284.21, 1616475424, '2023-11-16', '2024-02-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (109, 'Wine - Mondavi Coastal Private', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.', 2388.12, 1460176289, '2024-03-26', '2024-06-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (110, 'Grenadillo', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 4575.14, 779186653, '2024-03-30', '2024-02-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (111, 'Fork - Plastic', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 7868.37, 1513622160, '2024-03-08', '2024-05-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (112, 'Garlic - Primerba, Paste', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 1418.15, 1024964417, '2024-06-02', '2024-09-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (113, 'Bread - Olive Dinner Roll', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 4075.5, 1084828364, '2023-09-28', '2024-08-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (114, 'Kahlua', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 6172.86, 1855171516, '2024-08-23', '2024-06-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (115, 'Bread - Pullman, Sliced', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 1001.0, 1648006937, '2024-04-20', '2023-11-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (116, 'Nantucket Pine Orangebanana', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
-
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 499.03, 247572297, '2024-01-18', '2024-04-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (117, 'Tart Shells - Sweet, 4', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
-
-Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 3925.12, 262232460, '2024-03-31', '2024-09-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (118, 'Longos - Burritos', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 8911.9, 1930710444, '2024-02-07', '2024-05-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (119, 'Pickles - Gherkins', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 8967.11, 63769855, '2024-07-26', '2024-07-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (120, 'Muffin - Mix - Strawberry Rhubarb', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 3601.95, 1545972454, '2024-01-15', '2023-10-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (121, 'Squash - Pattypan, Yellow', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
-
-Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 4489.32, 512401928, '2024-08-26', '2024-02-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (122, 'Fib N9 - Prague Powder', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
-
-Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 9945.59, 1921763107, '2024-06-25', '2023-12-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (123, 'Flower - Potmums', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
-
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 6694.42, 1259654548, '2023-10-24', '2024-02-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (124, 'Tray - Foam, Square 4 - S', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 4634.69, 2134404825, '2024-04-10', '2024-02-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (125, 'Glass Clear 7 Oz Xl', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 9407.54, 127240971, '2023-11-07', '2023-11-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (126, 'Gin - Gilbeys London, Dry', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
-
-Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 8128.96, 2137868807, '2024-06-26', '2024-08-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (127, 'V8 - Berry Blend', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 8666.48, 714395750, '2023-10-20', '2024-09-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (128, 'Water - Mineral, Natural', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 1197.3, 1634788063, '2024-03-21', '2024-06-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (129, 'Salt - Celery', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
-
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 5214.2, 412610447, '2024-01-15', '2024-03-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (130, 'Juice - Apple Cider', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
-
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 4703.83, 1496238614, '2024-07-08', '2024-08-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (131, 'Cup - Paper 10oz 92959', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 4804.79, 1866045273, '2024-01-30', '2024-08-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (132, 'Cognac - Courvaisier', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 8625.79, 1451594304, '2024-02-21', '2024-04-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (133, 'Cheese - Camembert', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
-
-Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 8294.6, 1148536728, '2024-07-22', '2024-05-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (134, 'Nantucket - Kiwi Berry Cktl.', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 2525.8, 432531242, '2024-07-02', '2023-11-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (135, 'Table Cloth 54x54 White', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 3419.85, 713359705, '2024-07-04', '2024-07-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (136, 'Tomatoes - Hot House', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 4836.53, 277401634, '2024-03-30', '2024-07-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (137, 'Oyster - In Shell', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 5872.92, 1892056173, '2024-09-10', '2024-03-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (138, 'Sole - Iqf', 'Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 9058.58, 1394615714, '2023-11-22', '2024-09-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (139, 'Pie Shell - 5', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 7996.59, 1883553775, '2023-12-07', '2024-01-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (140, 'Oranges', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 1261.03, 1069304163, '2024-04-18', '2024-05-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (141, 'Grenadine', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 4258.14, 1252848453, '2024-08-16', '2024-08-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (142, 'Foam Tray S2', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 7453.44, 542013738, '2023-12-09', '2024-05-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (143, 'Spinach - Packaged', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 1497.93, 179736360, '2023-10-31', '2024-02-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (144, 'Veal - Bones', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 7821.57, 799285132, '2023-10-10', '2024-07-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (145, 'Shrimp - 16/20, Iqf, Shell On', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 1328.84, 1227570948, '2023-12-23', '2024-05-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (146, 'Fond - Neutral', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
-
-Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
-
-Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 4123.1, 1315089987, '2024-07-06', '2023-11-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (147, 'Appetizer - Lobster Phyllo Roll', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 6589.34, 607030229, '2024-02-13', '2024-04-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (148, 'Icecream Bar - Del Monte', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 8936.78, 466091208, '2024-02-03', '2024-08-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (149, 'Chicken - White Meat With Tender', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 6018.4, 105701689, '2024-09-05', '2024-06-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (150, 'Muffin Orange Individual', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 3263.78, 121934507, '2024-01-10', '2023-11-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (151, 'Croissants Thaw And Serve', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 8446.23, 1369274167, '2024-06-19', '2023-10-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (152, 'Soup - Campbells, Chix Gumbo', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 8935.23, 1839969125, '2024-05-16', '2024-01-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (153, 'Nut - Peanut, Roasted', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 8298.05, 2121072949, '2024-03-20', '2024-07-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (154, 'Snails - Large Canned', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 7160.25, 888045738, '2024-08-26', '2024-07-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (155, 'Turkey - Ground. Lean', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 7385.13, 30480960, '2023-10-10', '2024-03-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (156, 'Amaretto', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 3725.44, 1117483960, '2024-06-14', '2024-04-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (157, 'Vinegar - Balsamic', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (1, 'Green Scrubbie Pad H.duty', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 271.02, 48, '2012-06-13', '2015-06-25', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (2, 'Lid Tray - 16in Dome', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
 
 Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
 
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 1831.12, 1758167617, '2024-04-28', '2024-05-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (158, 'Amarula Cream', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 279.87, 894, '2011-04-14', '2010-02-24', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (3, 'Iced Tea Concentrate', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 387.17, 11, '2013-11-09', '2023-08-09', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (4, 'Bread - Roll, Whole Wheat', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 443.19, 406, '2015-10-15', '2018-04-01', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (5, 'Soupfoamcont12oz 112con', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 362.03, 166, '2005-03-28', '2009-04-01', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (6, 'Island Oasis - Cappucino Mix', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
 
 Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
 
-Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 8013.92, 1113953412, '2024-06-20', '2023-11-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (159, 'Truffle - Whole Black Peeled', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 425.13, 899, '2020-03-05', '2009-02-10', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (7, 'Oil - Sesame', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 224.3, 675, '2004-03-16', '2023-08-23', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (8, 'Sole - Iqf', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
 
-Sed ante. Vivamus tortor. Duis mattis egestas metus.
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 118.34, 136, '2009-09-09', '2014-11-11', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (9, 'Butter Sweet', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
 
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 1004.49, 1412808787, '2024-02-18', '2024-06-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (160, 'Pumpkin', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
 
-Fusce consequat. Nulla nisl. Nunc nisl.
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 234.46, 510, '2018-12-27', '2015-03-18', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (10, 'Alize Gold Passion', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
 
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 1186.64, 189261712, '2024-05-05', '2024-01-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (161, 'Pasta - Cannelloni, Sheets, Fresh', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 1301.72, 175753363, '2024-03-22', '2023-12-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (162, 'Kahlua', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 3505.05, 459257343, '2023-10-06', '2023-11-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (163, 'Water Chestnut - Canned', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 5715.11, 1770687688, '2024-05-21', '2024-06-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (164, 'Munchies Honey Sweet Trail Mix', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 7325.41, 211096912, '2024-03-16', '2024-04-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (165, 'Baking Powder', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 95.44, 555, '2006-07-30', '2022-07-28', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (11, 'Curry Paste - Madras', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
 
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 8778.7, 1914986268, '2024-07-23', '2024-03-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (166, 'Godiva White Chocolate', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 5721.66, 1123745659, '2024-08-03', '2024-02-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (167, 'Veal - Striploin', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
 
-Sed ante. Vivamus tortor. Duis mattis egestas metus.
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 177.52, 689, '2008-12-13', '2008-12-22', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (12, 'Bread - Crumbs, Bulk', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
 
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 4284.39, 232029883, '2024-05-03', '2024-06-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (168, 'Apple - Royal Gala', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 316.6, 581, '2008-03-10', '2013-04-14', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (13, 'Wine - Casillero Del Diablo', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
 
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 9622.52, 610286187, '2024-03-18', '2023-10-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (169, 'Bar Bran Honey Nut', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 65.29, 995, '2012-09-21', '2014-06-25', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (14, 'Parsley - Fresh', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
 
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 3904.25, 1755866519, '2024-01-15', '2024-07-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (170, 'Beef - Montreal Smoked Brisket', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+Sed ante. Vivamus tortor. Duis mattis egestas metus.', 45.37, 227, '2009-11-09', '2018-09-07', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (15, 'Muffin - Mix - Bran And Maple 15l', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
 
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 6108.96, 1512579755, '2023-09-27', '2024-01-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (171, 'Beef - Ground Medium', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+In congue. Etiam justo. Etiam pretium iaculis justo.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 1916.21, 1437170129, '2024-02-28', '2024-09-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (172, 'Cheese - Brie', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 6711.37, 966692712, '2024-03-23', '2024-08-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (173, 'Sausage - Andouille', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 5216.34, 1892688343, '2024-06-13', '2024-06-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (174, 'Scallops - U - 10', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 9004.62, 293514860, '2024-01-26', '2024-04-23');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (175, 'Veal - Ground', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 6779.93, 1609851914, '2024-05-10', '2023-12-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (176, 'Ice Cream - Vanilla', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 3570.99, 314581341, '2024-01-03', '2024-03-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (177, 'Squid U5 - Thailand', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 8556.12, 1459690918, '2023-10-25', '2023-10-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (178, 'Chicken - Wings, Tip Off', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 8037.32, 138937129, '2024-03-17', '2024-02-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (179, 'Vegetable - Base', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
-
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.', 4714.79, 1487129380, '2024-07-01', '2024-01-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (180, 'Pork - Hock And Feet Attached', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 4059.76, 1641686247, '2023-11-14', '2023-12-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (181, 'Cocoa Butter', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 5934.31, 691822329, '2024-01-08', '2024-08-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (182, 'Bread - Raisin', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 9581.03, 2094269708, '2024-01-27', '2024-04-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (183, 'Wine - Piper Heidsieck Brut', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 8562.99, 108648321, '2024-01-02', '2024-03-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (184, 'Pasta - Fett Alfredo, Single Serve', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
-
-Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 1431.3, 1913686894, '2024-07-08', '2024-04-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (185, 'Cornstarch', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 7089.79, 1574604402, '2024-03-26', '2023-10-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (186, 'Assorted Desserts', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 7800.91, 1521954087, '2024-08-07', '2024-02-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (187, 'Chinese Foods - Pepper Beef', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 4575.58, 570181933, '2024-05-27', '2024-02-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (188, 'Milk - Buttermilk', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 3957.55, 1926770187, '2024-09-10', '2023-12-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (189, 'Napkin Colour', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 5465.51, 1399337632, '2024-01-15', '2024-07-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (190, 'Salmon - Sockeye Raw', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 6182.87, 1411341485, '2023-12-12', '2023-09-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (191, 'Banana - Green', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 8348.18, 409633245, '2023-10-14', '2024-01-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (192, 'Olives - Kalamata', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 100.83, 132544784, '2024-06-05', '2024-08-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (193, 'Jello - Assorted', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 9818.87, 1967317697, '2024-04-15', '2023-11-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (194, 'Clam - Cherrystone', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
-
-Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 4120.37, 1808624493, '2024-04-10', '2023-09-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (195, 'Lettuce - Frisee', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
-
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 7946.9, 419223747, '2024-02-12', '2024-07-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (196, 'Savory', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
-
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 6131.06, 1743393186, '2024-07-21', '2024-03-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (197, 'Chickensplit Half', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
-
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 6798.93, 1896665448, '2023-12-21', '2024-01-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (198, 'General Purpose Trigger', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 6135.8, 1221348524, '2023-10-23', '2024-08-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (199, 'Shiratamako - Rice Flour', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
-
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 1000.66, 1046631346, '2024-05-08', '2024-08-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (200, 'Wine - Red, Cabernet Sauvignon', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 5517.48, 1344462366, '2023-10-14', '2024-02-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (201, 'Sour Cream', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 3728.08, 1052701369, '2024-02-29', '2024-08-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (202, 'Crackers - Soda / Saltins', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 9546.16, 1101820956, '2024-04-04', '2024-02-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (203, 'Squid - U - 10 Thailand', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 2575.43, 1877476228, '2024-07-05', '2023-12-23');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (204, 'The Pop Shoppe - Grape', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 2512.19, 316332439, '2024-09-24', '2024-03-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (205, 'Potatoes - Mini Red', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 6612.55, 594002542, '2024-03-24', '2023-12-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (206, 'Coconut - Whole', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 3153.82, 579624328, '2024-01-09', '2024-09-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (207, 'Mix - Cappucino Cocktail', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
-
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 9411.02, 1511320184, '2023-11-10', '2024-08-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (208, 'Pepsi - Diet, 355 Ml', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 8305.32, 1665617464, '2023-10-18', '2024-03-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (209, 'Pate - Peppercorn', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.', 4407.77, 1600934295, '2023-11-02', '2024-06-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (210, 'Blouse / Shirt / Sweater', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 4381.87, 1104368416, '2024-09-10', '2024-07-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (211, 'Vodka - Hot, Lnferno', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 4313.63, 997530414, '2024-08-10', '2024-03-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (212, 'Lemon Grass', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 8378.17, 1301677816, '2024-07-14', '2023-11-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (213, 'Salmon - Atlantic, Skin On', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 2597.2, 1023912167, '2024-03-27', '2024-02-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (214, 'Pastry - Apple Muffins - Mini', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 5280.49, 1057585972, '2024-01-27', '2024-04-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (215, 'Soy Protein', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 9395.55, 243087994, '2023-10-24', '2024-07-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (216, 'Shrimp - Black Tiger 6 - 8', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 8264.86, 1871876173, '2023-11-15', '2024-01-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (217, 'Tomatoes Tear Drop', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 268.54, 872193356, '2024-07-05', '2023-10-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (218, 'Caviar - Salmon', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 6239.4, 956906704, '2024-09-01', '2023-12-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (219, 'Basil - Fresh', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 1691.71, 1116842222, '2024-07-18', '2024-06-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (220, 'The Pop Shoppe - Lime Rickey', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 5221.52, 1556705316, '2023-10-25', '2024-09-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (221, 'Fiddlehead - Frozen', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 8763.09, 453882037, '2024-01-18', '2023-11-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (222, 'Nacho Chips', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 4955.03, 2142858955, '2024-06-29', '2024-01-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (223, 'Venison - Liver', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.', 7866.58, 1067174664, '2023-10-03', '2024-06-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (224, 'Tuna - Bluefin', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 4086.12, 829537449, '2024-07-19', '2024-05-31');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (225, 'Beef - Ground Lean Fresh', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 5686.66, 1795627541, '2024-06-29', '2024-04-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (226, 'Russian Prince', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 119.99, 809, '2003-06-20', '2003-12-11', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (16, 'Muffin Mix - Morning Glory', 'In congue. Etiam justo. Etiam pretium iaculis justo.
 
 In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
 
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 6795.33, 893576935, '2023-10-08', '2024-09-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (227, 'Pork - Bacon Cooked Slcd', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.', 2516.09, 501026394, '2023-10-13', '2024-06-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (228, 'Wine - Puligny Montrachet A.', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 1118.88, 516150429, '2024-07-11', '2023-10-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (229, 'The Pop Shoppe - Grape', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
-
-Phasellus in felis. Donec semper sapien a libero. Nam dui.', 3000.08, 1014962498, '2024-01-26', '2024-06-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (230, 'Miso Paste White', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 4006.49, 1181072221, '2024-09-13', '2023-11-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (231, 'White Fish - Filets', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.', 3043.85, 1614466064, '2024-04-04', '2024-02-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (232, 'Carbonated Water - Blackcherry', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 3634.19, 1074574207, '2024-03-14', '2024-03-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (233, 'Table Cloth 72x144 White', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 296.59, 424123087, '2024-08-30', '2024-01-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (234, 'Leeks - Baby, White', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 4825.36, 1245123233, '2024-01-25', '2024-08-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (235, 'Mackerel Whole Fresh', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.', 3751.55, 348148476, '2023-12-03', '2024-05-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (236, 'Squash - Guords', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 5082.17, 1063773038, '2023-11-01', '2024-05-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (237, 'Clams - Bay', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 7366.53, 1881146738, '2024-08-08', '2024-04-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (238, 'Appetizer - Asian Shrimp Roll', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 4432.64, 69598071, '2024-07-02', '2023-12-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (239, 'Pepper - Cayenne', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 8437.54, 711717346, '2023-12-14', '2023-12-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (240, 'Lettuce - Green Leaf', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.', 7693.79, 646892328, '2024-06-03', '2024-07-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (241, 'Cornflakes', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 7893.77, 2008452854, '2024-05-15', '2024-08-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (242, 'Tofu - Soft', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 8911.76, 509421067, '2024-07-13', '2024-09-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (243, 'Bread - Hot Dog Buns', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
-
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 8574.59, 1638801959, '2024-06-11', '2024-08-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (244, 'Wine - Bourgogne 2002, La', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 3339.9, 24185144, '2024-04-06', '2024-01-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (245, 'Chinese Lemon Pork', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
-
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 6458.06, 2090717891, '2024-03-11', '2024-07-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (246, 'Beef - Tenderloin - Aa', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 2178.93, 498181910, '2024-08-27', '2023-11-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (247, 'Beans - Turtle, Black, Dry', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 8244.36, 449437808, '2024-06-20', '2024-09-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (248, 'Tray - 12in Rnd Blk', 'Fusce consequat. Nulla nisl. Nunc nisl.', 4537.14, 1722969849, '2024-08-30', '2024-07-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (249, 'Leeks - Large', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 6063.06, 1094750495, '2023-10-13', '2024-05-23');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (250, 'Grapefruit - White', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
-
-Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 3626.02, 1636529597, '2024-02-27', '2024-08-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (251, 'Longos - Chicken Wings', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 291.32, 1478510070, '2024-06-03', '2024-04-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (252, 'Glass Clear 8 Oz', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 184.36, 432, '2002-06-20', '2004-11-09', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (17, 'Sprouts - Baby Pea Tendrils', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
 
 Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
 
-Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 6871.5, 711063451, '2023-10-02', '2024-05-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (253, 'Cheese - Colby', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 3580.17, 1495539739, '2024-02-29', '2024-08-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (254, 'Soup - Knorr, Chicken Gumbo', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 4758.05, 1306696022, '2023-10-30', '2024-08-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (255, 'Onions - Cippolini', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 446.55, 676, '2019-05-06', '2007-08-17', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (18, 'Bread - Roll, Italian', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.', 68.4, 817, '2020-07-16', '2019-01-30', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (19, 'Country Roll', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 66.12, 453, '2003-09-26', '2020-09-13', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (20, 'Vinegar - Cider', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.', 404.46, 279, '2020-05-16', '2023-03-08', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (21, 'Kippers - Smoked', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 231.39, 622, '2002-08-06', '2018-03-25', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (22, 'Wine - Peller Estates Late', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 58.41, 800, '2007-10-13', '2014-09-13', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (23, 'Chocolate - Pistoles, White', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
 
 Sed ante. Vivamus tortor. Duis mattis egestas metus.
 
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 6554.82, 817739935, '2024-07-21', '2024-09-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (256, 'Bread Fig And Almond', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 445.02, 160, '2015-09-16', '2013-08-06', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (24, 'Pie Filling - Apple', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 230.91, 978, '2018-01-15', '2008-12-31', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (25, 'Roe - White Fish', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
 
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 125.61, 72, '2004-01-04', '2008-09-04', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (26, 'Artichokes - Jerusalem', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 369.23, 200, '2018-06-05', '2007-05-05', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (27, 'Cheese - Taleggio D.o.p.', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
 
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 8578.22, 449742294, '2024-09-01', '2024-05-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (257, 'Grenadillo', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 9585.72, 625747025, '2024-03-17', '2023-10-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (258, 'Energy Drink - Franks Pineapple', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 6522.72, 1915108028, '2024-01-05', '2023-12-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (259, 'Chocolate - Semi Sweet', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 44.25, 306410342, '2023-12-27', '2023-10-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (260, 'Pears - Fiorelle', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
-
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 6943.55, 388950715, '2023-12-28', '2023-12-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (261, 'Madeira', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 8438.4, 238138910, '2024-01-04', '2023-11-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (262, 'Skirt - 29 Foot', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 2909.21, 960687615, '2024-08-19', '2023-11-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (263, 'Longos - Chicken Cordon Bleu', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.', 9699.63, 476764241, '2023-10-13', '2024-06-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (264, 'Pasta - Rotini, Colour, Dry', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 8391.44, 1562177720, '2024-03-29', '2024-08-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (265, 'Salt - Rock, Course', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 3215.8, 1501827368, '2024-03-31', '2023-10-31');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (266, 'Juice - Orange 1.89l', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 8535.51, 762693294, '2024-07-01', '2023-10-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (267, 'Veal - Slab Bacon', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 2502.82, 511917200, '2023-11-02', '2024-03-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (268, 'Cabbage - Red', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
-
-Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 4856.27, 169194654, '2023-09-27', '2024-03-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (269, 'Alize Red Passion', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 4862.8, 436388713, '2024-07-28', '2023-10-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (270, 'Wine - Champagne Brut Veuve', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 5657.02, 730451641, '2023-10-24', '2023-11-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (271, 'Truffle Cups Green', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
-
-Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 3104.93, 46606216, '2023-10-29', '2024-01-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (272, 'Chicken - White Meat With Tender', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 1783.97, 1943158668, '2024-01-25', '2024-06-23');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (273, 'Sage Derby', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 9110.6, 506144123, '2023-11-28', '2024-05-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (274, 'Pork - Bacon, Sliced', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
-
-Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 7505.58, 1461524630, '2023-11-29', '2024-07-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (275, 'Soup - Beef, Base Mix', 'In congue. Etiam justo. Etiam pretium iaculis justo.
-
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 8525.98, 374734930, '2023-11-14', '2023-12-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (276, 'Chicken - Whole Roasting', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 3541.41, 1543725014, '2023-10-10', '2024-01-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (277, 'Durian Fruit', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 3306.87, 1395388023, '2024-02-24', '2024-05-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (278, 'Cattail Hearts', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 8820.12, 625464901, '2023-11-22', '2024-06-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (279, 'Wine - Blue Nun Qualitatswein', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 3088.79, 55404273, '2024-03-25', '2024-09-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (280, 'Wine - Masi Valpolocell', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 9643.77, 228848781, '2024-02-14', '2024-09-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (281, 'Rabbit - Saddles', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 4925.03, 38171933, '2023-10-19', '2023-10-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (282, 'Soup - Cream Of Broccoli, Dry', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 232.36, 1439740331, '2023-09-29', '2024-08-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (283, 'Beef - Rib Eye Aaa', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
-
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 716.21, 1973122345, '2024-01-22', '2024-06-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (284, 'Cheese - Brick With Pepper', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 8337.9, 227941278, '2024-04-20', '2024-06-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (285, 'Juice - Orange 1.89l', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 7260.14, 2115117613, '2023-10-11', '2024-06-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (286, 'Pear - Packum', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 2819.89, 1997161896, '2023-12-20', '2024-03-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (287, 'Bread - French Baquette', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 9663.31, 1950135521, '2024-06-13', '2023-12-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (288, 'Horseradish - Prepared', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
-
-Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
-
-Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 9247.85, 2069215149, '2023-12-23', '2024-09-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (289, 'Guava', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 2532.7, 807319308, '2024-05-25', '2023-12-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (290, 'Juice - Tomato, 48 Oz', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 8021.2, 567799900, '2023-12-29', '2024-05-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (291, 'Sauce - Apple, Unsweetened', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 4905.78, 596609717, '2024-08-05', '2023-11-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (292, 'Bar Mix - Lime', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 8331.47, 1434398722, '2024-09-18', '2024-02-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (293, 'Pickle - Dill', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 8876.22, 537060679, '2024-07-29', '2024-05-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (294, 'Kellogs Special K Cereal', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 3136.67, 1897610380, '2024-05-26', '2024-08-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (295, 'Rum - Cream, Amarula', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 6822.28, 1162589409, '2024-06-03', '2024-09-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (296, 'Pear - Packum', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
-
-Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 6544.03, 892277197, '2024-02-04', '2024-09-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (297, 'Coffee - Dark Roast', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
-
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 6176.87, 483441224, '2024-05-02', '2024-08-31');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (298, 'Cotton Wet Mop 16 Oz', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 8686.0, 1541155706, '2023-10-08', '2023-12-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (299, 'Pie Box - Cello Window 2.5', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 1951.67, 2121499079, '2024-05-11', '2024-08-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (300, 'Bread - Bistro Sour', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 7100.51, 125815509, '2024-06-01', '2023-12-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (301, 'Pernod', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 2902.73, 1749450863, '2023-10-02', '2023-12-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (302, 'Rum - Coconut, Malibu', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 5426.69, 1924720119, '2024-01-09', '2024-06-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (303, 'Water - Mineral, Natural', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
-
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 5965.67, 745362841, '2024-04-20', '2023-12-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (304, 'Dill - Primerba, Paste', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 7134.07, 1292620686, '2024-03-02', '2024-09-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (305, 'Oil - Margarine', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
-
-Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 7289.85, 1529714279, '2024-03-11', '2024-09-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (306, 'Wine - Malbec Trapiche Reserve', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 3350.32, 206035477, '2023-10-12', '2023-12-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (307, 'Wine - Shiraz South Eastern', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 5111.16, 1251433427, '2024-06-23', '2024-04-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (308, 'Trout - Smoked', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 9765.74, 1103276739, '2024-08-19', '2024-05-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (309, 'Shrimp - Baby, Cold Water', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 9140.98, 560249511, '2024-03-15', '2024-01-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (310, 'Cheese - Wine', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 3851.64, 269585692, '2023-11-11', '2023-11-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (311, 'Pork - Ham Hocks - Smoked', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 7121.73, 1449781017, '2024-05-03', '2024-09-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (312, 'Beer - Mcauslan Apricot', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 460.49, 567028831, '2024-06-17', '2024-03-23');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (313, 'Apricots Fresh', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 3323.99, 708042906, '2024-03-24', '2023-11-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (314, 'Sour Puss - Tangerine', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 297.33, 996626680, '2024-05-30', '2024-02-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (315, 'Soup - Base Broth Beef', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.', 9067.8, 1635871448, '2023-12-20', '2024-02-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (316, 'Oneshot Automatic Soap System', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 387.97, 811, '2005-08-07', '2013-05-17', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (28, 'Nut - Pecan, Halves', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
 
 Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 360.09, 1590405392, '2024-08-15', '2024-01-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (317, 'Coffee - Irish Cream', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 138.58, 986, '2021-10-12', '2021-11-22', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (29, 'Lid Coffeecup 12oz D9542b', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
 
 Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
 
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 7528.89, 1679009702, '2024-08-20', '2024-04-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (318, 'Ice Cream Bar - Oreo Cone', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 10.7, 532, '2004-10-25', '2018-02-20', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (30, 'Icecream Bar - Del Monte', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 396.56, 410, '2022-08-24', '2009-08-26', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (31, 'Wine - Pinot Noir Latour', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
 
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 9804.77, 473596699, '2024-02-28', '2024-02-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (319, 'Sloe Gin - Mcguinness', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 6256.84, 820317513, '2024-06-19', '2023-12-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (320, 'Salmon - Atlantic, Fresh, Whole', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 974.06, 1505809738, '2024-01-10', '2023-10-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (321, 'Jam - Apricot', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 7894.02, 440411692, '2024-05-19', '2024-07-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (322, 'Puree - Kiwi', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 6740.98, 1974005504, '2024-03-01', '2024-05-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (323, 'Peach - Halves', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 1542.89, 1710083008, '2023-11-27', '2024-07-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (324, 'Bamboo Shoots - Sliced', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 5793.32, 1427506272, '2024-01-17', '2024-08-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (325, 'Chinese Lemon Pork', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 8463.74, 1059470586, '2024-02-10', '2024-09-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (326, 'Wild Boar - Tenderloin', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 962.02, 1387958052, '2023-12-04', '2024-03-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (327, 'Compound - Pear', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 6723.87, 1768135701, '2024-06-16', '2024-09-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (328, 'Sausage - Breakfast', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 1914.69, 1960027483, '2023-10-12', '2023-12-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (329, 'Okra', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 9555.61, 1246596152, '2023-12-12', '2024-02-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (330, 'Cucumber - English', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
-
-Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 2286.12, 1625486813, '2024-05-24', '2024-06-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (331, 'Dill Weed - Fresh', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 2505.45, 674655815, '2024-09-01', '2023-11-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (332, 'Shortbread - Cookie Crumbs', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 1637.87, 1754440709, '2024-08-12', '2024-03-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (333, 'Fondant - Icing', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 6089.93, 604324598, '2023-10-15', '2024-02-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (334, 'Tomatoes - Vine Ripe, Yellow', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 2304.49, 2136379352, '2024-01-26', '2024-01-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (335, 'Wine - Pinot Noir Stoneleigh', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 4652.87, 735344789, '2024-02-04', '2024-02-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (336, 'Island Oasis - Raspberry', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 8896.21, 664780600, '2024-07-26', '2023-11-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (337, 'Garlic - Elephant', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 2942.46, 300061285, '2024-06-13', '2024-06-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (338, 'Eggroll', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 662.01, 17799042, '2023-12-23', '2024-07-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (339, 'Dikon', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
-
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 6017.93, 1441856672, '2024-09-04', '2023-11-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (340, 'Mix Pina Colada', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 4357.86, 1311911215, '2024-03-14', '2023-10-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (341, 'Plastic Arrow Stir Stick', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 2582.52, 1714154548, '2024-01-28', '2024-01-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (342, 'Coffee Caramel Biscotti', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 878.58, 708000489, '2024-09-22', '2024-06-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (343, 'Venison - Racks Frenched', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 169.01, 517, '2004-01-16', '2010-03-24', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (32, 'Bread - Roll, Whole Wheat', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
 
 In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
 
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 8415.65, 1488472159, '2024-03-27', '2024-07-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (344, 'Cheese - Parmesan Cubes', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 7747.2, 117760147, '2024-09-12', '2024-04-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (345, 'Beef - Ground, Extra Lean, Fresh', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 6306.62, 407152080, '2024-08-09', '2023-09-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (346, 'Roe - White Fish', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 7213.92, 858113970, '2024-08-15', '2024-07-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (347, 'Lemonade - Black Cherry, 591 Ml', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 5717.45, 2062734719, '2024-09-23', '2023-12-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (348, 'Veal - Eye Of Round', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 9202.62, 1765514364, '2024-03-28', '2024-07-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (349, 'Tahini Paste', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 103.81, 368033135, '2023-10-16', '2024-08-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (350, 'Lambcasing', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 5379.34, 538316357, '2024-03-10', '2024-04-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (351, 'Cheese - Le Cru Du Clocher', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 2481.16, 1746028410, '2023-10-17', '2024-06-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (352, 'Wine - Duboeuf Beaujolais', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 5646.16, 611338056, '2023-11-27', '2024-02-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (353, 'Potatoes - Fingerling 4 Oz', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 768.56, 240438221, '2024-05-21', '2024-03-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (354, 'Wine - Niagara Peninsula Vqa', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 1003.36, 1179946599, '2024-03-14', '2024-09-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (355, 'Wine - Clavet Saint Emilion', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 8258.62, 1544614524, '2023-11-16', '2024-06-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (356, 'Soup Campbells Beef With Veg', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
-
-Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 1550.03, 1480378492, '2023-11-30', '2024-02-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (357, 'Water, Tap', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 2430.19, 1276459053, '2023-12-27', '2024-07-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (358, 'Soup - French Can Pea', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 609.24, 463969706, '2024-07-03', '2024-03-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (359, 'Juice - Pineapple, 48 Oz', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 8188.35, 10288825, '2023-10-10', '2024-08-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (360, 'Crab - Soft Shell', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 5009.4, 1943542499, '2024-09-14', '2024-03-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (361, 'Carbonated Water - Raspberry', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 5855.18, 1666900997, '2024-07-15', '2024-07-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (362, 'Bacardi Breezer - Strawberry', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 2902.58, 1265306328, '2024-07-02', '2024-03-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (363, 'Bread - Petit Baguette', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 5831.22, 1774186509, '2023-12-24', '2024-02-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (364, 'Coffee - French Vanilla Frothy', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 9675.17, 2062585107, '2024-03-06', '2024-07-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (365, 'Pork - Bacon, Sliced', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 3886.93, 648674079, '2024-01-17', '2023-10-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (366, 'Pork - Ham Hocks - Smoked', 'Fusce consequat. Nulla nisl. Nunc nisl.', 3159.82, 1495698897, '2023-09-30', '2024-09-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (367, 'Eggplant - Asian', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 7769.37, 946984380, '2024-07-12', '2024-04-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (368, 'Pork - Tenderloin, Fresh', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 9685.74, 617263768, '2024-04-05', '2024-02-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (369, 'Blue Curacao - Marie Brizard', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 6641.38, 1354088219, '2024-09-14', '2024-08-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (370, 'Foil Cont Round', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 837.29, 1370900582, '2024-08-28', '2023-11-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (371, 'Bread Ww Cluster', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
-
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.', 6723.38, 585696834, '2024-07-28', '2024-02-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (372, 'Clams - Canned', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 2436.21, 394648043, '2024-06-26', '2024-08-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (373, 'Lid Tray - 16in Dome', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 3762.36, 528452909, '2023-11-12', '2024-04-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (374, 'Soup - Campbells Mac N Cheese', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 4284.29, 579956505, '2024-07-24', '2024-02-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (375, 'Cocoa Powder - Dutched', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 4826.51, 1939935491, '2024-02-04', '2023-12-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (376, 'Lamb Rack - Ontario', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 3075.63, 738437887, '2023-10-04', '2024-09-23');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (377, 'Cookies - Englishbay Wht', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 9005.11, 1662898996, '2023-10-27', '2023-12-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (378, 'Wonton Wrappers', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 6789.52, 1011272351, '2024-05-28', '2023-11-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (379, 'Soupfoamcont12oz 112con', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 117.81, 1978206535, '2024-09-09', '2024-04-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (380, 'Trueblue - Blueberry 12x473ml', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.', 5753.51, 47251667, '2024-06-09', '2024-03-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (381, 'Seedlings - Buckwheat, Organic', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 835.86, 1060647933, '2024-01-11', '2024-02-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (382, 'Oranges - Navel, 72', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 6857.87, 1130980315, '2024-03-13', '2024-01-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (383, 'French Pastry - Mini Chocolate', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 3055.17, 1951798257, '2024-05-13', '2023-09-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (384, 'Bread Foccacia Whole', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 1193.82, 232888364, '2024-02-06', '2024-02-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (385, 'Salt And Pepper Mix - White', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 1089.74, 1217174158, '2024-01-29', '2023-12-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (386, 'Paper - Brown Paper Mini Cups', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
-
-Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 1964.03, 393764592, '2024-01-02', '2024-08-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (387, 'Gooseberry', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 8334.09, 403389946, '2023-12-25', '2023-11-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (388, 'Broom - Push', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 8025.93, 2108013372, '2024-07-13', '2024-08-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (389, 'Capers - Pickled', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 6554.21, 291178553, '2024-08-22', '2024-08-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (390, 'Hersey Shakes', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 7456.55, 1735049984, '2024-07-31', '2024-07-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (391, 'Pepper - Chilli Seeds Mild', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.
-
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 4432.37, 1513596286, '2024-09-05', '2024-04-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (392, 'Squeeze Bottle', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 7724.82, 1408099380, '2024-07-25', '2024-02-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (393, 'Bread - Sour Sticks With Onion', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.', 8838.36, 384792488, '2023-11-22', '2024-06-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (394, 'Veal - Loin', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 842.6, 1482510985, '2024-07-27', '2023-10-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (395, 'Milk 2% 500 Ml', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 7464.74, 727044343, '2024-08-11', '2024-05-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (396, 'Pasta - Canelloni', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 1383.52, 568203180, '2023-12-18', '2024-06-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (397, 'Bread - Frozen Basket Variety', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 1370.55, 1125583511, '2024-01-17', '2024-06-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (398, 'Gatorade - Lemon Lime', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 3239.75, 2070491461, '2023-10-30', '2024-08-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (399, 'Lobster - Baby, Boiled', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 2976.45, 331021516, '2024-05-10', '2023-11-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (400, 'Oil - Truffle, Black', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 7340.53, 386683854, '2024-05-27', '2023-09-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (401, 'Pepper Squash', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 4472.72, 1628235325, '2023-10-04', '2024-06-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (402, 'Cake - Pancake', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 4678.39, 217629328, '2024-03-21', '2023-11-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (403, 'Cookie Dough - Oatmeal Rasin', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 3315.75, 544654958, '2024-04-04', '2023-11-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (404, 'Artichoke - Bottom, Canned', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 6230.84, 1870252884, '2023-12-02', '2024-06-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (405, 'Beef Tenderloin Aaa', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 2514.38, 1637286438, '2024-03-27', '2024-05-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (406, 'Eggplant Oriental', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 747.69, 126984211, '2024-07-19', '2024-08-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (407, 'Tomato Puree', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 5550.82, 1008262019, '2023-12-18', '2024-03-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (408, 'Muffin Batt - Carrot Spice', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.', 343.51, 574886441, '2024-09-15', '2024-07-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (409, 'Vinegar - Rice', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
-
-Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 8737.79, 1992811811, '2023-12-29', '2023-10-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (410, 'Energy - Boo - Koo', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 5416.63, 108641055, '2024-08-26', '2023-09-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (411, 'Juice - Cranberry 284ml', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 9121.71, 365084425, '2024-09-06', '2024-04-23');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (412, 'Beef - Chuck, Boneless', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 9351.24, 123959966, '2023-10-08', '2024-06-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (413, 'Myers Planters Punch', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 1786.51, 178040001, '2024-05-12', '2024-07-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (414, 'Flour - Teff', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.', 3975.93, 803992681, '2023-10-05', '2024-01-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (415, 'Hand Towel', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
-
-Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 9572.49, 1125354987, '2024-03-17', '2024-02-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (416, 'Ice Cream Bar - Rolo Cone', 'Fusce consequat. Nulla nisl. Nunc nisl.', 8686.93, 1887841442, '2024-01-19', '2024-04-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (417, 'Shrimp, Dried, Small / Lb', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 2274.52, 1653291124, '2024-08-06', '2024-01-31');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (418, 'Foie Gras', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 396.12, 287532751, '2024-03-09', '2024-07-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (419, 'Pasta - Angel Hair', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 587.0, 1746010729, '2024-06-18', '2023-12-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (420, 'Cornstarch', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.
-
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 6978.68, 209966376, '2024-05-10', '2024-07-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (421, 'Trout Rainbow Whole', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 7580.33, 938325273, '2024-08-04', '2023-11-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (422, 'Wine - White, Chardonnay', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 2605.34, 2062363823, '2024-08-24', '2024-04-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (423, 'Pasta - Elbows, Macaroni, Dry', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 6042.78, 1423116705, '2023-11-28', '2023-09-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (424, 'Rootbeer', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
-
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 4746.39, 248674166, '2024-02-21', '2024-04-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (425, 'Cheese - Wine', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.', 3094.18, 583421157, '2023-12-10', '2024-02-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (426, 'Miso Paste White', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 971.64, 1277363367, '2024-01-27', '2024-08-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (427, 'Tobasco Sauce', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 5763.72, 241035461, '2023-10-01', '2024-01-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (428, 'Broom - Angled', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 3171.24, 735612210, '2023-10-21', '2024-07-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (429, 'Pepper - Jalapeno', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
-
-Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 7408.84, 1483302078, '2024-06-21', '2024-04-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (430, 'Bread - 10 Grain', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 8131.42, 854075346, '2024-02-02', '2024-03-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (431, 'Cake - Cake Sheet Macaroon', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.', 5576.32, 238916902, '2024-08-03', '2024-09-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (432, 'Lamb - Sausage Casings', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 257.45, 1021942691, '2024-08-27', '2024-01-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (433, 'Tomatoes - Vine Ripe, Yellow', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 8151.9, 1767342683, '2024-06-27', '2024-03-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (434, 'Anchovy Paste - 56 G Tube', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 6923.79, 1715767673, '2024-07-16', '2024-03-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (435, 'Beer - Labatt Blue', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 8922.25, 1170140124, '2024-05-01', '2024-04-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (436, 'Wine - Cahors Ac 2000, Clos', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 3024.98, 1552590896, '2023-10-31', '2023-10-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (437, 'Bread - Hot Dog Buns', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 2442.22, 1381138365, '2024-08-04', '2023-12-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (438, 'Crackers - Soda / Saltins', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 455.68, 1087575031, '2024-01-19', '2024-03-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (439, 'Beef - Tenderlion, Center Cut', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
-
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 1588.88, 1273017914, '2024-06-12', '2024-02-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (440, 'Wine - Acient Coast Caberne', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 9382.13, 1808915508, '2024-05-19', '2024-02-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (441, 'Chestnuts - Whole,canned', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 5641.2, 431236547, '2023-10-14', '2024-03-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (442, 'Onions Granulated', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 3467.8, 1129208628, '2024-06-11', '2024-05-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (443, 'Muffin Mix - Carrot', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
-
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 2794.43, 780573132, '2023-10-23', '2024-03-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (444, 'Wine - Vovray Sec Domaine Huet', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 8897.44, 1761259625, '2024-01-03', '2023-11-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (445, 'Fish - Scallops, Cold Smoked', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 3325.88, 1997743437, '2024-03-24', '2024-06-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (446, 'Grapes - Black', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 4893.4, 1350709151, '2024-05-18', '2024-06-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (447, 'Veal - Inside', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 137.62, 1739331885, '2023-10-13', '2024-06-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (448, 'Wine - White, Antinore Orvieto', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 2615.03, 2009247296, '2024-01-12', '2024-07-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (449, 'Tomatoes - Grape', 'In congue. Etiam justo. Etiam pretium iaculis justo.
-
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 4419.14, 267922500, '2024-09-17', '2024-08-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (450, 'Quail - Jumbo', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 881.2, 1947549223, '2023-12-06', '2023-11-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (451, 'Bread - Petit Baguette', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 9557.88, 49713999, '2024-07-09', '2023-12-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (452, 'Wine - Jaboulet Cotes Du Rhone', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 6266.91, 331549805, '2024-07-11', '2024-07-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (453, 'Bread - Ciabatta Buns', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
-
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 8141.31, 1727049729, '2024-07-19', '2024-08-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (454, 'Bread Bowl Plain', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 8245.55, 868662584, '2024-08-09', '2024-06-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (455, 'Soup - Knorr, Classic Can. Chili', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 1189.77, 1043623273, '2023-10-18', '2024-03-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (456, 'Broccoli - Fresh', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 5162.11, 199621083, '2024-06-21', '2024-02-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (457, 'Wine - Sawmill Creek Autumn', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 3088.51, 322170230, '2024-04-18', '2023-11-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (458, 'Sea Urchin', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 303.43, 1045241885, '2024-06-24', '2024-07-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (459, 'Pumpkin - Seed', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 5301.35, 1828321510, '2023-12-10', '2024-02-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (460, 'Table Cloth 120 Round White', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 2939.17, 120348490, '2023-11-23', '2023-12-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (461, 'Pail - 4l White, With Handle', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 9083.91, 346181075, '2023-11-03', '2024-05-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (462, 'Black Currants', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 341.15, 635872413, '2024-08-11', '2023-12-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (463, 'Cheese - Brie Roitelet', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 6358.92, 508961414, '2024-02-16', '2024-04-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (464, 'Tuna - Sushi Grade', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 3044.31, 268935652, '2024-01-29', '2024-03-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (465, 'Uniform Linen Charge', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 99.7, 1030954733, '2024-05-06', '2024-09-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (466, 'Wine - Red, Metus Rose', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 1760.5, 1774700196, '2024-07-07', '2024-01-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (467, 'Wine - Chateau Aqueria Tavel', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 1157.65, 1109732084, '2024-03-25', '2024-04-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (468, 'Pop - Club Soda Can', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 8902.46, 636567545, '2024-03-02', '2024-01-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (469, 'Beef - Ox Tail, Frozen', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
-
-Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 6531.6, 159122148, '2024-03-08', '2024-08-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (470, 'Soup - French Can Pea', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 1763.59, 610311990, '2023-11-13', '2023-11-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (471, 'Wine - Redchard Merritt', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.', 1187.39, 407252543, '2024-01-31', '2023-10-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (472, 'Beer - True North Lager', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 8137.75, 1731887506, '2023-11-09', '2024-07-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (473, 'Fenngreek Seed', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 5533.08, 1439820841, '2023-11-09', '2024-04-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (474, 'Wine - Red, Colio Cabernet', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.', 707.44, 647038373, '2024-02-10', '2024-04-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (475, 'Tomato - Plum With Basil', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 7659.28, 2077545630, '2024-08-22', '2024-04-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (476, 'Sauce - Demi Glace', 'In congue. Etiam justo. Etiam pretium iaculis justo.
-
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 2790.14, 681919608, '2024-01-20', '2024-03-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (477, 'Jolt Cola - Red Eye', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 4337.1, 1116722252, '2024-02-10', '2024-08-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (478, 'Dikon', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.', 6638.72, 1315971147, '2024-04-20', '2023-11-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (479, 'Red Currant Jelly', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 3220.87, 980538797, '2024-02-06', '2023-11-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (480, 'Cream - 10%', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
-
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 908.68, 1335168680, '2024-08-17', '2024-07-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (481, 'Tray - 16in Rnd Blk', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 4373.55, 1210963206, '2024-05-25', '2024-09-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (482, 'Beef - Bones, Marrow', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 3690.8, 1122654222, '2024-07-20', '2023-12-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (483, 'Cheese - Shred Cheddar / Mozza', 'Fusce consequat. Nulla nisl. Nunc nisl.
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 392.05, 569, '2015-07-01', '2001-12-29', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (33, 'Lemonade - Kiwi, 591 Ml', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 61.29, 780, '2011-07-04', '2019-06-25', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (34, 'Cookie - Dough Variety', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 106.56, 999, '2015-06-04', '2003-01-04', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (35, 'Flour Pastry Super Fine', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 244.82, 570, '2011-10-26', '2007-12-10', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (36, 'Cocoa Powder - Dutched', 'Fusce consequat. Nulla nisl. Nunc nisl.
 
 Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
 
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 2352.41, 1150451318, '2024-07-03', '2023-12-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (484, 'Oven Mitt - 13 Inch', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 9564.44, 1328502720, '2023-12-09', '2024-05-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (485, 'Glove - Cutting', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 5136.07, 434722195, '2023-11-14', '2024-03-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (486, 'Dasheen', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.', 4918.68, 803020508, '2024-01-21', '2023-12-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (487, 'Puree - Blackcurrant', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.', 2449.72, 986003673, '2024-03-23', '2024-08-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (488, 'Beer - True North Strong Ale', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 1354.15, 626650191, '2024-01-12', '2024-06-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (489, 'Tea - Darjeeling, Azzura', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 4093.62, 164342263, '2024-07-14', '2023-11-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (490, 'Beer - Moosehead', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 8034.12, 1474765863, '2024-02-28', '2024-06-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (491, 'Sweet Pea Sprouts', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
-
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 1591.7, 147815087, '2024-07-02', '2024-09-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (492, 'Piping - Bags Quizna', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 2795.52, 996102649, '2024-01-23', '2024-04-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (493, 'Jagermeister', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 4071.27, 616895565, '2023-11-21', '2023-10-31');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (494, 'Dooleys Toffee', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 839.82, 1174276290, '2024-03-30', '2024-05-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (495, 'Red Cod Fillets - 225g', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 2810.66, 459680572, '2024-02-02', '2023-12-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (496, 'Turnip - White', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
-
-Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 2471.72, 2127497302, '2023-11-03', '2024-08-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (497, 'Bar - Sweet And Salty Chocolate', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 5985.41, 996813207, '2024-08-12', '2024-03-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (498, 'Coffee - Dark Roast', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 4234.43, 362387988, '2024-04-09', '2024-03-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (499, 'Toamtoes 6x7 Select', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.', 9671.57, 572879561, '2024-01-24', '2023-11-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (500, 'Coffee Decaf Colombian', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 4260.82, 772493896, '2024-08-04', '2024-08-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (501, 'Ice Cream - Strawberry', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 8635.06, 1313360889, '2024-01-03', '2024-06-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (502, 'Beer - Blue', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
-
-Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 4384.58, 1243268815, '2024-02-11', '2024-07-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (503, 'Oil - Shortening,liqud, Fry', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 2229.8, 635446254, '2024-07-31', '2024-05-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (504, 'Sauce - Hp', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
-
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 2376.56, 435205275, '2023-10-27', '2024-08-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (505, 'Hipnotiq Liquor', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.', 3597.71, 905168255, '2024-06-29', '2024-05-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (506, 'Chips - Assorted', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 8022.06, 1680206279, '2024-08-21', '2023-11-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (507, 'Pastry - Key Limepoppy Seed Tea', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 765.38, 284095444, '2024-06-08', '2024-07-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (508, 'Spoon - Soup, Plastic', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 2026.83, 1041687924, '2024-09-22', '2023-12-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (509, 'Croissant, Raw - Mini', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 4736.74, 1685883832, '2024-06-06', '2024-09-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (510, 'Kiwi', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 3892.39, 140262248, '2024-02-09', '2024-01-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (511, 'Beef - Roasted, Cooked', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.', 6843.95, 1853702320, '2024-06-05', '2024-05-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (512, 'Cheese - Gouda Smoked', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
-
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 8346.88, 202316459, '2024-03-09', '2023-11-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (513, 'Cheese - Gouda Smoked', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.', 7460.19, 535360569, '2024-08-24', '2024-01-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (514, 'Kale - Red', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 3382.49, 1317208413, '2024-06-04', '2024-03-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (515, 'Appetizer - Cheese Bites', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 7694.39, 612827814, '2024-03-22', '2024-02-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (516, 'Sobe - Orange Carrot', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 4618.25, 1368482193, '2024-03-29', '2024-08-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (517, 'Wine - Vineland Estate Semi - Dry', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 5514.49, 818954579, '2024-03-03', '2024-06-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (518, 'Pike - Frozen Fillet', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 3496.19, 1149252828, '2024-03-16', '2023-11-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (519, 'Cheese - Cambozola', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 6798.64, 344252921, '2024-03-05', '2024-05-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (520, 'Pastry - Key Limepoppy Seed Tea', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 9368.27, 714341711, '2023-12-04', '2023-10-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (521, 'Tea - Decaf Lipton', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 1807.27, 90918104, '2024-03-04', '2024-03-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (522, 'Onions - Cooking', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 2970.32, 192035828, '2023-11-17', '2024-03-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (523, 'Appetizer - Escargot Puff', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
-
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 7793.95, 682181123, '2024-08-19', '2024-06-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (524, 'Cup - 3.5oz, Foam', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 8481.19, 1445358349, '2024-09-22', '2024-01-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (525, 'Squid - Breaded', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 1060.99, 850537224, '2023-12-03', '2023-10-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (526, 'Wine - Black Tower Qr', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 1135.11, 713349624, '2024-08-02', '2023-12-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (527, 'Crab - Soft Shell', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
-
-Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 601.88, 1185045321, '2024-03-16', '2024-07-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (528, 'Wine - Red, Mosaic Zweigelt', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 5957.26, 1439411547, '2024-04-04', '2024-01-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (529, 'Longos - Greek Salad', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 4103.06, 474805630, '2024-09-05', '2024-04-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (530, 'Sauce - Cranberry', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
-
-Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 900.34, 1166175296, '2023-11-13', '2024-03-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (531, 'Garlic - Elephant', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 1823.73, 538763432, '2024-04-25', '2023-10-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (532, 'Goulash Seasoning', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 1765.23, 1780585550, '2024-01-01', '2023-11-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (533, 'Lychee - Canned', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 7962.93, 1155634760, '2023-11-06', '2023-12-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (534, 'Wine - Red, Cabernet Merlot', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 344.95, 31027156, '2024-03-18', '2024-08-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (535, 'Flour Dark Rye', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 8231.46, 1649754288, '2024-06-23', '2023-12-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (536, 'Cheese - Camembert', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
-
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 5482.96, 1457527615, '2023-11-14', '2023-10-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (537, 'Alize Sunset', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 5489.65, 722482900, '2024-07-14', '2024-05-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (538, 'Flower - Leather Leaf Fern', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
-
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 4758.9, 644511577, '2024-07-18', '2023-10-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (539, 'Wine - Spumante Bambino White', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 176.09, 339, '2001-02-09', '2000-11-25', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (37, 'Cheese - Roquefort Pappillon', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
 
 Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
 
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 6782.62, 2013699562, '2023-11-01', '2023-11-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (540, 'Nut - Macadamia', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 5904.57, 2130698173, '2024-07-26', '2024-07-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (541, 'Potatoes - Idaho 80 Count', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 1424.22, 332486382, '2024-09-04', '2024-07-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (542, 'Vinegar - White Wine', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 5938.26, 698797378, '2024-08-01', '2023-11-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (543, 'Veal - Kidney', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
-
-Phasellus in felis. Donec semper sapien a libero. Nam dui.', 1343.92, 742053755, '2024-07-05', '2023-11-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (544, 'Beef Wellington', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 1080.84, 229752221, '2024-02-25', '2023-12-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (545, 'Chocolate - White', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 934.24, 1192058948, '2024-03-12', '2024-07-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (546, 'Pecan Raisin - Tarts', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
-
-Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 2151.26, 991163497, '2023-12-09', '2024-04-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (547, 'Wine - Chenin Blanc K.w.v.', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 8447.76, 821609440, '2023-12-10', '2023-12-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (548, 'Coffee - Almond Amaretto', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 7121.42, 2035018999, '2023-11-04', '2024-07-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (549, 'Squash - Guords', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 6113.81, 1175786682, '2024-02-13', '2024-09-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (550, 'Whmis - Spray Bottle Trigger', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
-
-Phasellus in felis. Donec semper sapien a libero. Nam dui.', 8575.87, 1116473971, '2023-12-01', '2024-05-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (551, 'Wine - Peller Estates Late', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 8604.08, 2104206155, '2024-05-03', '2024-08-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (552, 'Mahi Mahi', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 8519.61, 637431616, '2024-02-19', '2024-04-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (553, 'Savory', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 9263.76, 1042523266, '2024-02-16', '2023-11-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (554, 'Coffee - Irish Cream', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 2070.21, 288564495, '2024-02-29', '2024-06-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (555, 'Lamb - Ground', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 6508.23, 484418196, '2024-04-07', '2023-11-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (556, 'Mushroom - Chanterelle Frozen', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 5279.36, 2016856310, '2024-02-19', '2024-03-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (557, 'Snails - Large Canned', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 2901.9, 1745210334, '2023-09-28', '2023-11-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (558, 'Nantucket Orange Juice', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
-
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 6747.3, 1446509165, '2024-05-05', '2024-06-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (559, 'Soup - Knorr, Chicken Noodle', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 9154.41, 1544089484, '2023-09-28', '2023-11-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (560, 'Apple - Custard', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 4874.92, 1945797369, '2024-07-26', '2023-10-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (561, 'Cake - Box Window 10x10x2.5', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 8572.58, 1145647649, '2024-08-17', '2023-12-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (562, 'Pepper - Scotch Bonnet', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 3456.16, 835301920, '2024-09-07', '2024-03-31');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (563, 'Carrots - Mini, Stem On', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 6132.75, 298141816, '2023-11-15', '2024-01-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (564, 'Syrup - Monin, Irish Cream', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 9462.1, 1357186485, '2023-11-21', '2024-05-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (565, 'Dasheen', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 8240.2, 1088807620, '2023-11-24', '2024-03-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (566, 'Veal - Shank, Pieces', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 5118.0, 1549763440, '2023-11-27', '2024-03-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (567, 'Soup - Knorr, French Onion', 'Fusce consequat. Nulla nisl. Nunc nisl.', 8480.9, 1728544975, '2024-08-30', '2023-10-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (568, 'Wine - Domaine Boyar Royal', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 7637.72, 2103518092, '2023-09-26', '2023-12-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (569, 'Sauce - Sesame Thai Dressing', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 387.28, 813209347, '2023-10-22', '2024-07-23');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (570, 'Madeira', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 453.88, 1075074762, '2023-10-25', '2024-02-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (571, 'Wine - Red, Gamay Noir', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 6476.14, 388264920, '2024-01-11', '2024-02-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (572, 'Pineapple - Golden', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 7994.45, 767625970, '2023-11-20', '2024-02-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (573, 'Chips - Assorted', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 9553.78, 1719037667, '2024-01-28', '2024-08-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (574, 'Yukon Jack', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.', 7189.88, 1834637195, '2024-03-07', '2023-12-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (575, 'Pumpkin', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
-
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 3181.46, 1260884407, '2024-04-07', '2024-04-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (576, 'Ice Cream - Turtles Stick Bar', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
-
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 5607.81, 1696226506, '2024-04-02', '2024-05-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (577, 'Pears - Anjou', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 5025.93, 357833618, '2024-05-18', '2024-03-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (578, 'Coconut - Shredded, Sweet', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 3091.6, 1984272329, '2023-12-13', '2023-09-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (579, 'Wine - Prosecco Valdobiaddene', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 7958.21, 1919235706, '2024-09-22', '2024-03-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (580, 'Halibut - Steaks', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 3817.45, 1676363827, '2024-07-10', '2023-12-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (581, 'Instant Coffee', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 1654.92, 603855783, '2024-08-17', '2024-06-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (582, 'Cheese - Bakers Cream Cheese', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 3093.42, 1888044504, '2024-08-01', '2024-02-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (583, 'Tomatoes - Vine Ripe, Yellow', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 7852.1, 42588447, '2023-09-30', '2023-12-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (584, 'Island Oasis - Magarita Mix', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
-
-Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 6380.17, 1479676810, '2024-02-20', '2023-10-23');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (585, 'Bread - Rolls, Corn', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 3536.53, 988217868, '2024-06-20', '2023-11-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (586, 'Shrimp, Dried, Small / Lb', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
-
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 1962.5, 1605243841, '2024-07-15', '2024-07-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (587, 'Pastrami', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
-
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 1035.38, 374982256, '2023-11-26', '2024-05-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (588, 'Sugar - Invert', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 2884.64, 2010684052, '2024-07-12', '2023-09-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (589, 'Ham - Black Forest', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
-
-Phasellus in felis. Donec semper sapien a libero. Nam dui.', 4678.53, 1752634995, '2024-05-15', '2023-11-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (590, 'Pastry - Apple Large', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
-
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.', 3644.06, 1127623064, '2023-10-12', '2023-10-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (591, 'Icecream Cone - Areo Chocolate', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 5960.71, 361094313, '2023-11-26', '2023-09-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (592, 'Steampan - Foil', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.', 7234.02, 1562518808, '2023-10-06', '2024-04-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (593, 'Seabream Whole Farmed', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 5325.94, 529974107, '2024-08-19', '2024-05-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (594, 'Tuna - Fresh', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 4389.08, 1567622795, '2024-02-25', '2023-12-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (595, 'Asparagus - White, Canned', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 2801.2, 1912296762, '2023-10-09', '2023-10-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (596, 'Lid Tray - 16in Dome', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 3728.72, 62730189, '2024-06-20', '2024-08-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (597, 'Wine - Rosso Del Veronese Igt', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 1318.4, 1956317199, '2024-02-22', '2024-05-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (598, 'Beans - Butter Lrg Lima', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 2498.3, 1989583839, '2023-10-01', '2024-06-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (599, 'Roe - Lump Fish, Red', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 8636.49, 1514793989, '2024-08-25', '2024-01-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (600, 'Extract Vanilla Pure', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 6696.58, 147835313, '2024-05-29', '2024-08-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (601, 'Appetizer - Chicken Satay', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 1179.59, 939113145, '2024-04-15', '2023-09-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (602, 'Wine - Pinot Noir Pond Haddock', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 9114.0, 1378021663, '2024-08-31', '2024-08-31');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (603, 'Pie Shell - 9', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 4835.5, 23554974, '2023-12-13', '2024-06-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (604, 'Lobster - Tail, 3 - 4 Oz', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 1049.42, 285692190, '2023-09-29', '2024-03-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (605, 'Pepper - Roasted Red', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 8761.85, 1849974843, '2024-01-14', '2023-11-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (606, 'Wine La Vielle Ferme Cote Du', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 9659.1, 50101263, '2024-08-10', '2024-01-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (607, 'Turkey - Oven Roast Breast', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 2586.03, 1066097277, '2023-11-10', '2024-01-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (608, 'Cheese - Gouda', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
-
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 7193.19, 1631288277, '2023-12-26', '2024-08-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (609, 'Sea Urchin', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 5686.04, 2017349957, '2024-04-29', '2023-10-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (610, 'Chicken - Base, Ultimate', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
-
-Phasellus in felis. Donec semper sapien a libero. Nam dui.', 1003.24, 85622181, '2024-05-01', '2024-09-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (611, 'Longan', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 8091.77, 255843638, '2023-10-17', '2024-02-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (612, 'Bagel - Ched Chs Presliced', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 4243.81, 1633731796, '2023-09-29', '2024-04-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (613, 'Muffin Orange Individual', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 8675.31, 176551100, '2023-12-25', '2024-06-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (614, 'Water, Tap', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
-
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 8099.92, 158210858, '2024-06-13', '2024-01-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (615, 'Russian Prince', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 859.5, 1589280799, '2024-06-11', '2024-06-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (616, 'Rice - 7 Grain Blend', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 8984.53, 1477809742, '2024-05-12', '2024-04-23');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (617, 'Coffee - Colombian, Portioned', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 8643.36, 1105282523, '2024-02-19', '2024-08-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (618, 'Bread - Malt', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 2450.39, 2102166077, '2024-05-01', '2024-08-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (619, 'Appetizer - Cheese Bites', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 5008.33, 1011126454, '2024-07-28', '2024-04-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (620, 'Soup - Knorr, Classic Can. Chili', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 8826.52, 1793071251, '2024-05-01', '2024-03-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (621, 'Beef - Tongue, Cooked', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
-
-Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 6537.24, 1833527587, '2024-09-06', '2024-08-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (622, 'Wine - Barbera Alba Doc 2001', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 2631.51, 1827868897, '2024-03-07', '2024-06-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (623, 'Water - Spring Water 500ml', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 8805.44, 1581315578, '2024-01-12', '2023-09-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (624, 'Rice - Aborio', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 4810.91, 129523708, '2024-08-08', '2023-10-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (625, 'Cheese - Feta', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 6157.98, 1105853615, '2024-02-10', '2024-06-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (626, 'Vaccum Bag 10x13', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 1621.52, 759420159, '2023-11-11', '2023-12-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (627, 'Wine - Blue Nun Qualitatswein', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 446.5, 787, '2007-08-28', '2021-04-23', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (38, 'Sugar - Cubes', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 142.58, 94, '2001-09-13', '2005-10-07', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (39, 'Papayas', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 247.89, 766, '2016-10-28', '2022-07-06', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (40, 'Water - San Pellegrino', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 237.71, 767, '2004-09-06', '2002-12-31', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (41, 'Pork - Bacon, Sliced', 'In congue. Etiam justo. Etiam pretium iaculis justo.
 
 In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
 
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 1935.16, 1372462130, '2024-02-21', '2024-07-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (628, 'Fish - Base, Bouillion', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 8029.64, 1919605286, '2024-02-14', '2024-04-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (629, 'Pasta - Cappellini, Dry', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
-
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 303.59, 97731200, '2024-01-22', '2023-12-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (630, 'Beef - Texas Style Burger', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
-
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 2175.91, 680874090, '2024-02-27', '2023-10-23');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (631, 'Ezy Change Mophandle', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
-
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 8242.32, 52397813, '2024-09-15', '2024-03-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (632, 'Tart Shells - Sweet, 4', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
-
-Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 4014.21, 2010032491, '2023-11-08', '2024-08-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (633, 'Chocolate Liqueur - Godet White', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 3169.19, 1375026112, '2023-10-20', '2024-03-31');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (634, 'Tart Shells - Barquettes, Savory', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 2070.45, 1651611677, '2024-05-18', '2024-05-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (635, 'White Baguette', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 423.57, 2061179960, '2024-02-24', '2023-11-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (636, 'Celery', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 2265.77, 779291592, '2024-07-29', '2024-08-23');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (637, 'Lemon Grass', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 3670.5, 2082686967, '2024-01-18', '2024-09-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (638, 'Potatoes - Parissienne', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 7535.65, 935238155, '2024-08-06', '2024-06-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (639, 'Glass - Juice Clear 5oz 55005', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 1230.06, 214707988, '2023-11-15', '2023-12-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (640, 'Nut - Hazelnut, Whole', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 470.9, 243, '2003-07-03', '2001-04-02', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (42, 'Beans - Black Bean, Canned', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
 
 Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
 
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 2023.52, 1858469506, '2024-06-06', '2024-07-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (641, 'Blueberries', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 392.46, 450, '2012-10-13', '2010-10-03', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (43, 'Hand Towel', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
 
-Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
 
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 2097.82, 669219087, '2024-08-30', '2023-12-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (642, 'Lettuce - Arugula', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 375.03, 732, '2011-03-04', '2018-05-20', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (44, 'Chicken - Base, Ultimate', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
 
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 353.69, 754, '2018-04-21', '2020-11-04', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (45, 'Bar Special K', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
 
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 3460.23, 1528036664, '2024-04-25', '2024-06-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (643, 'Cranberries - Fresh', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+Fusce consequat. Nulla nisl. Nunc nisl.
 
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 9006.29, 1847314809, '2024-03-10', '2024-05-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (644, 'Cheese - Goat With Herbs', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 237.1, 417, '2009-03-07', '2011-08-26', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (46, 'Capers - Pickled', 'In congue. Etiam justo. Etiam pretium iaculis justo.
 
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 7231.65, 46614389, '2024-04-26', '2024-02-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (645, 'Dehydrated Kelp Kombo', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 141.4, 58, '2018-06-16', '2002-05-22', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (47, 'Veal - Inside Round / Top, Lean', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 11.08, 442, '2016-11-01', '2005-12-03', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (48, 'Cake - Bande Of Fruit', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
 
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 9269.37, 1299464305, '2024-07-03', '2024-08-23');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (646, 'V8 Splash Strawberry Kiwi', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
 
-In congue. Etiam justo. Etiam pretium iaculis justo.', 3759.97, 987145545, '2023-12-02', '2024-07-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (647, 'Country Roll', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 4280.53, 1373307073, '2024-09-18', '2024-01-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (648, 'Tart Shells - Savory, 4', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
-
-Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 8988.91, 735358354, '2024-05-14', '2024-01-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (649, 'Sauce - Salsa', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 8687.21, 914851545, '2024-05-31', '2024-07-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (650, 'Beans - Black Bean, Preserved', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 7732.68, 2072238828, '2023-11-02', '2023-11-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (651, 'Crawfish', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 4593.46, 618778596, '2024-03-10', '2023-09-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (652, 'Island Oasis - Lemonade', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 2775.13, 1369765735, '2024-01-18', '2024-08-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (653, 'Pepper - Chillies, Crushed', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 8821.03, 1379237120, '2024-02-02', '2024-07-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (654, 'Beets - Candy Cane, Organic', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 2803.49, 424132586, '2024-09-04', '2023-10-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (655, 'Waffle Stix', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
-
-Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 1326.19, 1377881869, '2024-08-09', '2024-01-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (656, 'Pasta - Fusili, Dry', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 534.9, 894159361, '2024-07-13', '2024-08-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (657, 'Longos - Chicken Cordon Bleu', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 711.35, 457431703, '2024-09-15', '2024-05-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (658, 'Onions - Vidalia', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 8732.2, 1073059340, '2024-06-25', '2024-06-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (659, 'Bread - White, Unsliced', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 4572.33, 677544802, '2024-04-20', '2024-09-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (660, 'Beer - True North Lager', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 236.11, 1832239136, '2024-08-01', '2024-05-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (661, 'Sour Puss Sour Apple', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
-
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.', 5982.31, 39958939, '2024-03-03', '2024-03-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (662, 'Capon - Breast, Double, Wing On', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 731.08, 1897835512, '2024-06-07', '2024-04-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (663, 'Pastry - Banana Muffin - Mini', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 8323.41, 458592242, '2024-08-19', '2024-04-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (664, 'White Baguette', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 4297.92, 7837358, '2024-01-04', '2024-02-23');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (665, 'Sauce - Marinara', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 7685.65, 1418902900, '2024-09-09', '2024-09-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (666, 'Doilies - 8, Paper', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 6548.13, 1715757586, '2024-02-07', '2023-11-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (667, 'Oil - Sesame', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 7433.27, 1987386357, '2024-03-21', '2023-11-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (668, 'Juice - Apple, 500 Ml', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 4170.66, 535879248, '2024-02-01', '2023-10-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (669, 'Aspic - Amber', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 5986.27, 1785049180, '2024-05-15', '2024-04-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (670, 'Lobster - Live', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 4451.73, 956561502, '2024-08-20', '2023-12-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (671, 'Chicken - Livers', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
-
-Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 7310.98, 1206334941, '2023-12-13', '2024-06-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (672, 'Tea - Orange Pekoe', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 4682.83, 1425411350, '2024-08-18', '2023-11-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (673, 'Olives - Nicoise', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 389.12, 1008036958, '2024-01-24', '2024-04-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (674, 'Mustard - Dry, Powder', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 2893.46, 103188655, '2024-08-01', '2023-10-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (675, 'Table Cloth 90x90 White', 'Fusce consequat. Nulla nisl. Nunc nisl.', 8067.95, 753148537, '2024-06-18', '2023-11-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (676, 'Pepper - Red, Finger Hot', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 6013.82, 511113811, '2024-08-29', '2024-02-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (677, 'Dill Weed - Fresh', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 1335.19, 1675574050, '2024-02-03', '2024-05-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (678, 'Fruit Salad Deluxe', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 4516.28, 1490461790, '2024-02-23', '2024-01-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (679, 'Veal - Insides Provini', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 3006.99, 1978301276, '2024-05-26', '2024-05-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (680, 'Tart - Pecan Butter Squares', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
-
-Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 8813.08, 1349774413, '2023-11-13', '2024-03-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (681, 'Goldschalger', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 4085.11, 369009032, '2024-06-24', '2024-01-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (682, 'Wine - Tio Pepe Sherry Fino', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.', 2169.45, 793570930, '2023-11-24', '2023-10-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (683, 'Red Snapper - Fillet, Skin On', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 2174.59, 504770442, '2024-03-01', '2024-03-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (684, 'Boogies', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 3394.58, 2085260648, '2024-01-04', '2024-04-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (685, 'Sauce - Demi Glace', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 999.5, 981458660, '2023-11-30', '2024-01-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (686, 'Bread - French Stick', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 182.63, 815, '2008-03-12', '2005-02-23', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (49, 'Rolled Oats', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
 
 Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
 
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 206.59, 963863343, '2024-02-27', '2023-11-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (687, 'Vermouth - Sweet, Cinzano', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 428.2, 665, '2006-11-20', '2008-12-09', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (50, 'Chevere Logs', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
 
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 3047.43, 2009534181, '2024-03-19', '2024-07-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (688, 'Beans - Long, Chinese', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 8341.81, 1813068231, '2024-04-23', '2024-07-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (689, 'Pork - Ham Hocks - Smoked', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 411.44, 463, '2002-09-06', '2001-11-05', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (51, 'Soup - Beef Conomme, Dry', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 58.34, 173, '2020-08-07', '2009-01-24', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (52, 'Vermouth - Sweet, Cinzano', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 482.75, 675, '2009-09-16', '2021-08-11', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (53, 'Turkey - Breast, Boneless Sk On', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 353.03, 123, '2022-07-10', '2016-05-24', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (54, 'Cabbage - Green', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 163.64, 214, '2004-11-11', '2014-07-30', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (55, 'Beef - Tenderloin', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 205.9, 682, '2018-04-23', '2002-05-01', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (56, 'Alize Sunset', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 369.19, 546, '2002-05-01', '2010-07-31', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (57, 'Beef - Outside, Round', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 451.47, 604, '2008-06-23', '2002-01-10', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (58, 'Sugar - Splenda Sweetener', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 460.43, 284, '2021-05-24', '2016-07-18', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (59, 'Wine - Conde De Valdemar', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 147.74, 450, '2004-01-11', '2003-07-05', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (60, 'Tea - Herbal Sweet Dreams', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 254.77, 588, '2013-08-11', '2016-11-04', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (61, 'Tamarillo', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 56.28, 439, '2017-12-18', '2021-12-04', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (62, 'Ecolab - Balanced Fusion', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 283.05, 127, '2019-08-16', '2013-08-07', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (63, 'Broom - Angled', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 309.56, 852, '2000-05-28', '2014-11-15', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (64, 'Cheese - Pont Couvert', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.', 296.77, 52, '2009-02-28', '2021-03-11', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (65, 'Sprouts - Bean', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 159.1, 877, '2016-05-02', '2009-03-23', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (66, 'Soupcontfoam16oz 116con', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 177.13, 793, '2007-06-16', '2001-02-27', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (67, 'Mikes Hard Lemonade', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 135.86, 878, '2004-03-16', '2015-01-18', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (68, 'Bread Sour Rolls', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 170.21, 511, '2019-03-02', '2011-07-02', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (69, 'Cranberries - Fresh', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 95.39, 689, '2014-07-07', '2020-11-01', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (70, 'Cloves - Whole', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 449.86, 594, '2005-02-17', '2002-05-17', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (71, 'Wine - Black Tower Qr', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 471.68, 127, '2007-05-22', '2012-06-25', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (72, 'Chips - Assorted', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 210.38, 541, '2011-04-01', '2013-06-10', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (73, 'Muffin - Blueberry Individual', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 212.67, 394, '2011-05-18', '2015-01-28', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (74, 'Lemon Grass', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 261.57, 857, '2021-01-30', '2009-08-11', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (75, 'Wine - Red, Antinori Santa', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 196.56, 506, '2011-08-17', '2016-08-12', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (76, 'Wine - Pinot Grigio Collavini', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 475.4, 592, '2017-04-29', '2017-11-15', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (77, 'Cheese - Bakers Cream Cheese', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 387.73, 488, '2013-07-04', '2021-04-27', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (78, 'Milk Powder', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 267.07, 899, '2016-03-20', '2010-10-03', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (79, 'Sprite, Diet - 355ml', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.', 247.13, 418, '2021-04-07', '2021-10-07', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (80, 'Sprouts Dikon', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 185.19, 955, '2008-02-04', '2009-07-28', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (81, 'Cheese - Brie', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 354.46, 755, '2012-12-23', '2003-11-28', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (82, 'Chips Potato All Dressed - 43g', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 212.79, 569, '2021-01-27', '2020-01-03', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (83, 'Mix Pina Colada', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 457.64, 186, '2000-06-25', '2006-10-01', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (84, 'Wheat - Soft Kernal Of Wheat', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 415.0, 258, '2010-07-25', '2023-05-09', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (85, 'Pasta - Orecchiette', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 4.18, 995, '2007-03-22', '2007-08-22', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (86, 'Pork - Ground', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 250.05, 649, '2014-06-10', '2018-06-30', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (87, 'Puree - Mocha', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 211.51, 73, '2005-09-21', '2002-05-10', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (88, 'Cheese - Havarti, Roasted Garlic', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.', 484.59, 839, '2003-01-21', '2001-09-27', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (89, 'Bandage - Flexible Neon', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.', 414.58, 75, '2021-11-15', '2002-06-18', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (90, 'Cup - 3.5oz, Foam', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 6.59, 216, '2000-10-07', '2023-01-17', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (91, 'Shichimi Togarashi Peppeers', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 326.44, 901, '2021-01-15', '2004-01-21', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (92, 'Pesto - Primerba, Paste', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 320.0, 300, '2012-08-12', '2006-01-23', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (93, 'Potatoes - Idaho 100 Count', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 391.68, 287, '2021-11-30', '2009-07-05', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (94, 'Rhubarb', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 310.67, 20, '2017-06-21', '2019-01-27', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (95, 'Beef - Eye Of Round', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 323.93, 952, '2020-08-07', '2010-05-09', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (96, 'Trout - Smoked', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 180.59, 885, '2003-11-15', '2018-08-02', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (97, 'Asparagus - White, Canned', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 113.33, 621, '2013-08-30', '2005-02-02', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (98, 'Scallops - U - 10', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 381.57, 51, '2008-10-01', '2010-03-13', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (99, 'Sole - Dover, Whole, Fresh', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 79.63, 915, '2006-05-24', '2013-04-01', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (100, 'Beer - Heinekin', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 110.19, 833, '2019-04-17', '2023-12-09', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (101, 'Tray - 12in Rnd Blk', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 389.06, 437, '2005-11-21', '2005-07-23', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (102, 'Pastry - Choclate Baked', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 460.04, 410, '2016-02-26', '2006-09-02', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (103, 'Island Oasis - Banana Daiquiri', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 480.2, 348, '2016-03-27', '2006-04-06', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (104, 'Syrup - Monin - Passion Fruit', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 248.48, 119, '2011-06-12', '2023-04-06', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (105, 'Garbage Bags - Clear', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 367.5, 359, '2012-02-02', '2011-08-19', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (106, 'Sausage - Chorizo', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 319.31, 249, '2000-10-10', '2021-08-27', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (107, 'Lumpfish Black', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 33.14, 254, '2020-05-27', '2023-07-08', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (108, 'Soup - Beef, Base Mix', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 93.19, 412, '2017-04-11', '2019-06-18', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (109, 'Peas - Frozen', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 205.71, 561, '2010-03-31', '2022-06-11', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (110, 'Dawn Professionl Pot And Pan', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 450.55, 100, '2019-09-29', '2018-06-11', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (111, 'Chicken - Base', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 234.67, 927, '2004-05-13', '2006-07-28', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (112, 'Creme De Cacao White', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 364.72, 910, '2004-09-22', '2023-01-30', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (113, 'Compound - Mocha', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 7.09, 159, '2013-01-07', '2007-03-18', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (114, 'Wine - Magnotta - Red, Baco', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.', 159.42, 644, '2002-10-12', '2008-02-17', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (115, 'Oil - Shortening - All - Purpose', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 423.35, 811, '2005-07-16', '2020-11-25', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (116, 'Huck White Towels', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 426.44, 608, '2016-11-26', '2005-08-11', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (117, 'Wine - White Cab Sauv.on', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 382.47, 151, '2015-07-10', '2006-11-19', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (118, 'Soup - Campbells, Butternut', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 10.52, 140, '2007-10-14', '2004-07-19', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (119, 'Haggis', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 266.73, 586, '2017-07-24', '2000-04-23', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (120, 'Pepsi, 355 Ml', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 202.19, 212, '2021-04-18', '2020-05-23', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (121, 'Carbonated Water - Blackcherry', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 16.37, 107, '2012-01-01', '2016-12-02', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (122, 'Turnip - Wax', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 138.08, 362, '2000-12-18', '2009-09-14', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (123, 'Marjoram - Fresh', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.', 68.88, 245, '2009-07-05', '2010-11-10', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (124, 'Beets - Golden', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 115.6, 500, '2007-08-08', '2023-10-26', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (125, 'Broom Handle', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 273.38, 15, '2018-04-20', '2009-05-04', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (126, 'Chicken - Whole', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 447.68, 974, '2021-03-14', '2012-03-02', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (127, 'Mousse - Banana Chocolate', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 406.6, 941, '2008-10-23', '2017-01-01', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (128, 'Pastry - Choclate Baked', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 264.0, 581, '2015-05-11', '2019-11-01', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (129, 'Lamb - Shanks', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 183.31, 111, '2022-06-03', '2004-12-09', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (130, 'Creme De Menth - White', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 455.32, 105, '2008-07-01', '2024-02-20', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (131, 'Bread Crumbs - Japanese Style', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 72.37, 921, '2002-10-21', '2005-01-18', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (132, 'Turnip - Wax', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 121.49, 400, '2006-02-17', '2020-12-07', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (133, 'Tart Shells - Sweet, 2', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 200.46, 729, '2017-01-21', '2000-07-04', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (134, 'Pork - Loin, Bone - In', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 301.44, 417, '2001-09-30', '2013-04-21', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (135, 'Spice - Peppercorn Melange', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 67.02, 65, '2016-09-14', '2001-06-03', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (136, 'Wine - Red, Black Opal Shiraz', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 362.85, 290, '2001-04-23', '2014-09-17', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (137, 'Beef - Top Sirloin - Aaa', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 266.76, 870, '2006-10-16', '2011-08-12', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (138, 'Buffalo - Short Rib Fresh', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 478.09, 821, '2019-06-15', '2003-07-29', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (139, 'Wine - Ej Gallo Sierra Valley', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 438.8, 566, '2022-07-18', '2018-08-18', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (140, 'Longos - Burritos', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 261.84, 756, '2006-02-11', '2022-01-18', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (141, 'Lemonade - Pineapple Passion', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 167.09, 956, '2020-02-17', '2013-12-16', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (142, 'Coffee Beans - Chocolate', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 291.56, 808, '2016-11-09', '2017-07-09', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (143, 'Coffee - Decaffeinato Coffee', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 469.35, 147, '2001-05-02', '2014-05-14', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (144, 'Wine - Magnotta, White', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 437.49, 787, '2000-10-25', '2016-12-23', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (145, 'Bag - Clear 7 Lb', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 342.78, 661, '2007-10-15', '2018-03-16', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (146, 'Soup - Campbells Mac N Cheese', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 405.89, 85, '2018-05-07', '2019-01-02', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (147, 'Beans - Black Bean, Dry', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 64.47, 87, '2010-09-26', '2007-07-22', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (148, 'Longos - Assorted Sandwich', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 154.86, 474, '2004-05-26', '2016-06-05', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (149, 'Spice - Greek 1 Step', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 172.87, 207, '2011-03-06', '2001-04-16', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (150, 'Pepper - Red, Finger Hot', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 254.9, 39, '2017-10-30', '2011-03-31', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (151, 'Garam Masala Powder', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 105.82, 13, '2000-03-01', '2008-12-19', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (152, 'Wine - Cahors Ac 2000, Clos', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 209.73, 429, '2016-08-06', '2023-09-16', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (153, 'Uniform Linen Charge', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 381.71, 389, '2007-02-01', '2005-09-08', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (154, 'Glycerine', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 30.79, 160, '2009-01-21', '2017-07-13', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (155, 'Muffin Hinge - 211n', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 316.47, 410, '2003-04-14', '2006-11-29', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (156, 'Chocolate - Feathers', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 148.16, 544, '2010-04-28', '2004-11-09', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (157, 'Banana', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 475.31, 760, '2019-06-28', '2001-07-21', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (158, 'Pepsi - Diet, 355 Ml', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 352.31, 366, '2006-12-07', '2012-08-01', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (159, 'Pastry - Cheese Baked Scones', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 282.47, 687, '2001-11-24', '2011-02-13', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (160, 'Pork Loin Cutlets', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 3.76, 544, '2009-05-24', '2023-01-01', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (161, 'Glass Clear 7 Oz Xl', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 224.96, 67, '2011-07-16', '2021-05-12', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (162, 'Fish - Bones', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 87.27, 582, '2000-12-18', '2007-09-29', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (163, 'Cheese - Grie Des Champ', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 148.27, 762, '2017-09-07', '2004-04-17', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (164, 'Pastry - Raisin Muffin - Mini', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 290.31, 758, '2002-12-03', '2017-10-18', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (165, 'The Pop Shoppe Pinapple', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 4.78, 498, '2019-01-05', '2013-01-01', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (166, 'Oyster - In Shell', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.', 35.19, 803, '2009-02-11', '2011-03-16', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (167, 'Peas Snow', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 260.03, 137, '2017-09-05', '2012-07-19', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (168, 'Cheese - Brie, Cups 125g', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 328.47, 764, '2013-05-29', '2022-12-23', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (169, 'Cheese Cheddar Processed', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 495.65, 702, '2001-12-12', '2016-08-19', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (170, 'Wine - Ruffino Chianti', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 132.54, 450, '2001-08-27', '2014-06-04', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (171, 'Venison - Striploin', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 32.44, 82, '2002-01-30', '2019-11-25', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (172, 'Napkin White - Starched', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 388.82, 80, '2002-11-06', '2024-02-10', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (173, 'Pastry - Baked Cinnamon Stick', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 191.46, 162, '2012-01-15', '2001-02-01', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (174, 'Kumquat', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 97.92, 545, '2008-04-29', '2023-01-29', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (175, 'Garbag Bags - Black', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 300.56, 160, '2010-09-04', '2015-07-01', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (176, 'Energy Drink - Franks Pineapple', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 423.7, 670, '2018-11-24', '2021-03-03', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (177, 'Beef - Striploin Aa', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 105.88, 971, '2013-08-09', '2005-08-05', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (178, 'Toothpick Frilled', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 185.16, 112, '2016-08-14', '2007-11-27', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (179, 'Creme De Menth - White', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 154.09, 18, '2007-10-29', '2019-03-04', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (180, 'Pepper - Red Bell', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 283.38, 368, '2021-08-13', '2010-12-03', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (181, 'Rum - Cream, Amarula', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 36.49, 4, '2018-12-25', '2001-07-06', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (182, 'Cheese - Brie,danish', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 159.23, 377, '2000-06-03', '2006-09-06', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (183, 'Hipnotiq Liquor', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 121.64, 696, '2006-05-10', '2007-12-15', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (184, 'Sugar - Splenda Sweetener', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 133.25, 227, '2012-11-04', '2000-07-06', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (185, 'Juice - Orange', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 281.75, 228, '2018-03-15', '2005-09-18', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (186, 'Oil - Olive', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 102.01, 221, '2000-12-19', '2000-06-05', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (187, 'Bread Foccacia Whole', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 132.46, 326, '2022-10-30', '2023-02-28', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (188, 'Carbonated Water - Strawberry', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 175.01, 959, '2000-03-21', '2015-11-04', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (189, 'Cake - Bande Of Fruit', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 372.2, 476, '2022-05-01', '2008-06-07', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (190, 'Chocolate - Compound Coating', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 90.92, 284, '2020-04-10', '2021-11-14', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (191, 'Water - Mineral, Carbonated', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 89.21, 395, '2006-12-02', '2006-02-16', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (192, 'Wine - Casillero Del Diablo', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 277.49, 250, '2022-08-24', '2000-05-18', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (193, 'Bar Special K', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 41.58, 9, '2014-01-17', '2023-08-14', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (194, 'Potatoes - Instant, Mashed', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 447.36, 631, '2016-10-26', '2012-01-22', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (195, 'Wine - Balbach Riverside', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 385.55, 610, '2014-01-09', '2020-02-05', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (196, 'Beef - Rib Roast, Capless', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 382.75, 892, '2005-01-22', '2006-12-10', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (197, 'Swordfish Loin Portions', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 441.8, 600, '2014-01-15', '2021-06-14', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (198, 'Wine - Sawmill Creek Autumn', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 0.58, 764, '2020-07-04', '2011-07-19', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (199, 'Soup - Campbells, Lentil', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 131.74, 328, '2005-03-08', '2019-02-05', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (200, 'Syrup - Monin, Swiss Choclate', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 457.78, 510, '2005-05-17', '2017-08-06', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (201, 'Bread - Assorted Rolls', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 331.73, 154, '2016-07-15', '2009-10-02', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (202, 'Cod - Fillets', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 177.5, 26, '2014-06-14', '2024-02-22', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (203, 'Plums - Red', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 215.6, 193, '2019-05-31', '2001-02-16', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (204, 'Nut - Cashews, Whole, Raw', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 258.64, 695, '2017-09-15', '2018-03-19', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (205, 'Sansho Powder', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 110.27, 172, '2007-07-16', '2002-01-21', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (206, 'Oil - Cooking Spray', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 108.71, 369, '2019-08-14', '2005-11-28', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (207, 'Cheese - Mozzarella, Shredded', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 473.82, 60, '2014-09-30', '2019-04-03', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (208, 'Veal - Osso Bucco', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 143.65, 504, '2010-05-01', '2015-12-13', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (209, 'Cheese - Havarti, Roasted Garlic', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 467.94, 794, '2021-05-08', '2017-05-11', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (210, 'Chicken - Base', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 66.71, 216, '2015-12-03', '2002-05-16', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (211, 'Versatainer Nc - 888', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 393.85, 407, '2008-03-03', '2012-01-25', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (212, 'Eggplant Oriental', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 292.71, 579, '2020-09-02', '2015-04-15', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (213, 'Spic And Span All Purpose', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 198.26, 868, '2020-05-09', '2023-12-05', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (214, 'Bread - Burger', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 28.84, 1000, '2006-01-14', '2003-02-08', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (215, 'Trueblue - Blueberry', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 440.4, 858, '2013-08-05', '2007-05-01', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (216, 'Lettuce - Escarole', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 446.41, 5, '2019-02-02', '2016-10-12', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (217, 'Table Cloth 62x120 White', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 81.74, 859, '2018-07-05', '2000-03-04', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (218, 'Flax Seed', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 312.66, 660, '2012-08-24', '2003-10-03', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (219, 'Pork - Sausage, Medium', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 46.51, 866, '2022-03-09', '2018-02-26', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (220, 'Apple - Delicious, Golden', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 143.53, 909, '2019-05-03', '2014-10-10', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (221, 'Cinnamon Buns Sticky', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.', 367.44, 749, '2016-12-31', '2021-11-28', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (222, 'Container - Clear 32 Oz', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 32.04, 176, '2015-05-22', '2010-03-31', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (223, 'Anchovy In Oil', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 7.06, 605, '2014-07-09', '2006-08-04', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (224, 'Bread - Bagels, Mini', 'Fusce consequat. Nulla nisl. Nunc nisl.', 172.1, 116, '2013-04-18', '2005-07-12', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (225, 'Chicken Breast Wing On', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 83.1, 863, '2006-10-22', '2011-10-16', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (226, 'Red Snapper - Fresh, Whole', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 199.82, 619, '2008-02-11', '2002-12-12', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (227, 'Veal - Striploin', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 204.21, 856, '2010-04-04', '2011-05-14', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (228, 'Island Oasis - Wildberry', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 404.83, 205, '2006-09-12', '2006-01-05', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (229, 'Sunflower Seed Raw', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 260.1, 485, '2003-09-23', '2009-02-24', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (230, 'Wine - Fat Bastard Merlot', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 90.0, 197, '2003-06-12', '2021-07-22', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (231, 'Peppercorns - Green', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 428.26, 879, '2002-04-07', '2004-06-10', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (232, 'Beer - Blue Light', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 193.1, 339, '2006-08-08', '2002-03-23', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (233, 'Bread Cranberry Foccacia', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.', 497.12, 665, '2004-10-27', '2017-05-22', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (234, 'Lobster - Base', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.', 248.35, 368, '2013-03-04', '2001-07-15', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (235, 'Extract - Raspberry', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 347.28, 493, '2019-07-22', '2006-02-26', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (236, 'Paste - Black Olive', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 328.87, 719, '2017-06-12', '2011-06-01', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (237, 'Broom - Push', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 268.54, 826, '2022-12-27', '2020-03-31', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (238, 'Chocolate - Compound Coating', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 378.85, 68, '2000-04-09', '2005-08-25', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (239, 'Lamb - Pieces, Diced', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 391.04, 745, '2018-09-19', '2003-09-09', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (240, 'Wine - White Cab Sauv.on', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 322.63, 579, '2011-01-02', '2000-03-25', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (241, 'Coffee - Flavoured', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 386.69, 76, '2002-11-18', '2008-11-16', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (242, 'Cake - Cake Sheet Macaroon', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 362.66, 283, '2018-12-25', '2019-04-10', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (243, 'Crab - Meat', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.', 286.46, 611, '2008-04-03', '2001-03-10', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (244, 'Shrimp - Black Tiger 16/20', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 402.62, 249, '2016-05-06', '2019-05-09', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (245, 'Garbage Bag - Clear', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 179.19, 322, '2017-12-13', '2006-07-21', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (246, 'Nougat - Paste / Cream', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 112.47, 759, '2009-04-17', '2001-06-10', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (247, 'Tortillas - Flour, 12', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 220.39, 281, '2004-07-09', '2018-06-03', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (248, 'Veal - Liver', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 256.91, 925, '2006-10-31', '2000-01-10', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (249, 'Muffin Mix - Raisin Bran', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 117.62, 245, '2021-08-21', '2000-07-29', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (250, 'Dried Apple', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 42.05, 336, '2019-08-20', '2003-11-14', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (251, 'Sprite, Diet - 355ml', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 196.4, 107, '2019-05-28', '2018-06-16', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (252, 'Pear - Prickly', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 382.56, 868, '2014-09-23', '2001-03-07', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (253, 'Swiss Chard - Red', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 153.41, 426, '2003-03-07', '2023-07-27', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (254, 'Bulgar', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 317.59, 867, '2001-03-11', '2020-09-02', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (255, 'Pepper - Black, Ground', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 425.18, 922, '2008-12-31', '2019-09-29', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (256, 'Tequila Rose Cream Liquor', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 437.47, 732, '2001-11-11', '2010-11-29', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (257, 'Oil - Olive, Extra Virgin', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 323.0, 22, '2019-12-27', '2021-05-13', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (258, 'Rootbeer', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 16.09, 761, '2017-01-11', '2008-01-28', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (259, 'Stock - Chicken, White', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 316.96, 498, '2007-03-07', '2016-10-31', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (260, 'Goldschalger', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 30.07, 284, '2002-12-15', '2009-03-14', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (261, 'Salmon - Atlantic, Fresh, Whole', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 22.86, 512, '2002-09-21', '2020-03-08', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (262, 'Milk 2% 500 Ml', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 49.76, 648, '2001-07-17', '2019-08-24', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (263, 'Fireball Whisky', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 458.97, 367, '2007-05-03', '2011-05-28', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (264, 'Appetizer - Escargot Puff', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 71.55, 49, '2010-09-01', '2017-09-11', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (265, 'Chicken - Wings, Tip Off', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 203.49, 618, '2000-07-14', '2021-06-10', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (266, 'Fib N9 - Prague Powder', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 428.31, 459, '2009-01-15', '2023-01-13', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (267, 'Vinegar - White', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 67.88, 389, '2018-11-15', '2023-04-23', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (268, 'Cranberry Foccacia', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 350.25, 160, '2011-11-27', '2023-02-04', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (269, 'Veal - Inside, Choice', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 206.26, 681, '2003-02-23', '2011-07-02', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (270, 'Bread Roll Foccacia', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 441.17, 298, '2006-01-22', '2006-09-06', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (271, 'Water - Tonic', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 289.94, 894, '2010-01-20', '2000-01-04', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (272, 'Pumpkin', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 281.06, 122, '2021-04-03', '2013-07-29', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (273, 'Foie Gras', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 435.43, 455, '2001-07-24', '2008-07-08', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (274, 'Pork - Bacon Cooked Slcd', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 359.88, 343, '2020-03-23', '2023-10-19', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (275, 'Shrimp, Dried, Small / Lb', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 284.7, 21, '2001-01-05', '2009-01-24', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (276, 'Muffin Mix - Raisin Bran', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 47.33, 819, '2006-04-05', '2014-11-17', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (277, 'Milk - Chocolate 500ml', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 419.61, 857, '2003-09-30', '2002-09-20', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (278, 'Filter - Coffee', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 25.47, 615, '2015-04-04', '2016-03-22', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (279, 'Sauce - Mint', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 230.93, 652, '2020-07-08', '2015-02-02', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (280, 'Pasta - Canelloni', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 176.53, 266, '2016-08-17', '2016-09-27', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (281, 'Bag Clear 10 Lb', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 116.24, 694, '2004-12-11', '2011-12-13', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (282, 'Dish Towel', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 430.02, 206, '2012-03-22', '2000-07-05', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (283, 'Pastry - Banana Tea Loaf', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.', 432.77, 484, '2000-02-25', '2000-08-30', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (284, 'Blackberries', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 312.93, 777, '2022-03-15', '2015-06-18', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (285, 'Cactus Pads', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 390.86, 547, '2017-04-20', '2010-05-19', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (286, 'Chicken - Wings, Tip Off', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 130.68, 387, '2017-03-18', '2007-01-14', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (287, 'Lettuce - Boston Bib', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 405.31, 423, '2014-01-17', '2000-06-17', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (288, 'Wine - Alicanca Vinho Verde', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 353.42, 949, '2017-05-16', '2018-04-15', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (289, 'Chocolate - Semi Sweet', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.', 449.7, 206, '2012-07-16', '2006-08-09', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (290, 'Cookies Cereal Nut', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 213.91, 123, '2003-02-04', '2000-09-11', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (291, 'Grenadillo', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 38.61, 660, '2010-09-09', '2009-10-20', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (292, 'Sauce - Roasted Red Pepper', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 251.06, 321, '2017-07-15', '2015-08-27', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (293, 'Sprouts - China Rose', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 124.81, 446, '2001-10-22', '2023-02-10', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (294, 'Towel Multifold', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 105.7, 462, '2015-01-24', '2008-07-15', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (295, 'Bacardi Mojito', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 143.16, 242, '2007-06-15', '2009-06-13', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (296, 'Jam - Raspberry', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 121.95, 915, '2005-05-10', '2019-05-14', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (297, 'Bread - Multigrain', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 330.56, 188, '2010-10-28', '2019-02-26', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (298, 'Sugar - Individual Portions', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 458.07, 792, '2020-01-27', '2017-09-19', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (299, 'Chocolate - Compound Coating', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 343.68, 244, '2018-12-03', '2001-03-15', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (300, 'Mangostein', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 384.76, 324, '2013-11-04', '2015-03-14', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (301, 'Mackerel Whole Fresh', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 31.68, 628, '2015-08-08', '2017-03-27', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (302, 'Mix Pina Colada', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 350.43, 328, '2010-08-12', '2014-08-15', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (303, 'Pear - Packum', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 360.69, 883, '2020-09-18', '2009-01-25', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (304, 'Wine - Casillero Del Diablo', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 16.43, 950, '2010-11-01', '2004-05-10', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (305, 'Brandy - Bar', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.', 425.26, 923, '2013-12-11', '2019-12-16', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (306, 'Syrup - Monin, Irish Cream', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 258.78, 9, '2020-10-31', '2013-01-14', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (307, 'Cup - Paper 10oz 92959', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 203.77, 813, '2008-09-26', '2020-12-08', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (308, 'Pastry - Banana Muffin - Mini', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 496.71, 654, '2010-05-19', '2016-03-13', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (309, 'Apple - Granny Smith', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 163.46, 829, '2010-05-18', '2011-10-14', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (310, 'Beef - Top Sirloin - Aaa', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 283.85, 426, '2009-06-11', '2004-11-04', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (311, 'Vermouth - White, Cinzano', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 352.26, 284, '2022-12-27', '2000-10-16', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (312, 'Vinegar - Balsamic', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 306.3, 284, '2016-07-14', '2014-07-31', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (313, 'Broom - Angled', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 322.36, 421, '2004-03-02', '2022-04-03', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (314, 'Cheese - Mozzarella, Shredded', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 484.05, 222, '2017-04-07', '2017-03-23', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (315, 'Tart - Butter Plain Squares', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 233.49, 469, '2010-07-27', '2009-07-10', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (316, 'Spice - Peppercorn Melange', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 270.34, 726, '2007-10-02', '2021-05-14', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (317, 'Drambuie', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 326.67, 834, '2018-07-31', '2022-07-10', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (318, 'Fiddlehead - Frozen', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 483.13, 267, '2022-06-19', '2011-06-30', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (319, 'Soup Campbells Beef With Veg', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 165.4, 693, '2005-01-02', '2007-04-15', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (320, 'Wine - Riesling Alsace Ac 2001', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 372.91, 474, '2001-12-09', '2015-11-17', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (321, 'Apricots - Halves', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.', 412.73, 454, '2006-12-22', '2023-06-30', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (322, 'Sultanas', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.', 277.1, 364, '2016-12-17', '2001-06-15', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (323, 'Crab Meat Claw Pasteurise', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 468.9, 915, '2014-03-20', '2005-06-28', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (324, 'Wine - Pinot Noir Latour', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
 
 Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
 
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 5349.28, 390404500, '2024-07-10', '2023-11-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (690, 'Roe - Flying Fish', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
-
-Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 2835.89, 978799607, '2024-03-26', '2023-10-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (691, 'Flour - Teff', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
-
-Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 9388.15, 1884433059, '2024-02-24', '2023-10-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (692, 'Foil - Round Foil', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 4429.93, 1119129390, '2024-08-25', '2024-07-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (693, 'Lid - 16 Oz And 32 Oz', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 7657.09, 1735278825, '2024-08-08', '2024-08-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (694, 'Pork - Back Ribs', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
-
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 5588.77, 1062889970, '2024-05-04', '2024-08-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (695, 'Soho Lychee Liqueur', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 9716.16, 716832388, '2024-09-19', '2024-03-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (696, 'Muffin Puck Ww Carrot', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.
-
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 1203.31, 836245093, '2024-05-07', '2023-10-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (697, 'Appetizer - Seafood Assortment', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 8812.47, 1657803383, '2024-04-21', '2024-09-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (698, 'Island Oasis - Lemonade', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
-
-Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
-
-Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 1921.55, 560489224, '2024-02-15', '2023-11-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (699, 'Carrots - Mini Red Organic', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
-
-Phasellus in felis. Donec semper sapien a libero. Nam dui.', 5829.01, 1219550283, '2024-08-13', '2024-09-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (700, 'Roe - Flying Fish', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
-
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 370.27, 1660517992, '2024-03-04', '2024-08-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (701, 'Napkin White - Starched', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 7895.56, 1058167020, '2024-01-04', '2024-02-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (702, 'Pasta - Detalini, White, Fresh', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.', 6227.77, 1298477503, '2024-05-09', '2024-08-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (703, 'Cocoa Feuilletine', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 5634.28, 171763454, '2024-06-11', '2024-03-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (704, 'Chambord Royal', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 9765.04, 723480006, '2023-11-01', '2023-12-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (705, 'Tuna - Loin', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 3287.81, 1456916549, '2024-08-20', '2024-09-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (706, 'Apricots - Halves', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 7814.14, 1726558385, '2023-12-27', '2023-11-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (707, 'Longos - Chicken Caeser Salad', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 4518.54, 661816691, '2024-01-02', '2023-09-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (708, 'Mushroom - Morel Frozen', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
-
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 3158.4, 1952205173, '2023-12-12', '2024-08-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (709, 'Goat - Whole Cut', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 7533.73, 696300792, '2023-12-15', '2024-01-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (710, 'Veal Inside - Provimi', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 3065.98, 1027720211, '2023-12-02', '2024-01-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (711, 'Soup - Campbells, Chix Gumbo', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 6601.26, 1005241717, '2023-11-23', '2023-11-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (712, 'Corn Kernels - Frozen', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 3076.45, 488336093, '2024-05-28', '2023-11-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (713, 'Muffin - Blueberry Individual', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 9797.78, 984646752, '2024-08-11', '2024-03-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (714, 'Water - Aquafina Vitamin', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 6568.73, 300778632, '2024-02-04', '2024-08-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (715, 'Curry Paste - Madras', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 1035.07, 743045616, '2024-03-14', '2024-03-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (716, 'Wine - Chenin Blanc K.w.v.', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 7068.11, 360403961, '2024-05-03', '2024-01-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (717, 'Brandy Cherry - Mcguinness', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 1924.57, 327220565, '2024-04-01', '2024-07-31');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (718, 'Pastry - French Mini Assorted', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 7978.22, 1089677632, '2024-08-19', '2024-07-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (719, 'Sherry - Dry', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 7412.38, 1113070478, '2024-02-19', '2024-07-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (720, 'Soup Campbells Split Pea And Ham', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 2988.34, 1616475513, '2024-08-07', '2024-05-31');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (721, 'Juice - Grapefruit, 341 Ml', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 8497.7, 629519158, '2024-03-08', '2023-10-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (722, 'Ice Cream - Turtles Stick Bar', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 950.5, 1160930746, '2024-03-02', '2024-02-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (723, 'Eggs - Extra Large', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
-
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 3909.22, 321005245, '2023-10-13', '2023-12-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (724, 'Sage - Rubbed', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 9378.3, 1948653024, '2024-08-14', '2024-03-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (725, 'Coffee Swiss Choc Almond', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 5788.11, 270699569, '2024-01-14', '2024-08-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (726, 'Cookies - Oreo, 4 Pack', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 8838.92, 1828533706, '2024-08-30', '2024-05-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (727, 'Beer - Sleeman Fine Porter', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
-
-Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 4234.64, 43368453, '2024-06-07', '2024-08-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (728, 'Chip - Potato Dill Pickle', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 5346.08, 915512575, '2024-03-22', '2024-06-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (729, 'Squid - U 5', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
-
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.', 8871.91, 481118959, '2024-07-18', '2023-10-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (730, 'Seabream Whole Farmed', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 6253.89, 661259934, '2023-11-08', '2023-10-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (731, 'Toothpick Frilled', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
-
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 5739.37, 1023096634, '2023-12-31', '2024-06-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (732, 'Beef - Short Ribs', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 7067.79, 1192824361, '2023-11-23', '2023-10-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (733, 'Oranges - Navel, 72', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
-
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.', 3704.22, 564939776, '2024-09-22', '2024-05-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (734, 'Cheese - Brick With Pepper', 'Fusce consequat. Nulla nisl. Nunc nisl.', 6769.07, 1443444745, '2023-11-08', '2024-09-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (735, 'Capicola - Hot', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 6868.08, 1899258605, '2024-08-21', '2024-08-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (736, 'Chicken - Leg / Back Attach', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.', 2420.38, 168175345, '2024-08-15', '2024-03-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (737, 'Bread - Sour Batard', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 622.36, 1909696926, '2024-05-10', '2023-10-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (738, 'Wood Chips - Regular', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 2386.82, 529675289, '2023-12-09', '2023-10-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (739, 'The Pop Shoppe - Black Cherry', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 723.84, 1106197586, '2024-07-18', '2023-12-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (740, 'Pie Shells 10', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 9615.58, 171377446, '2024-02-18', '2024-06-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (741, 'Cheese - Comtomme', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 887.27, 1591672637, '2024-07-10', '2024-01-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (742, 'Crab - Claws, 26 - 30', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
-
-Phasellus in felis. Donec semper sapien a libero. Nam dui.', 9874.6, 2100129503, '2024-06-26', '2024-05-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (743, 'Wine - Soave Folonari', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 5336.64, 1550486805, '2023-10-08', '2024-05-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (744, 'Muffin - Zero Transfat', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 8787.01, 223559644, '2023-12-22', '2023-11-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (745, 'Soup - Cream Of Potato / Leek', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 53.19, 651, '2001-11-09', '2022-07-31', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (325, 'Nori Sea Weed', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 145.75, 429, '2016-09-19', '2019-07-16', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (326, 'Wine - Pinot Noir Mondavi Coastal', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
 
 Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
 
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 5275.18, 36421003, '2024-01-20', '2023-10-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (746, 'Southern Comfort', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 38.98, 125, '2022-07-22', '2021-06-12', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (327, 'Daikon Radish', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 179.48, 943, '2010-01-06', '2023-02-20', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (328, 'Glaze - Clear', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 113.87, 311, '2014-04-01', '2023-07-28', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (329, 'Whmis - Spray Bottle Trigger', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 75.31, 141, '2011-11-21', '2020-04-19', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (330, 'Bread Country Roll', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 493.9, 830, '2011-07-18', '2014-05-02', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (331, 'Gelatine Powder', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 380.48, 718, '2020-02-14', '2005-09-09', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (332, 'Beets', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
 
 Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
 
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 3350.78, 1622539189, '2024-03-25', '2024-02-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (747, 'Shrimp - 21/25, Peel And Deviened', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 244.06, 995, '2020-10-04', '2014-06-06', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (333, 'Bread - Calabrese Baguette', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
 
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 84.95, 333, '2010-02-07', '2007-10-17', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (334, 'Bulgar', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
 
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 1336.13, 830284328, '2024-05-02', '2024-06-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (748, 'Dried Peach', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 4723.8, 1283857478, '2024-09-06', '2024-04-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (749, 'Cookies - Englishbay Oatmeal', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 7595.06, 1675758263, '2024-02-20', '2024-08-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (750, 'Nut - Pistachio, Shelled', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 9663.36, 1046048519, '2024-03-01', '2024-03-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (751, 'Cream - 35%', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 3646.61, 504613819, '2023-12-18', '2024-08-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (752, 'Icecream Cone - Areo Chocolate', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 4558.14, 1232406195, '2024-01-20', '2024-04-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (753, 'Kumquat', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 8573.21, 384283182, '2024-02-19', '2024-06-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (754, 'Grapefruit - Pink', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 1381.43, 294230008, '2024-05-18', '2024-08-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (755, 'Steel Wool S.o.s', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 1596.52, 1883347670, '2024-06-07', '2024-06-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (756, 'Venison - Racks Frenched', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 4964.74, 1652383903, '2024-05-18', '2024-04-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (757, 'Rum - Coconut, Malibu', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 5824.36, 720319733, '2024-05-24', '2024-02-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (758, 'Rum - Cream, Amarula', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 6928.47, 470082618, '2024-06-22', '2024-09-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (759, 'Basil - Primerba, Paste', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 8808.22, 906371782, '2023-10-31', '2024-06-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (760, 'Chocolate - Dark Callets', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 4419.35, 695771184, '2024-05-07', '2024-02-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (761, 'Wheat - Soft Kernal Of Wheat', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 7781.41, 1574282557, '2024-06-23', '2024-02-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (762, 'Foil Cont Round', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 1159.13, 461916093, '2024-01-05', '2023-11-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (763, 'Wine - Cabernet Sauvignon', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
-
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 2901.95, 231089849, '2023-10-13', '2024-08-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (764, 'Sausage - Meat', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 2523.03, 923975919, '2024-04-17', '2023-12-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (765, 'Appetizer - Sausage Rolls', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 1516.85, 1850620753, '2023-11-16', '2024-01-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (766, 'Cream - 35%', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 5977.57, 352068596, '2024-06-18', '2024-01-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (767, 'Oven Mitts - 15 Inch', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
-
-Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 4471.31, 9029235, '2024-06-22', '2024-02-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (768, 'Kirsch - Schloss', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
-
-Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 7619.43, 177431619, '2024-03-02', '2024-08-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (769, 'Wine - White, French Cross', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 8622.19, 614483734, '2024-09-24', '2024-09-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (770, 'Potatoes - Yukon Gold, 80 Ct', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
-
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 8818.54, 563467255, '2024-07-22', '2024-01-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (771, 'Sauce - Chili', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 971.27, 569188485, '2023-12-27', '2024-05-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (772, 'Potatoes - Purple, Organic', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 5543.9, 1298439749, '2024-03-24', '2024-02-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (773, 'Corn - Cream, Canned', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 2413.33, 1634608336, '2024-07-24', '2024-05-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (774, 'Chips Potato Salt Vinegar 43g', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 1288.99, 1685409369, '2023-12-09', '2023-12-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (775, 'Glucose', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 3742.41, 1547999832, '2023-11-25', '2024-02-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (776, 'Oil - Sesame', 'Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 7011.88, 1064707217, '2024-07-23', '2024-08-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (777, 'Bagel - Everything', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 9897.46, 8079524, '2023-10-24', '2023-12-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (778, 'Papayas', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.
-
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 4564.12, 2084237657, '2024-08-26', '2024-06-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (779, 'Broom - Corn', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 9945.67, 1319141430, '2024-04-30', '2024-01-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (780, 'Ice Cream - Vanilla', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 5247.92, 282366813, '2024-09-02', '2024-03-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (781, 'Pop Shoppe Cream Soda', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 8812.19, 1659866257, '2024-09-20', '2024-05-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (782, 'Chilli Paste, Ginger Garlic', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 6979.51, 1147377892, '2023-12-22', '2024-01-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (783, 'Cheese Cloth', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 8140.56, 1715406060, '2024-07-05', '2024-06-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (784, 'Milk - Chocolate 250 Ml', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 9013.82, 443271826, '2024-01-04', '2024-04-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (785, 'Pork - Backfat', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 5731.89, 409853374, '2023-12-10', '2024-08-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (786, 'Coriander - Ground', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 687.26, 1587444182, '2024-08-23', '2024-07-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (787, 'Soup - Campbells Broccoli', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 4170.87, 69893839, '2024-07-20', '2023-10-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (788, 'Monkfish Fresh - Skin Off', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
-
-Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 2854.64, 1760548624, '2024-06-05', '2024-06-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (789, 'Pepper - Gypsy Pepper', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 8313.36, 2034529737, '2024-04-16', '2023-10-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (790, 'Tea - Orange Pekoe', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 5089.93, 1253770003, '2023-10-27', '2024-09-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (791, 'Bok Choy - Baby', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 761.27, 1803729048, '2023-10-22', '2024-04-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (792, 'Beans - Kidney, Red Dry', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 3922.88, 193717630, '2024-04-03', '2024-09-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (793, 'Sea Bass - Fillets', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 4987.47, 179531644, '2024-03-20', '2024-04-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (794, 'Paper Towel Touchless', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 2644.09, 489732327, '2023-10-18', '2023-10-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (795, 'Chips Potato All Dressed - 43g', 'Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 5939.61, 1677493260, '2024-04-20', '2024-04-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (796, 'Wine - Delicato Merlot', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
-
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
-
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 4413.93, 1601312372, '2024-02-25', '2023-11-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (797, 'Broom Handle', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 450.43, 1483697438, '2023-11-25', '2024-05-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (798, 'Vanilla Beans', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 5007.28, 1063357145, '2024-06-28', '2024-06-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (799, 'Sprouts - Corn', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
-
-Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 8399.65, 778014589, '2024-03-27', '2024-04-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (800, 'Pepperoni Slices', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 5005.22, 2027719567, '2024-07-16', '2023-11-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (801, 'Beef Striploin Aaa', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
-
-Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 7121.98, 374150754, '2024-04-22', '2024-03-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (802, 'Quail - Eggs, Fresh', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 3249.41, 32899710, '2024-08-03', '2024-07-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (803, 'Tart - Raisin And Pecan', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 8708.24, 203572086, '2023-11-10', '2024-08-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (804, 'Goulash Seasoning', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 1837.13, 220705293, '2024-07-30', '2024-04-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (805, 'Vanilla Beans', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 6621.38, 1405124098, '2023-12-26', '2024-01-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (806, 'Sprouts Dikon', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 1243.8, 2053526350, '2024-09-03', '2023-12-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (807, 'Mushroom - Chanterelle Frozen', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 872.46, 969369491, '2023-09-30', '2024-07-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (808, 'Shark - Loin', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.', 4722.76, 384976471, '2024-07-11', '2024-09-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (809, 'Shrimp - 150 - 250', 'Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 2718.86, 1399256873, '2024-07-20', '2024-05-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (810, 'Soup - Campbells, Butternut', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 318.52, 629909942, '2023-12-23', '2023-12-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (811, 'Tea - Honey Green Tea', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 9977.44, 301577591, '2024-05-11', '2024-04-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (812, 'Crackers - Trio', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 2681.42, 515100188, '2024-01-05', '2024-06-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (813, 'Orange - Blood', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 5574.29, 543608870, '2024-05-23', '2024-06-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (814, 'Pomegranates', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
-
-Phasellus in felis. Donec semper sapien a libero. Nam dui.', 5412.2, 252950783, '2024-02-04', '2024-05-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (815, 'Muffin Mix - Morning Glory', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 7076.11, 303108110, '2024-04-21', '2023-09-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (816, 'Juice - Propel Sport', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.', 1423.05, 1256699637, '2024-07-18', '2024-08-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (817, 'Wine - Red, Black Opal Shiraz', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
-
-Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 2519.61, 1494796823, '2024-08-31', '2024-02-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (818, 'Chocolate - Compound Coating', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
-
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 2569.34, 559596814, '2024-06-08', '2024-07-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (819, 'Beef - Rib Roast, Capless', 'Fusce consequat. Nulla nisl. Nunc nisl.', 2993.86, 482480570, '2024-02-09', '2024-05-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (820, 'Lamb - Whole, Frozen', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 681.51, 1568173905, '2024-05-10', '2023-12-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (821, 'Wine - Dubouef Macon - Villages', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 290.99, 1938481318, '2023-10-05', '2023-12-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (822, 'Cup - 3.5oz, Foam', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.', 7524.34, 1386012094, '2024-04-10', '2024-07-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (823, 'Oil - Truffle, White', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
-
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 3833.31, 1739238044, '2024-01-08', '2024-03-31');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (824, 'Bread - Ciabatta Buns', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 349.04, 651738534, '2023-12-01', '2024-03-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (825, 'Cheese - Augre Des Champs', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 5758.0, 1800159841, '2024-02-13', '2024-05-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (826, 'Brandy - Orange, Mc Guiness', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
-
-Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 6937.68, 1321922960, '2024-01-13', '2024-08-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (827, 'Sage Ground Wiberg', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 6843.15, 1468183361, '2024-06-27', '2024-05-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (828, 'Bacon Strip Precooked', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 9238.27, 1751894147, '2024-08-15', '2024-04-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (829, 'Foam Dinner Plate', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
-
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 8252.44, 79329522, '2024-04-06', '2024-09-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (830, 'Wine - Marlbourough Sauv Blanc', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 4577.4, 794565193, '2024-04-01', '2024-03-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (831, 'Sprouts - Peppercress', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 8462.67, 1565841209, '2024-03-10', '2024-01-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (832, 'Flour - So Mix Cake White', 'In congue. Etiam justo. Etiam pretium iaculis justo.
-
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
-
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 3074.46, 862630685, '2024-05-19', '2024-09-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (833, 'Salami - Genova', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 1853.6, 1912720769, '2024-01-27', '2024-06-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (834, 'Bacon Strip Precooked', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.', 6938.25, 773162980, '2023-11-28', '2024-08-31');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (835, 'Pomegranates', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 6749.53, 506316459, '2024-03-23', '2024-04-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (836, 'Bread - Kimel Stick Poly', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
-
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 4064.4, 854538445, '2024-05-07', '2024-08-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (837, 'Coffee - Dark Roast', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 8919.69, 8449452, '2024-06-30', '2024-08-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (838, 'Hand Towel', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
-
-Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 5269.03, 1126358143, '2024-05-07', '2023-11-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (839, 'Transfer Sheets', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 2720.53, 1515978264, '2023-10-18', '2024-01-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (840, 'Yokaline', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 4800.6, 122564433, '2024-08-16', '2024-05-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (841, 'Dehydrated Kelp Kombo', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 3535.38, 245667733, '2024-02-27', '2024-02-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (842, 'Nut - Almond, Blanched, Sliced', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 2863.02, 832121012, '2024-04-26', '2024-09-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (843, 'Tea - Darjeeling, Azzura', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 2601.65, 1562123707, '2024-04-11', '2024-04-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (844, 'Cheese - Augre Des Champs', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 2468.26, 1142693602, '2024-01-27', '2024-08-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (845, 'Wine - White, Concha Y Toro', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 9274.56, 708897036, '2024-04-17', '2023-09-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (846, 'Veal - Eye Of Round', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 7105.31, 2030214422, '2023-10-08', '2023-12-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (847, 'Beef - Ox Tail, Frozen', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 9635.33, 2057488380, '2024-01-30', '2023-11-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (848, 'Cheese - Provolone', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 2519.69, 92125276, '2024-03-09', '2024-08-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (849, 'Veal - Round, Eye Of', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 4052.35, 316124952, '2023-11-20', '2023-12-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (850, 'Alize Red Passion', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 7210.7, 627082558, '2023-10-07', '2024-07-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (851, 'Beef - Tenderloin - Aa', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 8653.67, 2024506492, '2023-10-12', '2024-01-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (852, 'Beans - Butter Lrg Lima', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
-
-Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 3771.29, 820721825, '2024-05-12', '2024-02-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (853, 'Pork - Butt, Boneless', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
-
-Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 1385.3, 1389932023, '2023-10-25', '2024-06-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (854, 'Spinach - Frozen', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 2961.1, 962977912, '2024-01-28', '2024-02-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (855, 'Spoon - Soup, Plastic', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 4065.21, 2015383650, '2024-05-17', '2023-12-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (856, 'Soupfoamcont12oz 112con', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 2825.68, 1114791328, '2024-07-24', '2024-01-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (857, 'Rum - Spiced, Captain Morgan', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.', 3254.19, 2005572678, '2024-03-04', '2023-10-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (858, 'Ham - Procutinni', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 5352.73, 1121173599, '2023-11-05', '2024-05-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (859, 'Goldschalger', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 4559.1, 1035043752, '2024-04-24', '2024-08-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (860, 'Crackers Cheez It', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 4052.46, 1121762098, '2024-03-30', '2024-08-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (861, 'Chutney Sauce', 'Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 263.06, 608805581, '2023-10-01', '2023-12-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (862, 'Tarragon - Fresh', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 520.58, 942252380, '2023-12-05', '2024-03-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (863, 'Cranberries - Fresh', 'Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 1367.62, 900810810, '2023-12-23', '2023-10-23');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (864, 'Pastry - Cherry Danish - Mini', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 8972.1, 1755032158, '2024-06-16', '2024-08-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (865, 'Extract - Vanilla,artificial', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 4377.44, 2059809280, '2024-04-28', '2024-02-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (866, 'Wine - German Riesling', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 3241.65, 355152905, '2023-12-25', '2023-11-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (867, 'Rosemary - Dry', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.
-
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 631.29, 1211121811, '2024-02-11', '2024-05-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (868, 'Wine - Red, Concha Y Toro', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 7941.14, 1708802238, '2024-04-06', '2024-02-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (869, 'Soho Lychee Liqueur', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
-
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 1703.07, 2097556325, '2023-11-05', '2023-10-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (870, 'Nantucket - 518ml', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
-
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 7723.66, 481050075, '2024-01-14', '2024-02-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (871, 'Latex Rubber Gloves Size 9', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 5169.08, 1623432948, '2024-09-12', '2023-12-31');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (872, 'Beef - Tenderlion, Center Cut', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 2782.64, 1471938345, '2024-06-16', '2024-01-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (873, 'Beef - Montreal Smoked Brisket', 'Fusce consequat. Nulla nisl. Nunc nisl.', 4087.42, 1637569991, '2024-02-24', '2023-12-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (874, 'Tilapia - Fillets', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 2990.53, 1848156609, '2023-12-15', '2023-12-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (875, 'Foam Espresso Cup Plain White', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 2944.2, 518419246, '2024-08-19', '2024-01-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (876, 'Juice - V8 Splash', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
-
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 5100.23, 2042639556, '2023-10-30', '2024-03-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (877, 'Ginger - Fresh', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 5756.91, 234185651, '2024-01-02', '2024-01-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (878, 'Turnip - White', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 2426.04, 897252615, '2024-03-22', '2024-06-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (879, 'Liquid Aminios Acid - Braggs', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 2606.23, 1280850102, '2023-12-22', '2024-08-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (880, 'Syrup - Chocolate', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 2904.35, 1116890255, '2024-02-27', '2023-12-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (881, 'Dome Lid Clear P92008h', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
-
-Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 9387.5, 1421075258, '2024-01-03', '2023-12-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (882, 'Raspberries - Frozen', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 8489.93, 669547667, '2024-05-02', '2024-01-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (883, 'Mustard Prepared', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 3977.33, 722616583, '2023-11-07', '2024-07-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (884, 'Mortadella', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 1418.8, 1461874844, '2024-08-25', '2023-11-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (885, 'Beef Dry Aged Tenderloin Aaa', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 8205.16, 638124870, '2024-02-27', '2023-11-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (886, 'Muffin Puck Ww Carrot', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 7710.8, 202564513, '2023-11-08', '2024-01-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (887, 'Shrimp - Black Tiger 6 - 8', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 3038.08, 150762229, '2024-06-08', '2023-10-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (888, 'Cheese - Mozzarella, Shredded', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 1375.62, 2047289912, '2024-03-31', '2024-03-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (889, 'Fond - Chocolate', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 2796.06, 1771773442, '2024-07-27', '2024-08-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (890, 'Vector Energy Bar', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 7202.91, 1930735451, '2023-11-08', '2024-09-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (891, 'Coffee - Decaffeinato Coffee', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 315.08, 429, '2020-05-18', '2006-12-27', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (335, 'Cakes Assorted', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
 
 Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
 
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 8887.3, 278690624, '2024-09-21', '2023-12-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (892, 'Juice - Tomato, 10 Oz', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 37.84, 919, '2000-11-17', '2021-04-03', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (336, 'Appetizer - Mushroom Tart', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 227.01, 160, '2013-09-09', '2015-05-02', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (337, 'Steampan Lid', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
 
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 3481.7, 134441079, '2024-06-05', '2024-06-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (893, 'Chilli Paste, Sambal Oelek', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 1550.71, 734636260, '2024-06-21', '2024-07-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (894, 'Beer - Upper Canada Light', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 411.61, 840, '2013-03-26', '2004-05-06', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (338, 'Longos - Cheese Tortellini', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 266.3, 655, '2006-04-19', '2017-10-30', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (339, 'Soup - Campbells Beef Stew', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
 
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 1497.07, 1068432303, '2023-12-01', '2024-08-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (895, 'Lemonade - Pineapple Passion', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 2202.38, 1370115097, '2023-10-27', '2024-05-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (896, 'Devonshire Cream', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 9433.0, 159659544, '2023-10-24', '2023-12-01');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (897, 'Wine - Beaujolais Villages', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 6541.28, 1923816943, '2024-05-13', '2024-04-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (898, 'Versatainer Nc - 888', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 314.14, 736, '2008-08-01', '2008-09-10', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (340, 'Kippers - Smoked', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
 
 Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
 
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 1114.77, 673303724, '2024-05-11', '2024-05-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (899, 'Cheese - St. Andre', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 3240.58, 139209287, '2023-12-15', '2024-09-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (900, 'Sugar - White Packet', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.', 8670.86, 1610087536, '2023-12-28', '2023-10-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (901, 'Extract - Vanilla,artificial', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 8643.06, 1533164762, '2024-05-23', '2024-02-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (902, 'Tea - Earl Grey', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 4594.31, 983700438, '2024-07-23', '2023-10-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (903, 'Shrimp - Black Tiger 8 - 12', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
-
-Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 3581.8, 338838613, '2024-02-23', '2023-11-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (904, 'Oil - Olive, Extra Virgin', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 7720.74, 199617680, '2024-01-09', '2024-07-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (905, 'Water Chestnut - Canned', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 509.37, 1079185314, '2024-08-14', '2024-08-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (906, 'Chips - Doritos', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 8694.97, 869014961, '2024-04-14', '2024-02-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (907, 'Nestea - Iced Tea', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 8909.59, 127417875, '2024-05-03', '2023-09-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (908, 'Wine - Mondavi Coastal Private', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
-
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 3857.61, 512179845, '2023-09-26', '2023-10-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (909, 'Cheese - Gouda', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 811.3, 774397926, '2024-06-12', '2024-03-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (910, 'Sprouts - Peppercress', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 8088.96, 1713325158, '2024-05-04', '2024-03-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (911, 'Ecolab - Hobart Washarm End Cap', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 6363.72, 2036736601, '2024-09-10', '2024-07-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (912, 'Creme De Menth - White', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 457.29, 1084556670, '2024-09-24', '2024-08-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (913, 'Pasta - Bauletti, Chicken White', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 8873.15, 550695134, '2024-06-13', '2024-09-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (914, 'Nut - Walnut, Pieces', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 3702.25, 1062200645, '2024-02-26', '2024-09-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (915, 'Cheese - Brie, Triple Creme', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 185.66, 140, '2015-06-03', '2020-01-09', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (341, 'Food Colouring - Pink', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 23.29, 273, '2021-12-06', '2012-12-13', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (342, 'Wine - Sauvignon Blanc Oyster', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
 
 Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
 
-Phasellus in felis. Donec semper sapien a libero. Nam dui.', 3316.95, 984120136, '2024-01-15', '2023-11-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (916, 'Napkin - Cocktail,beige 2 - Ply', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+Phasellus in felis. Donec semper sapien a libero. Nam dui.', 262.28, 491, '2016-03-24', '2007-05-06', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (343, 'Wine - Trimbach Pinot Blanc', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
 
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 5140.83, 1036435961, '2023-10-25', '2024-03-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (917, 'Longos - Chicken Caeser Salad', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 204.11, 963, '2006-02-24', '2009-06-06', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (344, 'Fondant - Icing', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
 
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 4966.73, 1141944386, '2024-06-17', '2023-12-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (918, 'Beer - Mill St Organic', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 263.48, 541, '2005-09-23', '2010-10-24', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (345, 'Cardamon Seed / Pod', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 234.74, 380, '2010-07-21', '2004-06-27', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (346, 'Nantucket - Carrot Orange', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
 
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
 
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 3248.83, 1502229125, '2024-01-11', '2023-11-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (919, 'Ham - Virginia', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 496.53, 925, '2006-05-08', '2010-03-24', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (347, 'Table Cloth 91x91 Colour', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 265.03, 502, '2016-06-27', '2007-08-09', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (348, 'Coffee - Ristretto Coffee Capsule', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
 
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 5445.72, 139745863, '2023-11-16', '2024-05-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (920, 'Pepper - White, Ground', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 418.8, 682, '2005-12-17', '2010-05-14', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (349, 'Goat - Leg', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
 
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 2107.83, 484427831, '2024-09-24', '2024-02-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (921, 'Bread Bowl Plain', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+Sed ante. Vivamus tortor. Duis mattis egestas metus.', 306.13, 851, '2009-11-22', '2022-04-19', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (350, 'Grouper - Fresh', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
 
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
 
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 2157.1, 31499061, '2023-10-03', '2024-09-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (922, 'Juice - Orange, 341 Ml', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 6991.84, 1631688434, '2024-06-30', '2024-09-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (923, 'Cucumber - English', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 3183.34, 1398382026, '2024-08-11', '2024-05-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (924, 'Dry Ice', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 7306.6, 706392219, '2024-02-10', '2024-09-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (925, 'Muffins - Assorted', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 3719.29, 459336427, '2024-01-01', '2024-03-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (926, 'Guinea Fowl', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 2429.47, 276686629, '2024-04-17', '2024-05-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (927, 'Glass Clear 8 Oz', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 7015.79, 326200833, '2024-06-10', '2023-12-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (928, 'Cinnamon Rolls', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 5315.46, 1774789508, '2023-10-19', '2024-08-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (929, 'Club Soda - Schweppes, 355 Ml', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.', 3910.56, 332530059, '2024-02-02', '2024-04-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (930, 'Thyme - Dried', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 6854.68, 1029055788, '2023-12-05', '2024-08-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (931, 'Compound - Strawberry', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
-
-Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 1444.5, 1093126835, '2024-03-09', '2024-07-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (932, 'Pork - Ham Hocks - Smoked', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 5210.21, 781817064, '2023-10-17', '2023-12-31');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (933, 'Eel Fresh', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
-
-Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 1236.38, 270580636, '2023-11-11', '2024-03-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (934, 'Lamb - Shoulder, Boneless', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 8615.28, 1810940358, '2024-06-03', '2023-09-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (935, 'French Pastries', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
-
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 1862.98, 1832104943, '2024-06-19', '2024-01-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (936, 'Beef Striploin Aaa', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 1979.62, 899415198, '2023-12-17', '2024-03-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (937, 'Burger Veggie', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 9721.01, 974375141, '2024-08-23', '2024-02-09');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (938, 'Veal - Bones', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 2697.7, 1513027815, '2023-12-31', '2024-08-31');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (939, 'Cleaner - Bleach', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 2818.84, 846494508, '2024-05-08', '2024-01-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (940, 'Carbonated Water - White Grape', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 4282.66, 1747034119, '2023-11-25', '2023-10-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (941, 'Wine - Red, Lurton Merlot De', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
-
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 9987.57, 1506051908, '2024-05-02', '2024-05-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (942, 'Pork - Kidney', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 4376.07, 892827806, '2024-03-05', '2023-10-28');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (943, 'Pork - Liver', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 6273.73, 1847144208, '2024-01-29', '2024-04-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (944, 'Beer - Sleemans Honey Brown', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 469.11, 620938315, '2024-08-01', '2024-06-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (945, 'Pepper - Green, Chili', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 8255.53, 1697467839, '2023-11-20', '2024-09-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (946, 'Sugar - Invert', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
-
-Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 1766.9, 555781462, '2024-01-27', '2023-10-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (947, 'Snails - Large Canned', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.
-
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 4673.26, 1994084050, '2024-02-15', '2024-08-26');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (948, '7up Diet, 355 Ml', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 2191.34, 436198117, '2024-07-22', '2024-04-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (949, 'Onion Powder', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 1758.78, 1919155741, '2024-09-01', '2024-07-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (950, 'Juice - Pineapple, 341 Ml', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
-
-Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
-
-Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 8301.36, 1066343747, '2024-05-08', '2024-07-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (951, 'Pasta - Orzo, Dry', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 3254.22, 970285374, '2024-06-13', '2024-02-12');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (952, 'Dill Weed - Fresh', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 4020.37, 1507173798, '2024-04-24', '2024-04-18');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (953, 'Water - Spring 1.5lit', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
-
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
-
-Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 6451.54, 222539047, '2023-12-24', '2024-04-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (954, 'Icecream - Dibs', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 2526.15, 1304126263, '2024-06-26', '2024-01-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (955, 'Pork - Ham, Virginia', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
-
-Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 5093.63, 631181900, '2024-09-07', '2024-03-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (956, 'Jam - Apricot', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 731.77, 1759047814, '2023-12-04', '2024-08-17');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (957, 'Garbage Bags - Clear', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 8340.94, 584545781, '2023-11-12', '2023-10-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (958, 'Turnip - Mini', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 742.09, 1385091063, '2024-08-03', '2024-09-13');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (959, 'Toamtoes 6x7 Select', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 865.11, 1076893313, '2023-12-12', '2024-05-29');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (960, 'Coffee - Hazelnut Cream', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
-
-Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 2532.34, 1562373016, '2024-07-15', '2024-01-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (961, 'Tray - Foam, Square 4 - S', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 4715.98, 123271215, '2024-06-10', '2023-12-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (962, 'Wine La Vielle Ferme Cote Du', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
-
-Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 2789.42, 485808473, '2024-08-01', '2024-07-07');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (963, 'Straw - Regular', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
-
-Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 9946.37, 388974289, '2024-07-12', '2024-02-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (964, 'Tomato - Peeled Italian Canned', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 3226.97, 1485285011, '2024-05-21', '2024-01-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (965, 'Nestea - Ice Tea, Diet', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+Fusce consequat. Nulla nisl. Nunc nisl.', 389.04, 32, '2019-08-20', '2022-03-08', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (351, 'Lobster - Tail 6 Oz', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
 
 Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
 
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 2085.61, 423480185, '2024-03-19', '2024-04-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (966, 'Shrimp - 16 - 20 Cooked, Peeled', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 6575.19, 1963437282, '2024-08-31', '2023-10-23');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (967, 'Beans - Fava, Canned', 'Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 4971.26, 866427796, '2024-05-11', '2024-09-10');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (968, 'Foil Wrap', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 2610.54, 1426400839, '2024-02-06', '2024-08-03');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (969, 'Wine - Jafflin Bourgongone', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 193.53, 128304852, '2024-09-02', '2024-06-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (970, 'Food Colouring - Pink', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 2503.72, 1400009583, '2023-12-18', '2023-12-02');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (971, 'Creamers - 10%', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 6320.27, 1253874835, '2024-01-12', '2024-04-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (972, 'Soup - Knorr, Ministrone', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 1875.66, 1363112740, '2024-07-10', '2023-10-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (973, 'Cumin - Ground', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
-
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 3179.81, 807620134, '2024-07-24', '2023-10-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (974, 'Cookie Chocolate Chip With', 'Fusce consequat. Nulla nisl. Nunc nisl.', 7776.7, 1223172285, '2024-08-06', '2024-08-27');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (975, 'Pastry - Trippleberry Muffin - Mini', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
-
-Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 9026.7, 1653566634, '2024-06-30', '2024-02-19');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (976, 'Foil Wrap', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 9090.97, 2086107917, '2023-11-11', '2024-09-20');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (977, 'Baking Powder', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 5088.35, 1922873612, '2024-01-31', '2024-05-08');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (978, 'Beef - Top Sirloin', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
-
-Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 3244.77, 28642548, '2024-06-22', '2024-02-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (979, 'Wine - Wyndham Estate Bin 777', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
-
-Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 8240.64, 1702749351, '2023-12-24', '2023-10-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (980, 'Coconut - Shredded, Sweet', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 252.15, 83, '2008-05-26', '2019-10-21', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (352, 'Hot Chocolate - Individual', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
 
 Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
 
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 4489.61, 949751601, '2024-03-16', '2024-03-16');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (981, 'Sauce - Fish 25 Ozf Bottle', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.', 5784.13, 763770925, '2024-07-11', '2023-12-30');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (982, 'Oven Mitt - 13 Inch', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 231.27, 925, '2003-03-22', '2022-07-24', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (353, 'Oil - Sesame', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
 
-Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
 
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 3757.79, 1912911640, '2024-01-27', '2024-01-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (983, 'Energy Drink Red Bull', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 400.42, 831, '2020-06-10', '2014-02-15', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (354, 'Cactus Pads', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
 
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 5291.46, 766750326, '2024-05-01', '2024-07-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (984, 'Chicken - White Meat With Tender', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 9170.33, 539187221, '2023-10-25', '2023-12-05');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (985, 'Yoghurt Tubes', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 6992.59, 34171223, '2024-04-16', '2024-01-22');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (986, 'Wine - Sawmill Creek Autumn', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 444.92, 484, '2013-12-07', '2023-09-14', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (355, 'Raspberries - Frozen', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
 
-In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
 
-Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 9613.4, 1879016427, '2024-01-18', '2024-09-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (987, 'Halibut - Whole, Fresh', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 205.67, 110, '2000-07-28', '2007-02-03', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (356, 'Syrup - Monin - Passion Fruit', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
 
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 7250.51, 314098394, '2024-05-01', '2023-12-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (988, 'Lemonade - Mandarin, 591 Ml', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+Phasellus in felis. Donec semper sapien a libero. Nam dui.
 
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 4769.97, 241884632, '2024-06-28', '2024-02-24');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (989, 'Potatoes - Idaho 80 Count', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 4566.39, 1184564790, '2023-11-14', '2023-12-14');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (990, 'Fish - Halibut, Cold Smoked', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 5352.23, 1296858878, '2024-08-31', '2024-01-31');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (991, 'Radish', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 3263.41, 358907080, '2023-11-10', '2024-03-21');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (992, 'Pepper - Red Thai', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 68.8, 399, '2014-11-24', '2016-07-25', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (357, 'Sugar - Brown, Individual', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 153.52, 395, '2022-06-06', '2023-09-04', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (358, 'Sugar - Splenda Sweetener', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 90.9, 983, '2017-12-27', '2017-11-03', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (359, 'Dragon Fruit', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 66.21, 316, '2010-07-31', '2014-05-13', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (360, 'Arizona - Green Tea', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 170.93, 652, '2008-07-02', '2012-06-17', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (361, 'Pickles - Gherkins', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
 
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 4828.99, 1060903590, '2023-10-27', '2024-07-25');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (993, 'Rappini - Andy Boy', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 126.27, 449, '2022-07-20', '2020-12-02', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (362, 'Pork - Bacon Cooked Slcd', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
 
-Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 5645.73, 432664119, '2024-08-19', '2024-02-15');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (994, 'Stock - Beef, Brown', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
 
-Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 4135.44, 1930795568, '2024-01-13', '2024-07-23');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (995, 'Capers - Pickled', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+Sed ante. Vivamus tortor. Duis mattis egestas metus.', 485.99, 347, '2010-04-08', '2023-04-02', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (363, 'Bread - Sour Batard', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
 
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 3132.29, 1544435093, '2024-01-18', '2023-11-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (996, 'Ginger - Fresh', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.', 308.01, 741, '2015-06-03', '2004-07-04', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (364, 'Lemonade - Natural, 591 Ml', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 456.29, 993, '2007-04-28', '2021-05-02', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (365, 'Wine - Chardonnay Mondavi', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 155.08, 584, '2004-07-04', '2001-01-11', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (366, 'Grouper - Fresh', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 173.59, 424, '2004-09-14', '2021-02-06', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (367, 'Cognac - Courvaisier', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 167.02, 945, '2017-03-06', '2004-03-08', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (368, 'Oil - Hazelnut', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
 
 Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
 
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 6554.34, 1731840794, '2024-04-02', '2024-03-06');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (997, 'Chinese Foods - Plain Fried Rice', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 97.59, 609, '2003-09-17', '2016-12-20', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (369, 'Trueblue - Blueberry Cranberry', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 410.24, 4, '2021-07-09', '2004-08-28', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (370, 'Squid Ink', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 205.95, 97, '2006-03-06', '2022-06-08', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (371, 'Parsley - Fresh', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 336.12, 957, '2008-01-14', '2009-12-24', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (372, 'Bacon Strip Precooked', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 202.78, 574, '2016-09-13', '2021-03-13', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (373, 'Cumin - Ground', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 199.34, 969, '2012-07-09', '2004-06-23', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (374, 'Beef - Rib Eye Aaa', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 98.26, 53, '2014-02-19', '2002-05-19', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (375, 'Island Oasis - Peach Daiquiri', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 282.29, 978, '2010-07-26', '2003-06-13', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (376, 'Apricots Fresh', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 258.81, 195, '2008-12-15', '2021-09-18', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (377, 'Radish - Black, Winter, Organic', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 93.5, 727, '2011-07-26', '2020-12-21', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (378, 'Silicone Parch. 16.3x24.3', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 182.68, 860, '2020-05-10', '2022-05-27', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (379, 'Pepper - Paprika, Hungarian', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
 
 In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
 
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 9638.41, 1012523888, '2024-04-07', '2024-05-11');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (998, 'Sugar - White Packet', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 4128.08, 1108097409, '2024-03-06', '2024-09-04');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (999, 'Yogurt - Assorted Pack', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 41.4, 668, '2011-02-17', '2019-05-11', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (380, 'Coffee Decaf Colombian', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
 
-Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 2842.39, 41836910, '2023-09-27', '2023-12-23');
-insert into store_product (id, title, description, price, inventory, last_update, created_at) values (1000, 'Garbage Bags - Clear', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 6824.55, 1251525052, '2024-02-24', '2024-02-19');
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 247.73, 867, '2003-05-13', '2012-01-20', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (381, 'Potatoes - Peeled', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 41.52, 741, '2005-10-03', '2021-05-18', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (382, 'Pasta - Penne, Lisce, Dry', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 98.87, 139, '2021-06-21', '2008-07-07', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (383, 'Sage - Ground', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 269.45, 569, '2000-02-21', '2019-04-20', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (384, 'Turkey Leg With Drum And Thigh', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 345.12, 952, '2002-12-16', '2000-07-02', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (385, 'Worcestershire Sauce', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 430.02, 345, '2000-05-24', '2017-12-21', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (386, 'Beef - Kindney, Whole', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 394.37, 24, '2016-07-13', '2000-09-01', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (387, 'Wine - Chateauneuf Du Pape', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 13.86, 371, '2012-10-21', '2013-10-31', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (388, 'Mountain Dew', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 268.89, 17, '2016-06-08', '2012-09-17', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (389, 'Flour - Teff', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 200.03, 161, '2016-07-10', '2013-04-29', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (390, 'Quail - Jumbo', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 19.4, 366, '2013-08-26', '2000-09-05', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (391, 'Pastry - Apple Large', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 436.99, 771, '2010-09-05', '2012-03-27', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (392, 'Bacardi Breezer - Tropical', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 0.6, 474, '2001-11-02', '2002-10-11', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (393, 'Container - Clear 16 Oz', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 469.4, 950, '2015-09-08', '2013-08-03', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (394, 'Island Oasis - Strawberry', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 469.4, 995, '2010-08-22', '2010-09-28', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (395, 'Garlic - Peeled', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 203.94, 352, '2007-05-18', '2006-03-19', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (396, 'Cake - Night And Day Choclate', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 384.48, 153, '2015-06-13', '2008-07-26', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (397, 'Island Oasis - Raspberry', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 407.51, 781, '2001-10-31', '2003-12-14', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (398, 'Broom And Brush Rack Black', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 163.27, 490, '2011-12-01', '2014-11-09', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (399, 'Anchovy In Oil', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 155.67, 855, '2015-04-10', '2007-01-18', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (400, 'Jam - Blackberry, 20 Ml Jar', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.', 90.24, 573, '2021-05-04', '2014-01-21', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (401, 'Lotus Rootlets - Canned', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 303.64, 940, '2007-10-07', '2001-05-06', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (402, 'Bar Energy Chocchip', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.', 189.35, 226, '2014-04-13', '2003-11-15', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (403, 'Tea - Herbal Orange Spice', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 56.05, 62, '2001-01-07', '2005-02-11', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (404, 'Wine - White, Chardonnay', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 163.85, 482, '2006-07-17', '2021-08-10', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (405, 'Flower - Carnations', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 123.25, 966, '2016-11-11', '2003-05-06', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (406, 'Potato - Sweet', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 107.09, 447, '2001-04-04', '2012-05-03', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (407, 'Soup Campbells Beef With Veg', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 291.83, 260, '2010-11-02', '2022-11-07', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (408, 'Soho Lychee Liqueur', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 107.31, 266, '2002-12-13', '2010-12-07', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (409, 'Arizona - Plum Green Tea', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 92.6, 547, '2001-04-13', '2023-12-29', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (410, 'Island Oasis - Ice Cream Mix', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 135.53, 559, '2001-02-11', '2020-06-01', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (411, 'Lychee - Canned', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 482.67, 634, '2017-07-01', '2008-06-03', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (412, 'Rolled Oats', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 295.67, 56, '2002-08-07', '2020-10-07', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (413, 'Wine - Pinot Noir Latour', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 365.77, 449, '2015-06-12', '2008-03-26', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (414, 'Wine - Casablanca Valley', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 405.3, 217, '2008-02-13', '2018-09-15', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (415, 'Pomello', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 268.85, 264, '2013-05-31', '2009-02-07', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (416, 'Beef - Sushi Flat Iron Steak', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 299.05, 135, '2020-12-10', '2018-01-31', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (417, 'Chips - Assorted', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 339.61, 603, '2022-06-27', '2015-08-14', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (418, 'Soup - Campbells, Classic Chix', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 69.58, 657, '2017-10-07', '2009-08-16', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (419, 'Salmon Steak - Cohoe 8 Oz', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 72.06, 647, '2018-07-05', '2006-05-22', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (420, 'Sprite - 355 Ml', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 320.47, 983, '2018-11-23', '2010-07-05', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (421, 'Clams - Bay', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 396.77, 437, '2012-01-03', '2021-03-09', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (422, 'Muffin - Mix - Strawberry Rhubarb', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.', 71.2, 942, '2021-03-23', '2010-05-06', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (423, 'Cake - Mini Cheesecake', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 414.6, 376, '2011-11-18', '2008-06-11', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (424, 'Salmon - Smoked, Sliced', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 158.23, 849, '2013-07-05', '2023-10-23', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (425, 'Longan', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 267.71, 952, '2001-03-30', '2007-02-10', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (426, 'Chicken - Leg / Back Attach', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 245.54, 636, '2011-07-23', '2016-06-22', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (427, 'Squash - Guords', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 129.19, 135, '2014-10-04', '2015-01-16', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (428, 'Cake - French Pear Tart', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 269.77, 559, '2022-12-19', '2001-02-08', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (429, 'Pickle - Dill', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 82.6, 463, '2014-01-05', '2008-12-22', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (430, 'Ecolab - Ster Bac', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.', 338.23, 836, '2009-03-21', '2010-10-19', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (431, 'Table Cloth 53x69 White', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 194.58, 738, '2021-08-24', '2006-09-14', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (432, 'Wine - Red, Metus Rose', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 93.2, 579, '2005-06-19', '2007-10-22', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (433, 'Pepper Squash', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 76.77, 210, '2014-02-28', '2015-05-21', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (434, 'Juice - Clamato, 341 Ml', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 496.94, 483, '2020-09-07', '2008-04-17', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (435, 'Energy - Boo - Koo', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 409.53, 280, '2016-04-12', '2017-07-15', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (436, 'Cookie - Oatmeal', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 370.68, 998, '2008-04-07', '2020-11-15', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (437, 'Cake - Box Window 10x10x2.5', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 112.03, 107, '2012-01-19', '2009-10-27', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (438, 'Vodka - Lemon, Absolut', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 117.67, 136, '2001-06-09', '2002-03-20', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (439, 'Water Chestnut - Canned', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 300.51, 153, '2004-01-15', '2012-05-20', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (440, 'Bread - Bistro White', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 454.23, 262, '2015-06-26', '2021-12-10', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (441, 'Soup - Campbells, Lentil', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 381.48, 522, '2010-07-28', '2021-05-21', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (442, 'Cream Of Tartar', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 0.41, 981, '2017-06-16', '2007-03-25', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (443, 'Shrimp - 16/20, Iqf, Shell On', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 456.85, 807, '2011-05-11', '2007-04-11', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (444, 'Flower - Commercial Spider', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 425.89, 348, '2003-08-06', '2002-05-19', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (445, 'Iced Tea Concentrate', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 254.66, 824, '2012-06-20', '2006-05-13', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (446, 'Cheese - Cheddar, Medium', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 326.01, 447, '2019-09-23', '2017-11-10', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (447, 'Lettuce - Red Leaf', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 444.51, 899, '2004-03-21', '2014-11-22', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (448, 'Brownies - Two Bite, Chocolate', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 342.64, 574, '2004-08-16', '2010-12-08', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (449, 'Wine - Penfolds Koonuga Hill', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 430.04, 565, '2011-06-25', '2006-06-17', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (450, 'Sugar - Fine', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 361.52, 235, '2011-11-24', '2017-05-22', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (451, 'Cauliflower', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 443.37, 397, '2005-11-05', '2013-07-08', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (452, 'Truffle Cups - White Paper', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 51.52, 978, '2009-03-01', '2020-07-27', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (453, 'Galliano', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 78.4, 855, '2010-10-08', '2012-04-26', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (454, 'Tomatoes Tear Drop', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 474.27, 814, '2018-10-07', '2011-06-14', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (455, 'Veal - Tenderloin, Untrimmed', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 281.92, 273, '2021-11-02', '2018-09-29', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (456, 'Cheese - Goat', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 210.3, 724, '2011-04-22', '2016-12-26', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (457, 'Flower - Commercial Spider', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 43.16, 677, '2001-12-09', '2011-04-21', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (458, 'Cheese - Cheddar, Old White', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 222.03, 585, '2016-08-24', '2013-01-27', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (459, 'Chocolate Eclairs', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 469.18, 406, '2013-05-14', '2021-06-09', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (460, 'Carbonated Water - Raspberry', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 344.32, 827, '2011-10-07', '2008-12-22', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (461, 'Plasticspoonblack', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.', 109.28, 358, '2010-09-11', '2018-02-12', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (462, 'Mustard - Dijon', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 209.78, 724, '2001-11-17', '2013-04-18', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (463, 'Wine - Chateau Aqueria Tavel', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 346.29, 970, '2021-06-13', '2004-10-21', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (464, 'Cake - Pancake', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 374.33, 829, '2014-02-14', '2015-06-03', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (465, 'Vodka - Moskovskaya', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 266.64, 731, '2018-11-04', '2005-07-04', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (466, 'Octopus', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 392.14, 391, '2005-10-27', '2005-05-11', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (467, 'Vodka - Lemon, Absolut', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 95.65, 628, '2014-11-23', '2001-03-02', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (468, 'Sprouts - Alfalfa', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 193.69, 777, '2015-01-12', '2014-08-18', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (469, 'Wine - White, Concha Y Toro', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 314.33, 815, '2022-05-13', '2007-11-27', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (470, 'Mushroom - Shitake, Dry', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 269.15, 424, '2022-07-22', '2022-06-15', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (471, 'Nori Sea Weed - Gold Label', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 48.16, 312, '2019-10-22', '2018-01-08', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (472, 'Bread Base - Italian', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 143.47, 171, '2017-10-30', '2022-12-15', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (473, 'Beef - Short Ribs', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 444.52, 945, '2015-02-28', '2000-09-09', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (474, 'Tortillas - Flour, 8', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 116.41, 231, '2015-12-13', '2011-09-02', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (475, 'Wine - Mas Chicet Rose, Vintage', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 430.25, 875, '2008-02-16', '2004-01-16', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (476, 'Madeira', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 26.83, 108, '2016-09-28', '2001-09-19', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (477, 'Okra', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 394.32, 287, '2012-08-04', '2010-08-06', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (478, 'Coffee - Almond Amaretto', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 235.25, 753, '2021-04-16', '2001-09-29', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (479, 'Table Cloth 120 Round White', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 396.52, 908, '2018-06-08', '2021-01-06', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (480, 'Pie Shells 10', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 435.62, 228, '2012-07-29', '2010-02-22', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (481, 'Lemonade - Natural, 591 Ml', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 90.42, 305, '2019-07-17', '2021-07-16', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (482, 'Salmon - Smoked, Sliced', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 122.78, 54, '2009-12-16', '2007-05-25', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (483, 'Grapes - Red', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 149.49, 126, '2003-11-14', '2000-10-31', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (484, 'Jam - Apricot', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 200.55, 305, '2020-03-21', '2000-06-17', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (485, 'Wine - Gewurztraminer Pierre', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 154.93, 150, '2012-04-26', '2019-05-25', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (486, 'Turkey - Whole, Fresh', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 241.3, 576, '2001-09-18', '2005-06-01', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (487, 'Fish - Soup Base, Bouillon', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 270.7, 549, '2020-01-08', '2008-02-06', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (488, 'Shrimp - 21/25, Peel And Deviened', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 287.91, 22, '2019-11-01', '2024-01-02', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (489, 'Wine - Jackson Triggs Okonagan', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 125.79, 175, '2017-07-19', '2002-09-25', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (490, 'Croissant, Raw - Mini', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 99.05, 730, '2017-12-19', '2011-01-01', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (491, 'Cheese - Ricotta', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 413.36, 89, '2012-10-30', '2017-12-28', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (492, 'Phyllo Dough', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 484.8, 191, '2016-04-02', '2013-02-08', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (493, 'Turkey - Breast, Double', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 15.81, 530, '2017-12-30', '2003-04-15', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (494, 'Beef - Outside, Round', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 221.37, 597, '2008-02-15', '2016-11-05', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (495, 'Lid - 10,12,16 Oz', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 183.49, 257, '2001-01-09', '2020-08-22', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (496, 'Cake Slab', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 409.5, 169, '2019-05-21', '2019-08-01', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (497, 'Mushrooms - Black, Dried', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 386.81, 439, '2007-07-11', '2019-03-18', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (498, 'Spic And Span All Purpose', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 310.83, 832, '2021-06-12', '2004-07-10', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (499, 'Beef - Ox Tongue', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 385.25, 974, '2018-09-21', '2006-07-18', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (500, 'Bread - White Mini Epi', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 291.25, 835, '2010-07-07', '2011-06-19', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (501, 'Pie Box - Cello Window 2.5', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 69.44, 907, '2009-08-27', '2018-04-07', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (502, 'Pastry - Carrot Muffin - Mini', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 385.36, 123, '2009-01-01', '2003-06-06', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (503, 'Wine - Alicanca Vinho Verde', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 330.28, 586, '2003-11-13', '2009-11-28', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (504, 'Raspberries - Frozen', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 371.2, 218, '2006-11-04', '2023-02-04', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (505, 'Juice - Lime', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 324.31, 736, '2019-02-15', '2019-11-26', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (506, 'Sardines', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 190.24, 311, '2001-03-12', '2003-08-13', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (507, 'Eel Fresh', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 305.87, 541, '2020-07-08', '2000-03-22', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (508, 'Jam - Apricot', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 167.78, 432, '2003-09-08', '2009-11-25', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (509, 'Bread - Granary Small Pull', 'Fusce consequat. Nulla nisl. Nunc nisl.', 27.93, 297, '2011-08-14', '2017-12-10', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (510, 'Food Colouring - Blue', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 212.02, 663, '2016-03-14', '2011-03-09', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (511, 'Savory', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 389.69, 158, '2014-12-24', '2007-10-20', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (512, 'Cheese - Brie, Triple Creme', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 148.93, 536, '2015-04-15', '2022-07-15', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (513, 'Ginger - Ground', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 61.11, 20, '2019-11-06', '2001-01-12', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (514, 'Lettuce - Radicchio', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 427.0, 220, '2013-05-27', '2011-01-10', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (515, 'Beer - Fruli', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 150.47, 688, '2011-05-04', '2003-06-23', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (516, 'Rice - Jasmine Sented', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 405.08, 244, '2010-09-02', '2019-02-20', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (517, 'Salmon - Atlantic, No Skin', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 71.46, 24, '2003-12-31', '2010-07-08', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (518, 'Oil - Olive Bertolli', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 424.77, 830, '2009-08-25', '2010-11-26', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (519, 'Bread - English Muffin', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 78.66, 198, '2006-02-10', '2005-11-20', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (520, 'Bread Fig And Almond', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 117.13, 516, '2016-10-25', '2023-03-27', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (521, 'Plasticknivesblack', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 60.56, 709, '2004-04-13', '2012-05-10', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (522, 'Cheese - Colby', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 178.63, 964, '2013-09-23', '2008-08-25', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (523, 'Apron', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 485.48, 461, '2014-08-06', '2015-06-24', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (524, 'Wine - Wyndham Estate Bin 777', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.', 329.92, 748, '2007-06-16', '2000-06-05', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (525, '7up Diet, 355 Ml', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 407.32, 798, '2010-09-04', '2016-07-14', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (526, 'Soup - Campbells, Classic Chix', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.', 296.34, 288, '2009-12-05', '2019-07-22', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (527, 'Pasta - Linguini, Dry', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 269.19, 155, '2006-07-13', '2013-08-01', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (528, 'Foil - Round Foil', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 30.56, 47, '2005-12-27', '2001-03-27', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (529, 'Foil Cont Round', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 162.42, 122, '2003-01-22', '2008-06-30', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (530, 'Kellogs Special K Cereal', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 339.14, 677, '2010-05-09', '2001-03-19', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (531, 'Catfish - Fillets', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 65.27, 200, '2005-08-08', '2011-08-10', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (532, 'Lid - High Heat, Super Clear', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 450.76, 49, '2012-07-07', '2022-02-04', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (533, 'Icecream - Dstk Cml And Fdg', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 222.71, 776, '2006-06-06', '2009-03-06', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (534, 'Cactus Pads', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.', 47.34, 868, '2010-04-20', '2010-04-13', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (535, 'Madeira', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 226.44, 506, '2021-02-09', '2009-02-15', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (536, 'Marzipan 50/50', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 495.63, 361, '2016-12-28', '2012-07-03', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (537, 'Vinegar - Balsamic', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 33.74, 111, '2013-07-27', '2006-02-20', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (538, 'Couscous', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 466.5, 254, '2005-09-03', '2000-04-05', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (539, 'Jam - Raspberry', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 486.14, 20, '2018-03-19', '2022-10-08', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (540, 'Guinea Fowl', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 139.62, 737, '2009-10-04', '2016-07-20', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (541, 'Roe - White Fish', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 26.97, 743, '2009-04-13', '2011-07-29', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (542, 'Vinegar - Balsamic', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 363.54, 634, '2022-07-29', '2004-05-18', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (543, 'Cup - Paper 10oz 92959', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.', 361.47, 744, '2002-08-06', '2006-03-06', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (544, 'Gooseberry', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 460.96, 491, '2014-07-05', '2015-05-12', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (545, 'Honey - Comb', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 285.32, 156, '2008-11-06', '2011-02-24', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (546, 'Sugar - Monocystal / Rock', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 298.71, 317, '2003-01-18', '2015-12-22', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (547, 'Wine - Clavet Saint Emilion', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 415.87, 202, '2008-09-09', '2001-09-19', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (548, 'Hog / Sausage Casing - Pork', 'Fusce consequat. Nulla nisl. Nunc nisl.', 17.58, 397, '2010-11-01', '2005-07-08', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (549, 'Broom - Corn', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 120.98, 31, '2015-02-27', '2021-09-11', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (550, 'Longos - Chicken Curried', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 361.2, 772, '2009-02-14', '2016-11-28', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (551, 'Wine - Port Late Bottled Vintage', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 419.11, 775, '2005-01-02', '2014-12-26', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (552, 'Juice Peach Nectar', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 211.26, 76, '2021-05-28', '2006-01-01', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (553, 'Pork - Side Ribs', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 339.78, 474, '2015-08-17', '2008-05-12', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (554, 'Beef - Salted', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 186.32, 812, '2012-06-24', '2020-09-30', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (555, 'Nescafe - Frothy French Vanilla', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 149.15, 210, '2020-08-17', '2021-10-05', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (556, 'Energy Drink - Redbull 355ml', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 91.58, 331, '2006-10-02', '2014-03-27', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (557, 'Cake - Sheet Strawberry', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 164.23, 522, '2006-12-30', '2009-05-13', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (558, 'Wine - Periguita Fonseca', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 71.32, 456, '2006-08-20', '2023-03-14', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (559, 'Cocoa Powder - Natural', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 482.34, 99, '2022-10-10', '2020-03-11', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (560, 'Melon - Watermelon, Seedless', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 371.56, 62, '2016-11-22', '2019-05-08', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (561, 'Mustard - Seed', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 33.99, 746, '2016-05-20', '2012-04-28', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (562, 'Longos - Chicken Wings', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 300.6, 880, '2020-07-02', '2013-09-20', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (563, 'Tea - Green', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 30.93, 344, '2015-08-02', '2020-02-04', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (564, 'Milk - Buttermilk', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 432.22, 679, '2001-01-05', '2006-01-02', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (565, 'Miso Paste White', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 247.22, 762, '2007-08-04', '2023-11-20', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (566, 'Chicken - Soup Base', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 189.09, 6, '2008-01-22', '2014-11-12', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (567, 'Pepper - White, Ground', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 172.56, 895, '2002-03-05', '2021-05-09', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (568, 'Container - Clear 16 Oz', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 72.43, 799, '2016-10-17', '2008-07-02', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (569, 'The Pop Shoppe - Root Beer', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 80.96, 339, '2000-11-13', '2008-09-01', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (570, 'Milk - Homo', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 318.61, 78, '2021-12-19', '2015-05-29', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (571, 'Soup - Campbellschix Stew', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 252.66, 753, '2006-05-14', '2002-03-07', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (572, 'Wine - Ej Gallo Sierra Valley', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 132.81, 225, '2006-03-06', '2010-02-24', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (573, 'Water - Tonic', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.', 416.23, 505, '2010-04-08', '2005-01-28', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (574, 'Sprite - 355 Ml', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 85.89, 166, '2021-02-17', '2018-06-07', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (575, 'Wine - Champagne Brut Veuve', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 263.03, 157, '2002-08-22', '2010-12-30', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (576, 'Pop - Club Soda Can', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 28.07, 391, '2011-11-04', '2011-06-12', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (577, 'Coffee Caramel Biscotti', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 89.0, 956, '2001-01-26', '2004-09-08', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (578, 'Sour Puss - Tangerine', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 406.11, 251, '2021-02-08', '2019-07-23', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (579, 'Artichoke - Fresh', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 150.79, 484, '2013-01-17', '2006-04-14', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (580, 'Rice Pilaf, Dry,package', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 323.69, 229, '2019-01-21', '2009-10-26', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (581, 'Wine - Chateau Timberlay', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 205.44, 282, '2012-09-14', '2018-07-15', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (582, 'Ice Cream - Super Sandwich', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 418.41, 591, '2013-09-11', '2015-02-24', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (583, 'Pastry - Cherry Danish - Mini', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 479.76, 667, '2019-03-01', '2009-12-01', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (584, 'Sambuca Cream', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 211.8, 512, '2003-12-28', '2019-01-01', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (585, 'Tea - Jasmin Green', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 21.32, 313, '2017-03-07', '2009-10-11', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (586, 'Chicken Breast Wing On', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 374.95, 165, '2011-02-16', '2011-05-26', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (587, 'Ice Cream - Chocolate', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.', 246.9, 291, '2003-12-14', '2002-02-15', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (588, 'Beef - Ox Tongue', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 98.98, 774, '2019-11-24', '2008-12-12', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (589, 'Fenngreek Seed', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 403.75, 377, '2003-02-25', '2003-08-18', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (590, 'Coffee - Decaffeinato Coffee', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 333.57, 649, '2004-10-08', '2000-11-10', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (591, 'Scampi Tail', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 115.46, 126, '2004-07-12', '2001-04-19', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (592, 'Wine - Redchard Merritt', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 349.4, 824, '2017-08-13', '2022-09-25', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (593, 'Urban Zen Drinks', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 457.54, 626, '2018-04-04', '2022-04-28', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (594, 'Steampan Lid', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 47.9, 232, '2013-06-03', '2003-05-11', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (595, 'Foam Tray S2', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 172.01, 23, '2009-03-17', '2011-06-26', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (596, 'Bols Melon Liqueur', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 221.42, 606, '2018-01-03', '2012-10-08', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (597, 'Turnip - Mini', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 87.79, 741, '2017-10-12', '2020-09-18', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (598, 'Bagel - 12 Grain Preslice', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.', 12.51, 953, '2007-10-05', '2022-06-06', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (599, 'Fond - Chocolate', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 24.78, 762, '2017-03-10', '2011-12-22', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (600, 'Beets', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 129.67, 759, '2000-03-18', '2006-08-21', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (601, 'Tray - 16in Rnd Blk', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 330.31, 109, '2015-08-26', '2002-08-30', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (602, 'Cheese - Mascarpone', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 174.67, 914, '2015-01-30', '2000-05-19', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (603, 'Cranberries - Frozen', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 276.85, 670, '2000-10-26', '2007-09-23', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (604, 'Pork - Loin, Bone - In', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.', 247.73, 511, '2008-01-24', '2013-05-11', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (605, 'Cheese - Marble', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 240.28, 722, '2009-05-14', '2009-02-08', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (606, 'Appetizer - Tarragon Chicken', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 333.66, 411, '2011-04-26', '2005-03-01', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (607, 'Shark - Loin', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 70.23, 543, '2006-09-19', '2007-07-10', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (608, 'Appetiser - Bought', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 365.17, 9, '2019-02-13', '2005-03-21', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (609, 'Remy Red', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 280.32, 825, '2021-10-08', '2010-01-18', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (610, 'Momiji Oroshi Chili Sauce', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 495.28, 533, '2021-04-21', '2018-11-11', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (611, 'Veal - Nuckle', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 486.0, 377, '2021-12-15', '2018-03-18', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (612, 'Godiva White Chocolate', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 102.2, 896, '2000-01-19', '2014-11-01', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (613, 'Sauerkraut', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 163.32, 201, '2001-03-16', '2007-04-11', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (614, 'Asparagus - Mexican', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 14.92, 412, '2007-08-06', '2018-08-26', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (615, 'Tart Shells - Sweet, 2', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 412.86, 996, '2012-01-22', '2001-12-09', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (616, 'Tomatoes', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 339.38, 38, '2000-08-02', '2003-05-03', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (617, 'Rabbit - Saddles', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.', 362.27, 177, '2007-04-25', '2010-03-17', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (618, 'Cocoa Feuilletine', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 161.5, 926, '2012-08-17', '2015-08-28', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (619, 'Chocolate - Liqueur Cups With Foil', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 499.24, 668, '2005-08-18', '2001-08-04', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (620, 'Gatorade - Cool Blue Raspberry', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 455.7, 872, '2008-06-06', '2020-09-04', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (621, 'Lid - Translucent, 3.5 And 6 Oz', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 74.86, 201, '2007-11-05', '2023-07-27', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (622, 'Apron', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 66.05, 668, '2020-06-27', '2014-02-15', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (623, 'Piping Jelly - All Colours', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 432.7, 21, '2003-09-04', '2011-01-04', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (624, 'Beets', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 283.95, 625, '2018-09-25', '2007-09-23', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (625, 'Lettuce - Radicchio', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 124.26, 762, '2012-04-22', '2007-08-16', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (626, 'Lettuce - Frisee', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 359.69, 791, '2010-02-02', '2005-06-27', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (627, 'Pasta - Canelloni, Single Serve', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 408.08, 979, '2018-05-22', '2019-03-31', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (628, 'Amarula Cream', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 0.88, 267, '2020-11-01', '2018-10-21', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (629, 'Juice - Tomato, 48 Oz', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 310.76, 148, '2016-10-23', '2017-12-08', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (630, 'Sproutsmustard Cress', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 98.32, 460, '2016-10-21', '2002-03-20', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (631, 'Cake - Pancake', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 395.72, 738, '2015-10-16', '2014-09-22', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (632, 'Icecream - Dstk Strw Chseck', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 278.62, 419, '2006-06-29', '2004-03-12', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (633, 'Mop Head - Cotton, 24 Oz', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 205.68, 693, '2008-01-04', '2014-06-09', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (634, 'Creamers - 10%', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 337.86, 458, '2014-12-07', '2000-02-12', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (635, 'Corn Shoots', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 341.78, 685, '2011-09-24', '2004-03-06', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (636, 'Snapple - Mango Maddness', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 223.38, 565, '2007-04-12', '2006-10-26', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (637, 'Sauce - Thousand Island', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 189.24, 878, '2007-12-15', '2002-08-12', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (638, 'Pastry - Plain Baked Croissant', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 59.09, 946, '2014-12-11', '2002-03-24', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (639, 'Wine - Acient Coast Caberne', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 53.39, 662, '2020-07-30', '2022-02-16', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (640, 'Wine - Coteaux Du Tricastin Ac', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 334.81, 579, '2004-01-10', '2014-01-22', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (641, 'Chocolate Liqueur - Godet White', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 200.22, 618, '2007-12-22', '2022-11-29', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (642, 'Thyme - Lemon, Fresh', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 334.33, 332, '2017-11-10', '2006-05-01', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (643, 'Carbonated Water - Blackberry', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 226.51, 577, '2005-09-26', '2016-10-01', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (644, 'Lid Tray - 16in Dome', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 284.01, 497, '2004-05-21', '2003-07-31', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (645, 'Brownies - Two Bite, Chocolate', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 56.42, 453, '2010-10-06', '2006-02-15', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (646, 'Foie Gras', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 372.47, 135, '2006-04-14', '2011-06-27', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (647, 'Chips Potato Swt Chilli Sour', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 298.02, 175, '2016-07-04', '2005-03-28', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (648, 'Lobster - Base', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 340.31, 67, '2004-02-20', '2022-06-13', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (649, 'Crab - Dungeness, Whole', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 99.52, 12, '2006-10-24', '2008-03-15', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (650, 'Cheese - Cheddar, Mild', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 316.03, 271, '2021-10-01', '2014-01-21', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (651, 'Pasta - Rotini, Dry', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 307.95, 197, '2013-02-19', '2019-11-04', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (652, 'Kirsch - Schloss', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 35.77, 690, '2001-08-03', '2000-08-06', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (653, 'Tamarillo', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 86.83, 217, '2010-03-19', '2013-11-30', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (654, 'Soup - Knorr, French Onion', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 176.27, 434, '2018-10-08', '2002-02-28', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (655, 'Yeast - Fresh, Fleischman', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 3.74, 387, '2002-09-02', '2017-02-17', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (656, 'Chicken - Diced, Cooked', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 323.04, 434, '2014-12-02', '2015-06-19', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (657, 'Quail - Jumbo Boneless', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 45.51, 206, '2011-06-20', '2000-03-21', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (658, 'Wine - White, Mosel Gold', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 280.84, 935, '2016-05-20', '2000-10-14', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (659, 'Chocolate - Semi Sweet, Calets', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 77.38, 167, '2012-07-04', '2015-09-03', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (660, 'Onions - Cooking', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 11.57, 91, '2014-07-08', '2013-09-22', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (661, 'Chicken - Breast, 5 - 7 Oz', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 473.61, 891, '2009-02-11', '2017-05-09', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (662, 'Oranges', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 441.56, 938, '2005-07-15', '2000-05-31', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (663, 'Fuji Apples', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 262.28, 379, '2019-04-22', '2003-05-21', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (664, 'Oil - Olive', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 348.33, 824, '2006-04-09', '2001-09-07', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (665, 'Pasta - Fettuccine, Egg, Fresh', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 410.56, 71, '2012-08-06', '2015-01-12', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (666, 'Chips - Assorted', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 494.66, 172, '2003-03-10', '2012-03-08', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (667, 'Coffee Beans - Chocolate', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 376.12, 102, '2000-10-30', '2023-06-28', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (668, 'Wine - Sake', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 20.29, 480, '2010-12-15', '2005-02-20', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (669, 'Pears - Anjou', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 479.62, 480, '2022-10-09', '2017-05-18', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (670, 'Mustard - Pommery', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 302.53, 56, '2013-04-17', '2001-10-31', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (671, 'Nori Sea Weed - Gold Label', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 268.62, 412, '2014-09-28', '2022-03-25', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (672, 'Yoplait Drink', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 303.85, 580, '2011-02-18', '2014-05-26', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (673, 'Pastry - Plain Baked Croissant', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 104.11, 177, '2019-08-21', '2013-11-18', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (674, 'Tomato - Peeled Italian Canned', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 226.73, 537, '2002-01-06', '2001-11-24', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (675, 'Butcher Twine 4r', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 34.03, 870, '2000-05-02', '2014-07-28', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (676, 'Goldschalger', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 249.39, 991, '2000-03-13', '2005-12-13', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (677, 'Guava', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 367.58, 869, '2001-11-10', '2014-07-29', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (678, 'Longos - Penne With Pesto', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 451.84, 769, '2015-10-20', '2000-01-12', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (679, 'Lemon Tarts', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 493.57, 737, '2008-06-06', '2024-01-01', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (680, 'Wine - Chablis 2003 Champs', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 430.94, 784, '2007-09-25', '2006-01-01', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (681, 'Pork - Tenderloin, Frozen', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 117.87, 730, '2011-06-24', '2010-02-21', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (682, 'Onions - Red', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 412.15, 477, '2012-08-29', '2001-08-15', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (683, 'Scallops - Live In Shell', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 382.1, 897, '2007-12-14', '2014-06-03', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (684, 'Tea - Black Currant', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 70.57, 161, '2006-10-14', '2005-08-08', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (685, 'Wine - Magnotta - Belpaese', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 161.88, 532, '2008-12-16', '2016-05-04', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (686, 'Ham - Virginia', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 355.28, 305, '2015-06-13', '2015-02-02', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (687, 'Fib N9 - Prague Powder', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 157.88, 460, '2009-05-09', '2017-10-07', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (688, 'Wine - Sauvignon Blanc', 'Fusce consequat. Nulla nisl. Nunc nisl.', 382.59, 330, '2011-04-05', '2009-10-22', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (689, 'Cauliflower', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 4.99, 589, '2008-11-20', '2012-02-14', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (690, 'Plasticspoonblack', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 141.21, 674, '2006-02-01', '2011-01-30', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (691, 'Compound - Passion Fruit', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 30.23, 814, '2018-01-06', '2003-05-06', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (692, 'Cookie - Dough Variety', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 307.62, 68, '2018-11-24', '2024-02-28', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (693, 'Jerusalem Artichoke', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 115.28, 791, '2012-07-31', '2017-11-07', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (694, 'Easy Off Oven Cleaner', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 320.79, 619, '2020-12-18', '2011-02-17', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (695, 'Apple - Fuji', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 383.17, 465, '2019-02-25', '2023-02-03', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (696, 'Beef - Tenderloin - Aa', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 254.94, 478, '2019-10-13', '2016-04-07', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (697, 'Garbage Bag - Clear', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 352.91, 127, '2003-05-26', '2005-08-04', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (698, 'Coffee - Ristretto Coffee Capsule', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 426.47, 474, '2012-03-01', '2021-02-03', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (699, 'Bread - Raisin Walnut Oval', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 184.74, 1, '2013-09-14', '2009-09-23', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (700, 'Corn Kernels - Frozen', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 197.43, 570, '2019-04-26', '2023-04-25', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (701, 'Oil - Coconut', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 353.69, 709, '2011-02-04', '2017-06-11', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (702, 'Godiva White Chocolate', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 174.9, 881, '2015-11-18', '2001-05-14', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (703, 'Fish - Bones', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 413.1, 624, '2008-07-18', '2013-04-23', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (704, 'Stock - Fish', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 137.79, 90, '2011-01-04', '2020-08-06', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (705, 'Sobe - Orange Carrot', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 191.27, 51, '2007-12-20', '2016-01-29', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (706, 'Sobe - Liz Blizz', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 394.73, 327, '2011-04-28', '2014-02-08', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (707, 'Juice - Apple 284ml', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 141.87, 846, '2003-09-24', '2018-01-07', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (708, 'Soup - Knorr, Ministrone', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 489.34, 139, '2021-11-16', '2016-12-01', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (709, 'Schnappes - Peach, Walkers', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 33.52, 795, '2006-07-05', '2023-03-25', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (710, 'Muffin Mix - Blueberry', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 324.51, 859, '2016-06-05', '2021-02-26', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (711, 'Numi - Assorted Teas', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 433.81, 196, '2015-09-10', '2000-02-16', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (712, 'Water - Mineral, Carbonated', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 247.73, 194, '2002-07-25', '2022-08-25', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (713, 'Soupcontfoam16oz 116con', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 141.86, 752, '2013-05-27', '2003-12-14', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (714, 'Bag - Bread, White, Plain', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 464.81, 592, '2019-11-26', '2007-02-18', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (715, 'Bread Crumbs - Panko', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 94.65, 216, '2004-10-14', '2003-06-30', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (716, 'Cup - Paper 10oz 92959', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 319.7, 589, '2021-11-26', '2003-09-06', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (717, 'Island Oasis - Mango Daiquiri', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 271.23, 121, '2020-06-27', '2011-07-25', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (718, 'Mushroom - Portebello', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 247.26, 581, '2011-02-05', '2009-02-03', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (719, 'Chicken - Diced, Cooked', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 436.6, 398, '2016-02-28', '2004-01-12', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (720, 'Wine - Jafflin Bourgongone', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 216.73, 136, '2009-06-05', '2011-06-22', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (721, 'Salt - Rock, Course', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 299.01, 507, '2001-02-27', '2018-12-04', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (722, 'Broom And Broom Rack White', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 260.49, 467, '2001-09-14', '2008-06-18', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (723, 'Wine - White, Antinore Orvieto', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 190.33, 50, '2021-01-23', '2021-12-11', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (724, 'Tea - Mint', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 197.78, 984, '2007-04-03', '2023-01-06', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (725, 'Juice - Tomato, 10 Oz', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 45.08, 715, '2020-08-21', '2003-06-02', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (726, 'Cheese - Mozzarella, Buffalo', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 250.25, 829, '2006-02-28', '2015-11-14', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (727, 'Curry Powder Madras', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.', 200.85, 177, '2019-12-28', '2004-12-14', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (728, 'Pasta - Orzo, Dry', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 181.62, 28, '2014-12-14', '2007-09-28', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (729, 'Foam Tray S2', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 338.57, 934, '2001-09-30', '2005-05-21', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (730, 'Bread - Multigrain', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 155.06, 742, '2015-07-12', '2021-12-28', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (731, 'Turkey - Oven Roast Breast', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 475.38, 394, '2003-01-11', '2020-06-25', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (732, 'Cheese - Provolone', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 411.12, 311, '2020-07-10', '2005-10-20', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (733, 'Burger Veggie', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 307.46, 565, '2022-03-11', '2021-01-05', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (734, 'Compound - Mocha', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 189.2, 457, '2009-07-16', '2021-05-27', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (735, 'Fenngreek Seed', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 135.27, 254, '2022-03-23', '2004-10-23', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (736, 'Coffee - Hazelnut Cream', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.', 380.57, 735, '2002-03-03', '2022-01-20', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (737, 'Chef Hat 25cm', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 264.78, 273, '2022-12-11', '2021-12-05', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (738, 'Tarragon - Fresh', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 441.72, 674, '2001-06-28', '2014-06-29', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (739, 'Olives - Green, Pitted', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 227.36, 848, '2015-11-06', '2019-03-15', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (740, 'Butter - Salted, Micro', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 399.3, 565, '2014-02-07', '2003-10-24', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (741, 'Vaccum Bag 10x13', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 10.9, 511, '2007-09-20', '2002-10-12', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (742, 'Vaccum Bag 10x13', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 411.55, 297, '2011-12-12', '2003-08-01', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (743, 'Ice Cream - Turtles Stick Bar', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.', 82.72, 569, '2014-07-20', '2001-05-19', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (744, 'Compound - Rum', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 63.15, 744, '2018-05-12', '2019-08-02', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (745, 'Pepper - Yellow Bell', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 486.45, 706, '2021-03-04', '2022-03-30', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (746, 'Wine - Cousino Macul Antiguas', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 48.38, 234, '2018-03-24', '2016-05-17', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (747, 'Swordfish Loin Portions', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 337.04, 204, '2005-12-14', '2014-10-14', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (748, 'Spaghetti Squash', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 326.86, 614, '2005-01-25', '2003-03-29', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (749, 'Barley - Pearl', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.', 92.27, 829, '2015-06-30', '2004-03-11', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (750, 'Mushroom - Trumpet, Dry', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 86.21, 254, '2020-09-03', '2010-03-11', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (751, 'Steel Wool', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 33.55, 155, '2013-01-24', '2014-08-06', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (752, 'Tea Leaves - Oolong', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 349.09, 532, '2009-12-24', '2001-08-06', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (753, 'Energy Drink - Redbull 355ml', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 161.83, 430, '2012-10-14', '2007-08-17', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (754, 'Sobe - Cranberry Grapefruit', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 350.55, 976, '2019-02-25', '2014-03-07', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (755, 'Muffin - Zero Transfat', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 383.99, 430, '2016-09-22', '2002-03-19', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (756, 'Potatoes - Pei 10 Oz', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 279.9, 219, '2017-07-06', '2018-03-06', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (757, 'Wine - Charddonnay Errazuriz', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 454.16, 552, '2015-01-04', '2011-12-30', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (758, 'Butter - Salted', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 250.86, 286, '2010-01-17', '2004-06-15', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (759, 'Beans - Soya Bean', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 445.63, 543, '2009-07-27', '2002-06-10', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (760, 'Godiva White Chocolate', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 141.21, 952, '2017-06-02', '2013-11-26', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (761, 'Basil - Seedlings Cookstown', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 407.46, 16, '2021-07-23', '2010-11-25', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (762, 'Roe - Lump Fish, Black', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 396.31, 988, '2010-08-01', '2010-06-17', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (763, 'Bread - Rye', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 363.06, 488, '2016-08-31', '2012-10-14', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (764, 'Remy Red', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 248.71, 686, '2001-06-22', '2012-08-28', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (765, 'Potatoes - Mini White 3 Oz', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 164.52, 113, '2006-12-23', '2008-07-02', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (766, 'Cheese - Le Cheve Noir', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 29.94, 638, '2004-08-21', '2016-11-14', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (767, 'Ostrich - Fan Fillet', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 114.73, 78, '2006-10-03', '2009-10-01', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (768, 'Chinese Lemon Pork', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 457.46, 71, '2014-11-05', '2000-07-03', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (769, 'Wine - Zonnebloem Pinotage', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 406.68, 301, '2007-07-23', '2005-05-10', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (770, 'Chicken Giblets', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 64.1, 274, '2006-06-01', '2004-09-29', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (771, 'Muffin Hinge 117n', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 264.66, 976, '2014-08-11', '2023-07-01', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (772, 'Cheese - St. Andre', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.', 249.6, 848, '2014-12-15', '2004-07-10', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (773, 'Wine - Sake', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 232.99, 249, '2003-12-23', '2022-11-17', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (774, 'Table Cloth 62x120 White', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 205.77, 234, '2001-05-08', '2015-04-18', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (775, 'Gelatine Leaves - Bulk', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 21.05, 720, '2008-02-27', '2013-04-30', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (776, 'Orange Roughy 6/8 Oz', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.', 438.0, 391, '2002-10-19', '2008-10-15', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (777, 'Rum - Mount Gay Eclipes', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 462.28, 133, '2012-08-13', '2012-08-12', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (778, 'Appetizer - Seafood Assortment', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 425.9, 660, '2015-12-02', '2013-07-26', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (779, 'Beer - Molson Excel', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 209.49, 640, '2012-03-15', '2004-08-09', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (780, 'Pasta - Canelloni, Single Serve', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 234.18, 984, '2014-01-15', '2021-06-26', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (781, 'Tuna - Fresh', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 23.62, 987, '2001-07-27', '2008-10-04', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (782, 'Pepper - Sorrano', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 7.31, 909, '2013-09-02', '2015-06-16', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (783, 'Beef - Outside, Round', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 110.4, 516, '2000-09-09', '2005-12-24', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (784, 'Sandwich Wrap', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 125.81, 555, '2015-12-25', '2008-08-13', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (785, 'Pork - Tenderloin, Fresh', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 4.12, 134, '2003-09-05', '2022-07-21', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (786, 'Crackers - Melba Toast', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 160.99, 752, '2009-11-08', '2015-08-16', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (787, 'Wine - Niagara,vqa Reisling', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 202.39, 813, '2017-01-26', '2004-07-11', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (788, 'Parsnip', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.', 340.28, 102, '2022-07-09', '2009-08-19', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (789, 'Yucca', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 476.13, 267, '2011-04-01', '2022-04-22', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (790, 'Pear - Packum', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.', 307.84, 406, '2008-09-14', '2000-08-13', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (791, 'Bar Mix - Lemon', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 155.55, 993, '2015-08-12', '2011-08-31', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (792, 'Olives - Nicoise', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 66.3, 318, '2003-06-01', '2011-12-08', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (793, 'Bar Mix - Pina Colada, 355 Ml', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 295.9, 813, '2021-07-06', '2006-12-18', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (794, 'Beef - Salted', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 226.61, 491, '2010-08-04', '2016-04-18', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (795, 'Radish', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 431.06, 273, '2016-04-23', '2018-08-22', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (796, 'Pears - Bartlett', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 417.14, 154, '2007-08-24', '2001-07-31', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (797, 'Bacon Strip Precooked', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 422.98, 880, '2021-02-18', '2016-04-28', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (798, 'Sandwich Wrap', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 285.15, 434, '2008-04-27', '2008-06-07', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (799, 'Hagen Daza - Dk Choocolate', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 233.72, 640, '2022-04-15', '2013-12-05', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (800, 'Cherries - Bing, Canned', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 421.66, 72, '2020-10-22', '2001-10-26', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (801, 'Flavouring - Rum', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 79.68, 394, '2014-05-05', '2000-06-11', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (802, 'Oil - Peanut', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 174.99, 267, '2007-08-20', '2023-11-07', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (803, 'Cheese - Gouda', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 161.97, 103, '2013-08-22', '2000-11-15', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (804, 'Cake - Lemon Chiffon', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 253.8, 19, '2021-09-21', '2004-05-01', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (805, 'Raspberries - Fresh', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 163.88, 362, '2008-02-10', '2010-06-27', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (806, 'Pepsi, 355 Ml', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 47.86, 424, '2000-02-14', '2015-12-16', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (807, 'Blueberries - Frozen', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 299.88, 925, '2002-10-02', '2013-11-12', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (808, 'Tomatillo', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 121.53, 664, '2009-03-06', '2006-10-05', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (809, 'Pie Shells 10', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 277.92, 483, '2009-05-08', '2004-03-08', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (810, 'Mousse - Mango', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 270.9, 940, '2011-01-08', '2012-02-09', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (811, 'Filo Dough', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 207.97, 400, '2010-04-12', '2015-09-03', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (812, 'Beef Flat Iron Steak', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.', 450.05, 561, '2014-11-03', '2013-04-05', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (813, 'Shrimp - Baby, Warm Water', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 450.0, 184, '2000-01-01', '2003-06-05', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (814, 'Red Pepper Paste', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.', 286.22, 17, '2021-09-04', '2023-05-12', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (815, 'Table Cloth 62x120 Colour', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 178.65, 780, '2017-06-10', '2017-08-25', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (816, 'Pail For Lid 1537', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 168.08, 514, '2022-06-12', '2014-05-14', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (817, 'Cookies - Fortune', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 166.85, 785, '2007-02-01', '2018-02-26', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (818, 'Fondant - Icing', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 246.45, 449, '2014-04-21', '2008-06-14', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (819, 'Eggplant Oriental', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 79.23, 606, '2003-01-30', '2011-10-29', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (820, 'Wine - Red, Gallo, Merlot', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 410.21, 449, '2020-02-18', '2022-03-31', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (821, 'Wine - Niagara,vqa Reisling', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 411.4, 602, '2017-03-20', '2006-04-17', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (822, 'Sugar - Sweet N Low, Individual', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 269.14, 601, '2009-01-16', '2016-12-30', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (823, 'Cinnamon Rolls', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 247.0, 455, '2018-05-18', '2015-03-30', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (824, 'Kiwi', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 63.83, 989, '2001-11-25', '2009-06-13', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (825, 'Chestnuts - Whole,canned', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 207.99, 545, '2022-04-16', '2011-08-27', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (826, 'Tomatoes - Yellow Hot House', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 145.34, 318, '2015-07-22', '2001-12-20', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (827, 'Mince Meat - Filling', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 477.31, 531, '2013-07-22', '2006-06-20', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (828, 'Ecolab - Orange Frc, Cleaner', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 436.78, 862, '2003-01-13', '2010-08-26', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (829, 'Spice - Greek 1 Step', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 203.48, 738, '2005-02-21', '2021-06-03', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (830, 'Pear - Asian', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 233.69, 883, '2010-11-02', '2002-09-18', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (831, 'Chocolate - Milk Coating', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 264.92, 295, '2010-04-05', '2018-03-06', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (832, 'Steel Wool', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 380.8, 934, '2002-11-21', '2015-10-08', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (833, 'Sauce - Vodka Blush', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.', 329.35, 762, '2019-03-04', '2017-01-02', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (834, 'Tomatoes - Orange', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 334.75, 986, '2002-03-25', '2007-11-02', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (835, 'Appetizer - Mini Egg Roll, Shrimp', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 276.15, 97, '2012-07-29', '2000-06-16', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (836, 'Cream Of Tartar', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 118.7, 32, '2011-04-19', '2015-12-09', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (837, 'Venison - Denver Leg Boneless', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 139.11, 433, '2008-04-03', '2007-05-26', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (838, 'Pasta - Fusili Tri - Coloured', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 401.04, 299, '2001-08-25', '2003-06-25', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (839, 'Salsify, Organic', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 127.48, 133, '2020-03-22', '2021-03-22', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (840, 'Trout - Rainbow, Frozen', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.', 269.13, 924, '2007-03-14', '2018-08-23', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (841, 'Table Cloth 62x114 White', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 332.42, 659, '2002-09-20', '2020-02-11', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (842, 'Chicken - Base, Ultimate', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 18.25, 840, '2018-08-20', '2002-08-24', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (843, 'Pepper - Gypsy Pepper', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 75.12, 105, '2015-09-15', '2008-04-18', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (844, 'Veal - Loin', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 266.17, 896, '2021-12-22', '2004-01-02', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (845, 'Table Cloth 53x69 White', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 73.71, 690, '2000-11-22', '2014-01-31', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (846, 'Water Chestnut - Canned', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 420.35, 987, '2015-03-17', '2015-08-19', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (847, 'Flour - Masa De Harina Mexican', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 381.65, 101, '2017-09-19', '2013-01-11', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (848, 'Mustard - Dijon', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 104.28, 982, '2015-04-12', '2017-04-23', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (849, 'Gherkin', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 83.54, 339, '2008-02-22', '2023-05-29', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (850, 'Seaweed Green Sheets', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 327.82, 604, '2011-09-18', '2021-06-25', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (851, 'Chef Hat 25cm', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 61.18, 876, '2017-02-07', '2003-01-22', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (852, 'Pickerel - Fillets', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 147.84, 76, '2012-07-23', '2018-10-12', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (853, 'Chinese Foods - Thick Noodles', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 396.77, 704, '2018-10-12', '2001-06-02', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (854, 'Gelatine Powder', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 89.43, 618, '2016-07-13', '2001-04-15', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (855, 'Cheese - Cheddar, Old White', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 466.27, 125, '2017-09-21', '2013-07-20', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (856, 'Longos - Chicken Caeser Salad', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.', 149.27, 679, '2012-06-15', '2013-05-26', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (857, 'Snails - Large Canned', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 17.54, 925, '2022-03-03', '2009-03-08', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (858, 'Tofu - Soft', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 155.68, 284, '2012-12-03', '2011-11-22', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (859, 'Calypso - Pineapple Passion', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 96.85, 127, '2006-04-26', '2004-01-13', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (860, 'Puree - Kiwi', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 119.68, 337, '2015-05-21', '2014-11-02', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (861, 'Cheese - Havarti, Salsa', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 259.42, 730, '2020-08-13', '2005-12-19', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (862, 'Durian Fruit', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 7.04, 464, '2017-12-20', '2007-06-12', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (863, 'Pepper - Jalapeno', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 478.51, 451, '2022-02-26', '2004-12-26', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (864, 'Muffin Hinge - 211n', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 155.88, 3, '2000-12-30', '2004-06-24', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (865, 'Pepper - Cubanelle', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 250.7, 59, '2005-10-12', '2017-07-28', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (866, 'Beer - Moosehead', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 320.83, 269, '2001-12-02', '2005-05-10', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (867, 'Chicken - Breast, 5 - 7 Oz', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 262.59, 353, '2005-11-30', '2007-09-21', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (868, 'Napkin - Cocktail,beige 2 - Ply', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 365.84, 194, '2019-03-10', '2014-10-31', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (869, 'Tea - Camomele', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 100.06, 21, '2004-07-06', '2015-09-24', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (870, 'Spinach - Baby', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 111.22, 747, '2015-10-05', '2016-01-08', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (871, 'Wiberg Cure', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 326.32, 857, '2017-01-01', '2021-01-12', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (872, 'Cardamon Ground', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 427.04, 216, '2011-01-26', '2004-03-29', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (873, 'Sauce - Soya, Dark', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.', 219.51, 860, '2000-11-22', '2004-07-26', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (874, 'Lemonade - Strawberry, 591 Ml', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 482.81, 332, '2004-07-13', '2008-09-09', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (875, 'Carroway Seed', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 215.16, 832, '2004-09-10', '2010-08-28', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (876, 'Beef - Diced', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 187.86, 28, '2011-10-07', '2015-08-29', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (877, 'Yeast Dry - Fermipan', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 486.25, 151, '2017-11-16', '2022-02-08', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (878, 'Lemon Pepper', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 20.43, 224, '2010-02-11', '2021-08-07', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (879, 'Bamboo Shoots - Sliced', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 420.7, 796, '2011-01-19', '2000-11-13', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (880, 'Mix - Cappucino Cocktail', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.', 254.52, 428, '2011-07-04', '2006-03-17', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (881, 'Sauce - White, Mix', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 294.15, 871, '2005-10-30', '2022-08-15', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (882, 'Vodka - Smirnoff', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 272.13, 554, '2004-09-02', '2019-08-02', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (883, 'Potatoes - Mini Red', 'Fusce consequat. Nulla nisl. Nunc nisl.', 243.35, 509, '2017-03-27', '2010-06-07', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (884, 'Scotch - Queen Anne', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 347.24, 975, '2009-06-09', '2019-09-08', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (885, 'Canada Dry', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 125.22, 928, '2003-11-03', '2024-02-16', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (886, 'Savory', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 134.55, 641, '2018-10-28', '2015-09-25', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (887, 'Ecolab - Balanced Fusion', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 166.09, 802, '2002-12-10', '2003-04-01', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (888, 'Wine - Wyndham Estate Bin 777', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 252.79, 637, '2018-05-29', '2003-12-08', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (889, 'Soup - Campbells Chili Veg', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 225.78, 275, '2016-10-18', '2006-07-02', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (890, 'Flour - Semolina', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 352.91, 910, '2013-03-18', '2018-09-07', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (891, 'Yeast Dry - Fleischman', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 309.85, 605, '2010-07-09', '2015-07-12', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (892, 'Milk - Skim', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 452.78, 180, '2013-09-07', '2004-04-23', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (893, 'Flavouring Vanilla Artificial', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 369.88, 858, '2002-12-24', '2009-06-09', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (894, 'Sprouts - Alfalfa', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 66.21, 894, '2018-09-29', '2003-03-24', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (895, 'Beef - Ox Tongue, Pickled', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 2.76, 944, '2016-09-08', '2002-08-14', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (896, 'Crab - Claws, 26 - 30', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.', 497.03, 708, '2001-03-20', '2006-11-27', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (897, 'Pork - Side Ribs', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 318.0, 685, '2016-03-03', '2002-03-03', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (898, 'Cheese - Cheddar, Old White', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 422.66, 883, '2015-01-02', '2023-08-13', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (899, 'Steampan - Half Size Shallow', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 230.61, 801, '2018-06-15', '2008-08-23', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (900, 'Potatoes - Idaho 80 Count', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.', 268.33, 283, '2019-11-18', '2013-04-08', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (901, 'Bacardi Mojito', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 115.45, 736, '2002-06-03', '2007-10-21', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (902, 'Cheese - Mascarpone', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.', 191.39, 819, '2011-04-15', '2000-12-30', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (903, 'Tortillas - Flour, 10', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 366.59, 768, '2000-11-05', '2020-09-13', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (904, 'Gherkin', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 213.49, 810, '2018-11-12', '2014-09-16', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (905, 'Crawfish', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 322.35, 635, '2002-03-16', '2021-07-19', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (906, 'Sauce - Balsamic Viniagrette', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 174.42, 445, '2019-06-22', '2019-10-17', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (907, 'Bay Leaf Fresh', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 131.37, 258, '2018-01-31', '2004-08-16', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (908, 'Yoplait Drink', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 52.42, 456, '2019-08-08', '2012-04-11', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (909, 'Broom - Corn', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 90.65, 0, '2007-06-28', '2006-12-30', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (910, 'Truffle Paste', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', 332.34, 710, '2017-07-03', '2011-11-28', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (911, 'Beef Ground Medium', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 445.58, 436, '2003-05-17', '2023-03-16', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (912, 'Cheese - Blue', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 436.51, 430, '2010-09-07', '2015-06-03', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (913, 'Vinegar - White', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 73.85, 684, '2021-07-16', '2002-11-08', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (914, 'Broom - Angled', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 0.44, 32, '2010-04-05', '2000-05-04', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (915, 'Tray - Foam, Square 4 - S', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.', 470.3, 228, '2009-06-30', '2017-03-13', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (916, 'Wine - Prosecco Valdobienne', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.', 155.07, 661, '2005-03-29', '2001-09-29', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (917, 'Papayas', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 7.16, 842, '2018-08-20', '2001-09-11', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (918, 'Juice - Mango', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.', 311.02, 674, '2006-02-06', '2015-05-19', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (919, 'Carbonated Water - Wildberry', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 474.65, 456, '2011-11-07', '2022-09-06', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (920, 'Basil - Seedlings Cookstown', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 84.97, 414, '2011-12-07', '2006-10-26', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (921, 'Scallops - U - 10', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.', 477.55, 395, '2011-03-04', '2017-04-17', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (922, 'Ham - Proscuitto', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.', 103.81, 118, '2008-11-03', '2014-05-10', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (923, 'Sauce - Balsamic Viniagrette', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 210.61, 409, '2019-08-31', '2005-03-26', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (924, 'Beef - Cooked, Corned', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.', 493.66, 508, '2014-06-01', '2009-11-02', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (925, 'Puree - Pear', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 63.33, 280, '2000-04-11', '2013-12-17', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (926, 'Wine - Vouvray Cuvee Domaine', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.', 70.49, 888, '2009-12-07', '2010-11-14', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (927, 'Muffin - Mix - Bran And Maple 15l', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.', 169.78, 656, '2016-04-26', '2003-05-16', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (928, 'Nestea - Ice Tea, Diet', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 248.34, 968, '2002-10-25', '2003-04-13', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (929, 'Wanton Wrap', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 181.16, 961, '2004-09-08', '2017-11-25', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (930, 'The Pop Shoppe - Root Beer', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 383.29, 634, '2016-05-25', '2021-08-12', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (931, 'Pork - Ham Hocks - Smoked', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.', 426.73, 574, '2005-05-16', '2016-07-22', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (932, 'Bag Stand', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 165.21, 844, '2017-06-11', '2019-02-26', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (933, 'Sauce - Rosee', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.', 5.92, 326, '2000-07-26', '2014-01-10', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (934, 'Pasta - Bauletti, Chicken White', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 274.79, 70, '2022-05-22', '2018-01-07', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (935, 'Wine - Chateau Timberlay', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 305.73, 704, '2016-09-22', '2021-10-04', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (936, 'Grand Marnier', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 367.78, 796, '2002-08-15', '2001-06-04', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (937, 'Bread Cranberry Foccacia', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 26.71, 203, '2010-05-25', '2004-10-08', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (938, 'Godiva White Chocolate', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 175.38, 586, '2007-06-11', '2023-04-04', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (939, 'Butter - Salted, Micro', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 138.16, 93, '2003-12-22', '2006-04-07', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (940, 'Crackers - Water', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 174.7, 195, '2003-05-08', '2015-04-09', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (941, 'Veal - Leg, Provimi - 50 Lb Max', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 131.45, 433, '2007-12-28', '2024-02-10', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (942, 'Sauce - Hollandaise', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 484.81, 208, '2008-12-20', '2005-05-05', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (943, 'Laundry - Bag Cloth', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 314.79, 622, '2003-01-11', '2020-04-08', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (944, 'Wine - Penfolds Koonuga Hill', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 253.53, 638, '2010-06-10', '2016-01-15', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (945, 'Pasta - Penne, Rigate, Dry', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', 256.06, 369, '2012-09-26', '2006-02-25', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (946, 'Soup - Campbells, Butternut', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 250.93, 103, '2008-03-25', '2016-06-11', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (947, 'Cake - Dulce De Leche', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 69.65, 518, '2004-03-15', '2009-08-22', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (948, 'Nut - Chestnuts, Whole', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 200.72, 727, '2014-05-11', '2013-09-10', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (949, 'Pork - Loin, Center Cut', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 107.62, 440, '2011-09-22', '2000-07-02', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (950, 'Beer - Upper Canada Lager', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.', 256.14, 768, '2011-09-11', '2008-04-30', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (951, 'Pasta - Fettuccine, Dry', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 44.65, 395, '2020-06-13', '2004-05-12', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (952, 'Shrimp - Tiger 21/25', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 446.77, 59, '2005-05-11', '2006-11-14', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (953, 'Black Currants', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 407.42, 518, '2005-01-31', '2009-09-07', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (954, 'Bread - Frozen Basket Variety', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.', 150.24, 714, '2020-09-26', '2000-10-23', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (955, 'Pea - Snow', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 450.56, 988, '2018-04-06', '2019-06-16', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (956, 'Apricots - Dried', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 417.41, 125, '2017-05-17', '2004-04-02', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (957, 'Garlic Powder', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.', 398.61, 246, '2015-09-03', '2021-05-08', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (958, 'Bagel - Everything', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 195.59, 382, '2002-01-17', '2022-05-21', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (959, 'Longos - Greek Salad', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 291.2, 610, '2012-04-07', '2011-03-04', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (960, 'Coffee - Egg Nog Capuccino', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.', 392.28, 310, '2008-09-07', '2003-12-20', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (961, 'Oil - Hazelnut', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.', 213.41, 905, '2007-04-15', '2018-01-16', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (962, 'Seedlings - Clamshell', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.', 55.88, 493, '2005-12-07', '2007-01-06', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (963, 'Nantucket Orange Juice', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.', 251.24, 785, '2018-09-01', '2023-11-01', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (964, 'Sauce - Demi Glace', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 183.67, 835, '2020-10-17', '2004-05-04', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (965, 'Pepsi - Diet, 355 Ml', 'Fusce consequat. Nulla nisl. Nunc nisl.', 14.49, 241, '2014-05-05', '2004-07-18', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (966, 'Longos - Chicken Curried', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.', 234.45, 404, '2002-09-04', '2021-06-25', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (967, 'Chicken - Bones', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 17.58, 944, '2002-04-25', '2021-10-13', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (968, 'Rice Paper', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.', 357.19, 547, '2015-09-07', '2007-04-04', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (969, 'Fenngreek Seed', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 248.69, 29, '2011-09-14', '2005-06-01', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (970, 'Onions - Green', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.', 463.43, 636, '2000-12-07', '2021-11-07', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (971, 'Clams - Bay', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 246.68, 355, '2003-10-11', '2023-01-28', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (972, 'Pepper - Chilli Seeds Mild', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 2.73, 644, '2009-08-31', '2011-06-20', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (973, 'Salmon Atl.whole 8 - 10 Lb', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.', 83.75, 901, '2000-03-20', '2022-06-20', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (974, 'Cookies - Amaretto', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.', 433.85, 333, '2011-01-25', '2008-11-23', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (975, 'Wine - Fontanafredda Barolo', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.', 467.01, 427, '2008-10-07', '2003-02-06', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (976, 'Carbonated Water - Raspberry', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 164.61, 380, '2003-09-10', '2007-03-27', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (977, 'Vaccum Bag - 14x20', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 474.55, 530, '2000-12-13', '2009-03-24', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (978, 'Butter Balls Salted', 'In congue. Etiam justo. Etiam pretium iaculis justo.', 395.81, 875, '2013-02-18', '2020-10-24', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (979, 'Lamb Rack - Ontario', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 103.54, 8, '2022-12-14', '2018-10-05', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (980, 'Chocolate - Milk', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.', 206.38, 204, '2000-06-15', '2002-01-17', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (981, 'Bandage - Fexible 1x3', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.', 305.02, 468, '2008-07-12', '2014-09-18', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (982, 'Tuna - Canned, Flaked, Light', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.', 406.47, 471, '2000-02-28', '2020-05-03', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (983, 'Basil - Pesto Sauce', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.', 196.49, 661, '2008-10-23', '2021-12-29', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (984, 'Cheese - St. Paulin', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 267.84, 379, '2022-03-05', '2022-03-28', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (985, 'Bread - Flat Bread', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.', 275.88, 309, '2006-06-21', '2022-03-23', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (986, 'Wine - Sicilia Igt Nero Avola', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.', 454.92, 346, '2009-10-10', '2003-08-20', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (987, 'Food Colouring - Orange', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.', 172.64, 118, '2001-04-16', '2007-01-09', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (988, 'Bar Mix - Lime', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.', 443.01, 502, '2019-08-14', '2020-06-15', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (989, 'Beef - Salted', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.', 52.19, 748, '2018-02-26', '2010-09-16', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (990, 'Cheese - Montery Jack', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 48.64, 333, '2020-05-12', '2001-09-29', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (991, 'Chinese Foods - Pepper Beef', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 92.28, 592, '2004-05-02', '2022-12-28', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (992, 'Soap - Mr.clean Floor Soap', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.', 415.23, 725, '2003-04-19', '2000-10-16', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (993, 'Danishes - Mini Raspberry', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.', 373.38, 616, '2002-11-08', '2018-03-06', 1);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (994, 'Bread Crumbs - Japanese Style', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.', 38.64, 316, '2011-05-26', '2010-12-16', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (995, 'Soup - Knorr, French Onion', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 292.03, 78, '2015-05-28', '2021-11-02', 9);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (996, 'Ham Black Forest', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.', 249.37, 575, '2013-05-04', '2018-08-19', 11);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (997, 'Lemonade - Pineapple Passion', 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.', 48.59, 306, '2014-03-11', '2021-12-11', 4);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (998, 'Fish - Artic Char, Cold Smoked', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.', 52.16, 140, '2000-08-14', '2014-04-05', 5);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (999, 'Juice - Apple 284ml', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 411.66, 357, '2009-03-10', '2020-08-14', 14);
+insert into store_product (id, title, description, price, inventory, last_update, created_at, collection_id ) values (1000, 'Beef - Ox Tongue, Pickled', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 52.8, 831, '2016-09-16', '2001-07-22', 4);

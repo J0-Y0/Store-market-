@@ -1,3 +1,5 @@
+use  store_market;
+
 insert into store_collection (id, title, created_at) values (1, 'Beauty & Health', '2024-02-25 00:01:08');
 insert into store_collection (id, title, created_at) values (2, 'Beauty & Health', '2024-03-25 13:08:59');
 insert into store_collection (id, title, created_at) values (3, 'Beauty & Health', '2024-03-05 02:40:06');
