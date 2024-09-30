@@ -35,6 +35,9 @@ class ProductCommentViewSet(ModelViewSet):
             content_type__model="product", object_id=product_id
         )
 
+    def get_serializer_context(self):
+        return {"object_id": self.kwargs["product_pk"], "model_name": "product"}
+
 
 class CollectionViewSet(ModelViewSet):
     serializer_class = CollectionSerializer

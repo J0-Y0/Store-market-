@@ -1,3 +1,5 @@
+from django.contrib.contenttypes.models import ContentType
+
 from rest_framework.serializers import ModelSerializer
 from .models import *
 
@@ -11,7 +13,9 @@ class CommentSerializer(ModelSerializer):
 
     def create(self, validated_data):
         object_id = self.context["object_id"]
-        content_type = self.context["content_type"]
+        model_name = self.context["model_name"]
+
+        content_type = ContentType.objects.get(model=model_name)
         return Comment.objects.create(
             object_id=object_id, content_type=content_type, **validated_data
         )
