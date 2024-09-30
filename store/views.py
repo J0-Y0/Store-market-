@@ -11,8 +11,14 @@ from common.serializers import *
 
 
 class ProductViewSet(ModelViewSet):
-    queryset = Product.objects.all()
     serializer_class = ProductSerializer
+
+    def get_queryset(self):
+        queryset = Product.objects.all()
+        collection_id = self.request.query_params.get("collection_id")
+        if collection_id is not None:
+            queryset = queryset.filter(collection_id=collection_id)
+        return queryset
 
     def destroy(self, request, pk=None):
         product = get_object_or_404(Product, pk=pk)
