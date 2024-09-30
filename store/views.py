@@ -7,6 +7,8 @@ from rest_framework import status
 from .models import Product, Collection
 from .serializers import CollectionSerializer, ProductSerializer
 
+from common.serializers import *
+
 
 class ProductViewSet(ModelViewSet):
     queryset = Product.objects.all()
@@ -22,6 +24,16 @@ class ProductViewSet(ModelViewSet):
                 {"error": str(e)},
                 status=status.HTTP_405_METHOD_NOT_ALLOWED,
             )
+
+
+class ProductCommentViewSet(ModelViewSet):
+    serializer_class = CommentSerializer
+
+    def get_queryset(self):
+        product_id = self.kwargs["product_pk"]
+        return Comment.objects.filter(
+            content_type__model="product", object_id=product_id
+        )
 
 
 class CollectionViewSet(ModelViewSet):

@@ -53,6 +53,17 @@ class OrderItemInline(admin.TabularInline):
     max_num = 4
 
 
+# inline child list
+class OrderItemInline(admin.TabularInline):
+    model = OrderItem
+    autocomplete_fields = ["product"]
+    extra = 0
+    # allowed maximum  amd minimum order item per order
+
+    min_num = 1
+    max_num = 4
+
+
 class CommentInline(GenericTabularInline):
     model = Comment
     extra = 1  # Number of empty comments to display for adding new ones
@@ -143,6 +154,7 @@ class CollectionAdmin(admin.ModelAdmin):
     list_editable = ["title"]
     search_fields = ["title"]
     ordering = ["pk"]
+    inlines = [CommentInline]
 
     @admin.display(ordering="product_count")
     def product_count(self, collection):
