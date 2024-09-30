@@ -5,6 +5,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import generics
+from rest_framework.viewsets import ModelViewSet
 
 from rest_framework import status
 
@@ -12,17 +13,11 @@ from .models import Product, Collection
 from .serializers import CollectionSerializer, ProductSerializer
 
 
-class ProductList(generics.ListCreateAPIView):
-    serializer_class = ProductSerializer
+class ProductViewSet(ModelViewSet):
     queryset = Product.objects.all()
-
-
-class ProductDetail(generics.RetrieveUpdateDestroyAPIView):
-
     serializer_class = ProductSerializer
-    queryset = Product.objects.all()
 
-    def delete(self, request, pk):
+    def destroy(self, request, pk=None):
         product = get_object_or_404(Product, pk=pk)
         try:
             product.delete()
@@ -34,16 +29,11 @@ class ProductDetail(generics.RetrieveUpdateDestroyAPIView):
             )
 
 
-class CollectionList(generics.ListCreateAPIView):
+class CollectionViewSet(ModelViewSet):
     serializer_class = CollectionSerializer
     queryset = Collection.objects.annotate(product_count=Count("product"))
 
-
-class CollectionDetail(generics.RetrieveUpdateDestroyAPIView):
-    serializer_class = CollectionSerializer
-    queryset = queryset = Collection.objects.annotate(product_count=Count("product"))
-
-    def delete(self, request, pk):
+    def destroy(self, request, pk=None):
         collection = get_object_or_404(Collection, pk=pk)
         try:
             collection.delete()
