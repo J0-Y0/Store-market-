@@ -5,8 +5,8 @@ from rest_framework.viewsets import ModelViewSet
 from rest_framework import status
 from rest_framework.filters import SearchFilter, OrderingFilter
 from django_filters.rest_framework import DjangoFilterBackend
-from .models import Product, Collection
-from .serializers import CollectionSerializer, ProductSerializer
+from .models import *
+from .serializers import *
 from .filter import ProductFilter
 from common.serializers import *
 
@@ -59,3 +59,13 @@ class CollectionViewSet(ModelViewSet):
                 {"error": str(e)},
                 status=status.HTTP_405_METHOD_NOT_ALLOWED,
             )
+
+
+class CartVewSet(ModelViewSet):
+    serializer_class = CartSerializer
+    queryset = Cart.objects.all()
+
+
+class CartItemViewSet(ModelViewSet):
+    serializer_class = CartItemSerializer
+    queryset = CartItem.objects.all()
