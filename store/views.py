@@ -1,12 +1,17 @@
 from django.shortcuts import get_object_or_404
-from django.db.models import Count
+from django.db.models import Count, F
 from rest_framework.response import Response
-from rest_framework.viewsets import ModelViewSet
+from rest_framework.viewsets import ModelViewSet, GenericViewSet
 from rest_framework import status
 from rest_framework.filters import SearchFilter, OrderingFilter
+from rest_framework.mixins import (
+    RetrieveModelMixin,
+    CreateModelMixin,
+    DestroyModelMixin,
+)
 from django_filters.rest_framework import DjangoFilterBackend
-from .models import Product, Collection
-from .serializers import CollectionSerializer, ProductSerializer
+from .models import *
+from .serializers import *
 from .filter import ProductFilter
 from common.serializers import *
 
@@ -59,3 +64,34 @@ class CollectionViewSet(ModelViewSet):
                 {"error": str(e)},
                 status=status.HTTP_405_METHOD_NOT_ALLOWED,
             )
+
+
+class CartVewSet(
+    RetrieveModelMixin, DestroyModelMixin, CreateModelMixin, GenericViewSet
+):
+    serializer_class = CartSerializer
+    queryset = Cart.objects.prefetch_related("items__product").all()
+
+
+class CartItemViewSet(ModelViewSet):
+    http_method_names = ["get", "delete", "post", "patch"]
+
+    def get_serializer_class(self):
+        serializer_class = CartItemSerializer
+        if self.request.method == "POST":
+            serializer_class = AddCartItemSerializer
+        elif self.request.method == "PATCH":
+            serializer_class = PatchCartItemSerializer
+
+        return serializer_class
+
+    def get_serializer_context(self):
+        return {"cart_pk": self.kwargs["cart_pk"]}
+
+    def get_queryset(self):
+        query_set = CartItem.objects.all()
+        cart_id = self.kwargs.get("cart_pk")
+        if cart_id is not None:
+            query_set = query_set.filter(cart_id=cart_id)
+
+        return query_set

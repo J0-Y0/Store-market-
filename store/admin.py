@@ -64,6 +64,11 @@ class OrderItemInline(admin.TabularInline):
     max_num = 4
 
 
+class CartItemInline(admin.TabularInline):
+    model = CartItem
+    extra = 1
+
+
 class CommentInline(GenericTabularInline):
     model = Comment
     extra = 1  # Number of empty comments to display for adding new ones
@@ -232,9 +237,22 @@ class OrderItemAdmin(admin.ModelAdmin):
 
 @admin.register(Cart)
 class CartAdmin(admin.ModelAdmin):
-    list_display = ["id", "created_at"]
+    list_display = [
+        "id",
+        "created_at",
+        "item_count",
+    ]
     search_fields = ["id"]
     ordering = ["created_at"]
+    # list_select_related = ["cartitem"]
+    # inlines = [CartItemInline]
+
+    @admin.display(ordering="item_count")
+    def item_count(self, cart):
+        return cart.item_count
+
+    def get_queryset(self, request):
+        return super().get_queryset(request).annotate(item_count=Count("items"))
 
 
 @admin.register(CartItem)
