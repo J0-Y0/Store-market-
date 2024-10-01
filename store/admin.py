@@ -252,7 +252,7 @@ class CartAdmin(admin.ModelAdmin):
         return cart.item_count
 
     def get_queryset(self, request):
-        return super().get_queryset(request).annotate(item_count=Count("cartitem"))
+        return super().get_queryset(request).annotate(item_count=Count("items"))
 
 
 @admin.register(CartItem)

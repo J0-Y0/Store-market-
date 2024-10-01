@@ -4,7 +4,11 @@ from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet, GenericViewSet
 from rest_framework import status
 from rest_framework.filters import SearchFilter, OrderingFilter
-from rest_framework.mixins import RetrieveModelMixin, CreateModelMixin
+from rest_framework.mixins import (
+    RetrieveModelMixin,
+    CreateModelMixin,
+    DestroyModelMixin,
+)
 from django_filters.rest_framework import DjangoFilterBackend
 from .models import *
 from .serializers import *
@@ -62,9 +66,11 @@ class CollectionViewSet(ModelViewSet):
             )
 
 
-class CartVewSet(RetrieveModelMixin, CreateModelMixin, GenericViewSet):
+class CartVewSet(
+    RetrieveModelMixin, DestroyModelMixin, CreateModelMixin, GenericViewSet
+):
     serializer_class = CartSerializer
-    queryset = Cart.objects.all()
+    queryset = Cart.objects.prefetch_related("items__product").all()
 
 
 class CartItemViewSet(ModelViewSet):
