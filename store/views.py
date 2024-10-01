@@ -3,16 +3,21 @@ from django.db.models import Count
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 from rest_framework import status
-
+from rest_framework.filters import SearchFilter
+from django_filters.rest_framework import DjangoFilterBackend
 from .models import Product, Collection
 from .serializers import CollectionSerializer, ProductSerializer
-
+from .filter import ProductFilter
 from common.serializers import *
 
 
 class ProductViewSet(ModelViewSet):
-    queryset = Product.objects.all()
     serializer_class = ProductSerializer
+
+    queryset = Product.objects.all()
+    filter_backends = [DjangoFilterBackend, SearchFilter]
+    filterset_class = ProductFilter
+    search_fields = ["title"]
 
     def destroy(self, request, pk=None):
         product = get_object_or_404(Product, pk=pk)
