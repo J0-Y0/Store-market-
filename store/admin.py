@@ -87,21 +87,22 @@ class ContentTagInline(GenericTabularInline):
 @admin.register(Customer)
 class CustomerAdmin(admin.ModelAdmin):
     list_display = [
-        "first_name",
-        "last_name",
-        "email",
+        "user__first_name",
+        "user__last_name",
+        "user__email",
         "phone",
         "order_count",
         "membership",
     ]
     search_fields = [
-        "first_name__istartswith",
+        "user__first_name__istartswith",
     ]
     list_filter = ["membership"]
     list_editable = ["membership"]
+    # list_select_related =['user']
     list_per_page = 10
 
-    ordering = ["first_name", "last_name"]
+    ordering = ["user__first_name", "user__last_name"]
 
     @admin.display(ordering="order_count")
     def order_count(self, customer):
