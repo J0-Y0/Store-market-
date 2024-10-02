@@ -1,9 +1,10 @@
 from django.shortcuts import get_object_or_404
-from django.db.models import Count
+from django.db.models import Count, F
 from rest_framework.response import Response
-from rest_framework.viewsets import ModelViewSet
+from rest_framework.viewsets import ModelViewSet, GenericViewSet
 from rest_framework import status
 from rest_framework.filters import SearchFilter, OrderingFilter
+from rest_framework.mixins import RetrieveModelMixin, CreateModelMixin
 from django_filters.rest_framework import DjangoFilterBackend
 from .models import *
 from .serializers import *
@@ -61,11 +62,18 @@ class CollectionViewSet(ModelViewSet):
             )
 
 
-class CartVewSet(ModelViewSet):
+class CartVewSet(RetrieveModelMixin, CreateModelMixin, GenericViewSet):
     serializer_class = CartSerializer
     queryset = Cart.objects.all()
 
 
 class CartItemViewSet(ModelViewSet):
     serializer_class = CartItemSerializer
-    queryset = CartItem.objects.all()
+
+    def get_queryset(self):
+        query_set = CartItem.objects.all()
+        cart_id = self.kwargs.get("cart_pk")
+        if cart_id is not None:
+            query_set = query_set.filter(cart_id=cart_id)
+
+        return query_set
