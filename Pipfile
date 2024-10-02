@@ -11,6 +11,8 @@ python-dotenv = "*"
 djangorestframework = "*"
 drf-nested-routers = "*"
 django-filter = "*"
+djoser = "*"
+djangorestframework-simplejwt = "*"
 
 [dev-packages]
 
