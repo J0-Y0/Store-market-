@@ -2,7 +2,13 @@ from decimal import Decimal
 from rest_framework import serializers
 from rest_framework.response import Response
 from rest_framework import status
-from .models import Collection, Product, Cart, CartItem
+from .models import Collection, Product, Cart, CartItem, Customer
+
+
+class CustomerSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Customer
+        fields = ["user", "birthday", "phone", "membership"]
 
 
 class CollectionSerializer(serializers.ModelSerializer):

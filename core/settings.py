@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 from dotenv import load_dotenv
+from datetime import timedelta
 
 # load .env file to environment
 load_dotenv()
@@ -145,8 +146,17 @@ REST_FRAMEWORK = {
         "rest_framework_simplejwt.authentication.JWTAuthentication",
     ),
 }
+
 AUTH_USER_MODEL = "authentication.User"
 
 DJOSER = {
-    "SERIALIZERS": {"user_create": "authentication.serializers.UserCreateSerializer"}
+    "SERIALIZERS": {
+        "user_create": "authentication.serializers.UserCreateSerializer",
+        "current_user": "authentication.serializers.UserSerializer",
+    }
+}
+SIMPLE_JWT = {
+    "AUTH_HEADER_TYPES": ("JWT",),
+    "ACCESS_TOKEN_LIFETIME": timedelta(days=1),
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=2),
 }

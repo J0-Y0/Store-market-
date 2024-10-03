@@ -8,12 +8,20 @@ from rest_framework.mixins import (
     RetrieveModelMixin,
     CreateModelMixin,
     DestroyModelMixin,
+    UpdateModelMixin,
 )
 from django_filters.rest_framework import DjangoFilterBackend
 from .models import *
 from .serializers import *
 from .filter import ProductFilter
 from common.serializers import *
+
+
+class CustomerViewSet(
+    RetrieveModelMixin, CreateModelMixin, UpdateModelMixin, GenericViewSet
+):
+    serializer_class = CustomerSerializer
+    queryset = Customer.objects.all()
 
 
 class ProductViewSet(ModelViewSet):
