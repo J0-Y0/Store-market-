@@ -63,7 +63,7 @@ class Collection(models.Model):
 
 # Represents each individual item in an order. While an Order contains overall details,
 class OrderItem(models.Model):
-    order = models.ForeignKey("Order", on_delete=models.PROTECT)
+    order = models.ForeignKey("Order", on_delete=models.PROTECT, related_name="items")
     product = models.ForeignKey(Product, on_delete=models.PROTECT)
     unit_price = models.DecimalField(max_digits=10, decimal_places=2)
     quantity = models.PositiveIntegerField()

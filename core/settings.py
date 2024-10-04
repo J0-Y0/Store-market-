@@ -34,13 +34,13 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
+    "authentication",
     "rest_framework_simplejwt",
     "djoser",
     "django_filters",
     "debug_toolbar",
     "store",
     "common",
-    "authentication",
 ]
 
 MIDDLEWARE = [
@@ -157,6 +157,6 @@ DJOSER = {
 }
 SIMPLE_JWT = {
     "AUTH_HEADER_TYPES": ("JWT",),
-    "ACCESS_TOKEN_LIFETIME": timedelta(days=1),
-    "REFRESH_TOKEN_LIFETIME": timedelta(days=2),
+    "ACCESS_TOKEN_LIFETIME": timedelta(days=5),
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=6),
 }

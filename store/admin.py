@@ -201,7 +201,7 @@ class OrderAdmin(admin.ModelAdmin):
         return format_html(f"<a href = {url}>{order.items_count}</a>")
 
     def get_queryset(self, request):
-        return super().get_queryset(request).annotate(items_count=Count("orderitem"))
+        return super().get_queryset(request).annotate(items_count=Count("items"))
 
 
 @admin.register(OrderItem)

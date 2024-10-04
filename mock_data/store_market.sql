@@ -53,6 +53,7 @@ INSERT INTO `auth_user` VALUES (1,'pbkdf2_sha256$870000$xBomtEKV3pwYYXVK8ovmQy$r
 /*!40000 ALTER TABLE `auth_user` ENABLE KEYS */;
 UNLOCK TABLES;
 
+delete from auth_user where 1;
 --
 -- Dumping data for table `auth_user_groups`
 --
@@ -77,7 +78,10 @@ UNLOCK TABLES;
 
 LOCK TABLES `authentication_user` WRITE;
 /*!40000 ALTER TABLE `authentication_user` DISABLE KEYS */;
-INSERT INTO `authentication_user` VALUES (1,'pbkdf2_sha256$870000$rjehACZTPCc5ITbT3IezFt$83NE5D96tV8YO1U5NKCH9d3YXOCFutx6TqaqdZ+a+os=','2024-10-02 19:18:25.538421',1,'jo','','',1,1,'2024-10-02 19:17:56.502263','jo@jo.com'),(2,'pbkdf2_sha256$870000$6xxrqq7ZYEbdzs7ddq6rBH$WBDBKgIpRiIE0UFHlMzgSxfqGa+54RRBPGYOearduGw=',NULL,1,'yosef','Yosef','Emyayu',1,1,'2024-10-02 19:33:25.000000','yosfemyayu@gmail.com'),(3,'pbkdf2_sha256$870000$zZih5CllT716DM06QzSkls$Lih58vZCTkfKp2uDkMMVGVPY1fJI8Natao5ZnDqMFuM=',NULL,0,'toma','Yosef','Emyayu',0,1,'2024-10-02 19:51:44.432574','re@gmail.com');
+INSERT INTO `authentication_user` VALUES
+                                      (1,'pbkdf2_sha256$870000$rjehACZTPCc5ITbT3IezFt$83NE5D96tV8YO1U5NKCH9d3YXOCFutx6TqaqdZ+a+os=','2024-10-02 19:18:25.538421',1,'jo','','',1,1,'2024-10-02 19:17:56.502263','jo@jo.com')
+
+                                       ,(2,'pbkdf2_sha256$870000$6xxrqq7ZYEbdzs7ddq6rBH$WBDBKgIpRiIE0UFHlMzgSxfqGa+54RRBPGYOearduGw=',NULL,1,'yosef','Yosef','Emyayu',1,1,'2024-10-02 19:33:25.000000','yosfemyayu@gmail.com'),(3,'pbkdf2_sha256$870000$zZih5CllT716DM06QzSkls$Lih58vZCTkfKp2uDkMMVGVPY1fJI8Natao5ZnDqMFuM=',NULL,0,'toma','Yosef','Emyayu',0,1,'2024-10-02 19:51:44.432574','re@gmail.com');
 /*!40000 ALTER TABLE `authentication_user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -139,6 +143,7 @@ UNLOCK TABLES;
 --
 -- Dumping data for table `django_admin_log`
 --
+
 
 LOCK TABLES `django_admin_log` WRITE;
 /*!40000 ALTER TABLE `django_admin_log` DISABLE KEYS */;
