@@ -2,18 +2,52 @@ from django.shortcuts import get_object_or_404
 from django.db.models import Count, F
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet, GenericViewSet
-from rest_framework import status
+from rest_framework import status, permissions
+from .permissions import CustomDjangoModelPermissions
+
 from rest_framework.filters import SearchFilter, OrderingFilter
+from rest_framework.decorators import action
 from rest_framework.mixins import (
     RetrieveModelMixin,
     CreateModelMixin,
     DestroyModelMixin,
+    UpdateModelMixin,
 )
 from django_filters.rest_framework import DjangoFilterBackend
 from .models import *
 from .serializers import *
 from .filter import ProductFilter
 from common.serializers import *
+
+""" 
+    class CustomerViewSet(
+        RetrieveModelMixin,
+        CreateModelMixin,
+        UpdateModelMixin,
+        GenericViewSet,
+    ):  
+"""
+
+
+class CustomerViewSet(ModelViewSet):
+    serializer_class = CustomerSerializer
+    queryset = Customer.objects.all()
+    permission_classes = [CustomDjangoModelPermissions]
+
+    @action(
+        detail=False,
+        methods=["get", "put"],
+        permission_classes=[permissions.IsAuthenticated],
+    )
+    def me(self, request):
+        customer, created = Customer.objects.get_or_create(user_id=request.user.id)
+        serializer = CustomerSerializer(customer)
+        if request.method == "PUT":
+            serializer = CustomerSerializer(customer, data=request.data)
+            serializer.is_valid(raise_exception=True)
+            serializer.save()
+
+        return Response(serializer.data)
 
 
 class ProductViewSet(ModelViewSet):
@@ -24,6 +58,11 @@ class ProductViewSet(ModelViewSet):
     filterset_class = ProductFilter
     search_fields = ["title"]
     ordering_fields = ["price"]
+
+    def get_permissions(self):
+        if self.request.method in permissions.SAFE_METHODS:
+            return [permissions.AllowAny()]
+        return [permissions.IsAdminUser()]
 
     def destroy(self, request, pk=None):
         product = get_object_or_404(Product, pk=pk)
@@ -53,6 +92,11 @@ class ProductCommentViewSet(ModelViewSet):
 class CollectionViewSet(ModelViewSet):
     serializer_class = CollectionSerializer
     queryset = Collection.objects.annotate(product_count=Count("product"))
+
+    def get_permissions(self):
+        if self.request.method in permissions.SAFE_METHODS:
+            return [permissions.AllowAny()]
+        return [permissions.IsAdminUser()]
 
     def destroy(self, request, pk=None):
         collection = get_object_or_404(Collection, pk=pk)
@@ -95,3 +139,42 @@ class CartItemViewSet(ModelViewSet):
             query_set = query_set.filter(cart_id=cart_id)
 
         return query_set
+
+
+class OrderViewSet(ModelViewSet):
+    http_method_names = ["post", "get", "path", "delete", "option", "head"]
+
+    def get_permissions(self):
+        if self.request.method in ["PATCH", "Delete"]:
+            return [permissions.IsAdminUser()]
+        return [permissions.IsAuthenticated()]
+
+    def create(self, request, *args, **kwargs):
+        serializer = OrderCreateSerializer(
+            data=request.data, context={"user_id": self.request.user.id}
+        )
+        serializer.is_valid(raise_exception=True)
+        order = serializer.save()
+
+        serializer = OrderSerializer(order)
+        return Response(serializer.data)
+
+    def get_serializer_class(self):
+        if self.request.method == "POST":
+            return OrderCreateSerializer
+        return OrderSerializer
+
+    def get_queryset(self):
+        user = self.request.user
+        if user.is_staff:
+            return Order.objects.all()
+        customer_id, created = Customer.objects.only("id").get_or_create(
+            user_id=user.id
+        )
+
+        return Order.objects.filter(customer_id=customer_id)
+
+
+# class OrderItemViewSet(ModelViewSet):
+#     serializer_class = OrderSerializer
+#     queryset = Order.objects.all()

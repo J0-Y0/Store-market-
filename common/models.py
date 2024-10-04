@@ -1,7 +1,7 @@
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes.fields import GenericForeignKey
 from django.db import models
-from django.contrib.auth.models import User
+from django.conf import settings
 
 
 # Base model to handle generic content relationships
@@ -22,7 +22,7 @@ class GenericContent(models.Model):
 # Comment Model
 class Comment(GenericContent):
     user = models.ForeignKey(
-        User, on_delete=models.CASCADE
+        settings.AUTH_USER_MODEL, on_delete=models.CASCADE
     )  # User who made the comment
     comment_text = models.CharField(max_length=500)  # The comment content
 
@@ -30,7 +30,7 @@ class Comment(GenericContent):
 # Like Model
 class Like(GenericContent):
     user = models.ForeignKey(
-        User, on_delete=models.CASCADE
+        settings.AUTH_USER_MODEL, on_delete=models.CASCADE
     )  # The user who liked the content
 
     class Meta:
