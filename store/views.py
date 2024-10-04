@@ -142,8 +142,12 @@ class CartItemViewSet(ModelViewSet):
 
 
 class OrderViewSet(ModelViewSet):
+    http_method_names = ["post", "get", "path", "delete", "option", "head"]
 
-    permission_classes = [permissions.IsAuthenticated]
+    def get_permissions(self):
+        if self.request.method in ["PATCH", "Delete"]:
+            return [permissions.IsAdminUser()]
+        return [permissions.IsAuthenticated()]
 
     def create(self, request, *args, **kwargs):
         serializer = OrderCreateSerializer(
