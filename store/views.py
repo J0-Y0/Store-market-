@@ -19,15 +19,6 @@ from .serializers import *
 from .filter import ProductFilter
 from common.serializers import *
 
-""" 
-    class CustomerViewSet(
-        RetrieveModelMixin,
-        CreateModelMixin,
-        UpdateModelMixin,
-        GenericViewSet,
-    ):  
-"""
-
 
 class CustomerViewSet(ModelViewSet):
     serializer_class = CustomerSerializer
@@ -74,6 +65,17 @@ class ProductViewSet(ModelViewSet):
                 {"error": str(e)},
                 status=status.HTTP_405_METHOD_NOT_ALLOWED,
             )
+
+
+class ProductImageViewSet(ModelViewSet):
+    serializer_class = ProductImageSerializer
+
+    def get_queryset(self):
+        product_id = self.kwargs["product_pk"]
+        return ProductImage.objects.filter(product_id=product_id)
+
+    def get_serializer_context(self):
+        return {"product_id": self.kwargs["product_pk"]}
 
 
 class ProductCommentViewSet(ModelViewSet):

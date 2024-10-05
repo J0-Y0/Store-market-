@@ -3,7 +3,7 @@ from django.db import transaction
 from rest_framework import serializers
 from rest_framework.response import Response
 from rest_framework import status
-from .models import Collection, Product, Cart, CartItem, Customer, Order, OrderItem
+from .models import *
 
 
 class CustomerSerializer(serializers.ModelSerializer):
@@ -20,13 +20,39 @@ class CollectionSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
+class ProductImageSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ProductImage
+        fields = ["id", "image"]
+
+    def create(self, validated_data):
+        product_id = self.context["product_id"]
+        return ProductImage.objects.create(product_id=product_id, **validated_data)
+
+    def save(self, **kwargs):
+        product_id = self.context["product_id"]
+        self.instance = ProductImage.objects.create(
+            product_id=product_id, **self.validated_data
+        )
+        return self.instance
+
+
 class ProductSerializer(serializers.ModelSerializer):
     # collection = CollectionSerializer()  # Nested collection serializer
     price_with_tax = serializers.SerializerMethodField(method_name="calculate_tax")
+    images = ProductImageSerializer(many=True)
 
     class Meta:
         model = Product
-        fields = ["id", "title", "price", "price_with_tax", "inventory", "collection"]
+        fields = [
+            "id",
+            "title",
+            "price",
+            "price_with_tax",
+            "inventory",
+            "collection",
+            "images",
+        ]
 
     # Custom method to calculate tax
     def calculate_tax(self, product: Product):

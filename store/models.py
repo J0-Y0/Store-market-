@@ -4,6 +4,8 @@ from django.contrib.contenttypes.fields import GenericRelation
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.conf import settings
 
+from store.validators import validate_file_size
+
 
 def product_image_path(instance, filename):
     return "products/{0}/{1}".format(instance.id, filename)
@@ -33,12 +35,14 @@ class Product(models.Model):
         return self.title
 
 
-class ProductImages(models.Model):
-    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+class ProductImage(models.Model):
+    product = models.ForeignKey(
+        Product, on_delete=models.CASCADE, related_name="images"
+    )
     image = models.ImageField(
         upload_to=product_image_path,
-        blank=True,
         default="products/default_product.jpg",
+        validators=[validate_file_size],
     )
 
 
