@@ -84,6 +84,19 @@ class ContentTagInline(GenericTabularInline):
     extra = 1
 
 
+class ProductImageInline(admin.TabularInline):
+    model = ProductImage
+    extra = 0  # Number of empty comments to display for adding new ones
+    readonly_fields = ["thumbnail"]
+
+    def thumbnail(self, instance: ProductImage):
+        if instance.image.name != "":
+            return format_html(
+                f'<a target = "_black" href = "{instance.image.url}" ><img src = "{instance.image.url}" alt =" __ product image" class   = "thumbnail"/> </a>'
+            )
+        return ""
+
+
 @admin.register(Customer)
 class CustomerAdmin(admin.ModelAdmin):
     list_display = [
@@ -118,8 +131,11 @@ class CustomerAdmin(admin.ModelAdmin):
         return super().get_queryset(request).annotate(order_count=Count("order"))
 
 
+from import_export.admin import ImportExportModelAdmin
+
+
 @admin.register(Product)
-class ProductAdmin(admin.ModelAdmin):
+class ProductAdmin(ImportExportModelAdmin):
     # action
     actions = [clear_inventory]
 
@@ -139,7 +155,7 @@ class ProductAdmin(admin.ModelAdmin):
 
     ordering = ["title"]
 
-    inlines = [CommentInline, ContentTagInline]
+    inlines = [ProductImageInline, CommentInline, ContentTagInline]
 
     autocomplete_fields = ["collection"]
     prepopulated_fields = {"description": ["title"]}
@@ -152,6 +168,9 @@ class ProductAdmin(admin.ModelAdmin):
         elif product.inventory > 50:
             return f"low {product.inventory}"
         return f"Very Low {product.inventory}"
+
+    class Media:
+        css = {"all": ["store/style.css"]}
 
 
 @admin.register(Collection)
