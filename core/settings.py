@@ -168,6 +168,7 @@ REST_FRAMEWORK = {
 AUTH_USER_MODEL = "authentication.User"
 
 DJOSER = {
+    "LOGIN_FIELD": "email",
     "USER_CREATE_PASSWORD_RETYPE": True,
     "PASSWORD_RESET_CONFIRM_RETYPE": False,
     "PASSWORD_RESET_SHOW_EMAIL_NOT_FOUND": True,  # tell the frontend email not found if it does not exist
