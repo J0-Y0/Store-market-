@@ -1,10 +1,32 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
 from django.contrib.contenttypes.models import ContentType
 from rest_framework.viewsets import ModelViewSet
 
 
 from .serializers import CommentSerializer
 from .models import Comment
+
+
+from django.core.mail import send_mail, BadHeaderError
+
+from django.template.loader import render_to_string
+
+
+def sendmail(request):
+    try:
+        send_mail(
+            "subject",
+            "message",
+            "info@g.ssdd",
+            ["yosef@gmail.com"],
+            html_message=render_to_string(
+                "mail.html", context={"signature": "with regars 22"}
+            ),
+        )
+    except BadHeaderError as e:
+        return HttpResponse("<h2>{e}</h2>")
+
+    return HttpResponse("<h2>main sent</h2>")
 
 
 # Create your views here.

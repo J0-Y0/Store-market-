@@ -6,7 +6,7 @@ router = routers.DefaultRouter()
 
 router.register("collections", CollectionViewSet)
 router.register("products", ProductViewSet, basename="products")
-router.register("images", OrderViewSet, basename="images")
+# router.register("images", OrderViewSet, basename="images")
 
 router.register("carts", CartVewSet, basename="carts")
 router.register("customers", CustomerViewSet, basename="customers")
