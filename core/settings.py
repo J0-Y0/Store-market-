@@ -1,7 +1,9 @@
 import os
 from pathlib import Path
+from django.urls import reverse_lazy
 from dotenv import load_dotenv
 from datetime import timedelta
+from django.utils.translation import gettext_lazy as _
 
 
 # load .env file to environment
@@ -166,4 +168,66 @@ SIMPLE_JWT = {
     "AUTH_HEADER_TYPES": ("JWT",),
     "ACCESS_TOKEN_LIFETIME": timedelta(days=5),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=6),
+}
+UNFOLD = {
+    "SIDEBAR": {
+        "show_search": True,
+        "show_all_applications": True,
+        "navigation": [
+            {
+                "title": _("Navigation"),
+                "separator": True,
+                "collapsible": False,
+                "icon": "dashboard",
+                "items": [
+                    {
+                        "title": _("Users"),
+                        "icon": "person",
+                        "link": reverse_lazy("admin:authentication_user_changelist"),
+                        "separator": True,
+                    },
+                    {
+                        "title": _("Group"),
+                        "icon": "groups",
+                        "link": reverse_lazy("admin:auth_group_changelist"),
+                    },
+                    {
+                        "title": _("Customers"),
+                        "icon": "people_alt",
+                        "link": reverse_lazy("admin:store_customer_changelist"),
+                    },
+                    {
+                        "title": _("Products"),
+                        "icon": "storefront",
+                        "link": reverse_lazy("admin:store_product_changelist"),
+                    },
+                    {
+                        "title": _("Orders"),
+                        "icon": "list_alt",
+                        "link": reverse_lazy("admin:store_order_changelist"),
+                    },
+                    {
+                        "title": _("Order Items"),
+                        "icon": "assignment",
+                        "link": reverse_lazy("admin:store_orderitem_changelist"),
+                    },
+                    {
+                        "title": _("Cart"),
+                        "icon": "shopping_cart",
+                        "link": reverse_lazy("admin:store_cart_changelist"),
+                    },
+                    {
+                        "title": _("Cart Items"),
+                        "icon": "inventory",
+                        "link": reverse_lazy("admin:store_cartitem_changelist"),
+                    },
+                    {
+                        "title": _("Collections"),
+                        "icon": "collections",
+                        "link": reverse_lazy("admin:store_collection_changelist"),
+                    },
+                ],
+            },
+        ],
+    },
 }

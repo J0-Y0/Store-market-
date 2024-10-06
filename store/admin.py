@@ -75,7 +75,7 @@ class CartItemInline(TabularInline):
     extra = 1
 
 
-class CommentInline(GenericTabularInline):
+class CommentInline(GenericTabularInline, TabularInline):
     model = Comment
     extra = 1  # Number of empty comments to display for adding new ones
 
@@ -160,7 +160,9 @@ class ProductAdmin(ModelAdmin, ImportExportModelAdmin):
     search_fields = ["title", "description"]
     import_form_class = ImportForm
     export_form_class = ExportForm
-    SelectableFieldsExportForm
+    compressed_fields = True
+    # list_fullwidth = True
+    # list_horizontal_scrollbar_top = True
 
     ordering = ["title"]
 
