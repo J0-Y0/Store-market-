@@ -194,3 +194,7 @@ SPECTACULAR_SETTINGS = {
     "SERVE_INCLUDE_SCHEMA": False,
     # OTHER SETTINGS
 }
+
+
+CELERY_BROKER_URL = "redis://localhost:6379/1"
+# celery -A core worker --loglevel=info --pool=solo
