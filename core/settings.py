@@ -170,6 +170,7 @@ SIMPLE_JWT = {
     "REFRESH_TOKEN_LIFETIME": timedelta(days=6),
 }
 UNFOLD = {
+    # "SITE_URL": "/store/",
     "SIDEBAR": {
         "show_search": True,
         "show_all_applications": True,
