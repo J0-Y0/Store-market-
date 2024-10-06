@@ -48,7 +48,7 @@ class ProductImage(models.Model):
 
 class Customer(models.Model):
 
-    phone = models.CharField(max_length=255, unique=True)
+    phone = models.CharField(max_length=255, null=True, blank=True)
     birthday = models.DateField(null=True, blank=True)
 
     membership_choices = [
@@ -62,6 +62,15 @@ class Customer(models.Model):
 
     def __str__(self):
         return f"{self.user.first_name } {self.user.last_name}"
+
+    # class Meta:
+    #     constraints = [
+    #         models.UniqueConstraint(
+    #             fields=["phone"],
+    #             condition=models.Q(phone__isnull=False),
+    #             name="unique_non_null_phone",
+    #         )
+    #     ]
 
 
 class Address(models.Model):
