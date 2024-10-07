@@ -1,3 +1,4 @@
+from decimal import Decimal
 from django.db import models
 from uuid import uuid4
 from django.contrib.contenttypes.fields import GenericRelation
@@ -18,8 +19,8 @@ class Product(models.Model):
         max_digits=10,
         decimal_places=2,
         validators=[
-            MinValueValidator(0, "price cant me negative"),
-            MaxValueValidator(100000, "unusual value"),
+            MinValueValidator(Decimal(0), "price cant me negative"),
+            MaxValueValidator(Decimal(10000), "unusual value"),
         ],
     )
     inventory = models.IntegerField()

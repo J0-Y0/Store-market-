@@ -40,7 +40,7 @@ class ProductImageSerializer(serializers.ModelSerializer):
 class ProductSerializer(serializers.ModelSerializer):
     # collection = CollectionSerializer()  # Nested collection serializer
     price_with_tax = serializers.SerializerMethodField(method_name="calculate_tax")
-    images = ProductImageSerializer(many=True)
+    images = ProductImageSerializer(many=True, read_only=True)
 
     class Meta:
         model = Product
