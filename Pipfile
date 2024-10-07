@@ -17,8 +17,11 @@ pillow = "*"
 drf-spectacular = "*"
 redis = "*"
 celery = "*"
+django-import-export = "*"
 
 [dev-packages]
+pytest = "*"
+pytest-django = "*"
 
 [requires]
 python_version = "3.10"
