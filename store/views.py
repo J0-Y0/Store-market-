@@ -92,6 +92,8 @@ class ProductCommentViewSet(ModelViewSet):
 
 
 class CollectionViewSet(ModelViewSet):
+    http_method_names = ["get", "post", "put", "delete", "options", "head"]
+
     serializer_class = CollectionSerializer
     queryset = Collection.objects.annotate(product_count=Count("product"))
     permission_classes = [permissions.IsAuthenticated]
