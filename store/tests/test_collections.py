@@ -30,6 +30,14 @@ def create_collection(api_client):
     return do_create
 
 
+@pytest.fixture
+def authenticate(api_client):
+    def do_authenticate(is_staff=False):
+        return api_client.force_authenticate(User(is_staff=is_staff))
+
+    return do_authenticate
+
+
 @pytest.mark.django_db
 class TestCreateCollection:
 
@@ -41,20 +49,28 @@ class TestCreateCollection:
         # assert
         assert response.status_code == status.HTTP_401_UNAUTHORIZED
 
-    def test_if_user_is_not_admin_return_403(self, api_client):
-
-        api_client.force_authenticate(user={})
-        response = api_client.post("/store/collections/", {"title": "A"})
+    def test_if_user_is_not_admin_return_403(self, create_collection, authenticate):
+        # arrange :setting up the test
+        authenticate()
+        # act
+        response = create_collection({"title": "A"})
+        # assert
         assert response.status_code == status.HTTP_403_FORBIDDEN
 
-    def test_if_user_is_admin_and_invalid_data_return_400(self, api_client):
-        api_client.force_authenticate(user=User(is_staff=True))
-        response = api_client.post("/store/collections/", {"title": ""})
+    def test_if_user_is_admin_and_invalid_data_return_400(
+        self, create_collection, authenticate
+    ):
+        authenticate(is_staff=True)
+
+        response = create_collection({"title": ""})
+
         assert response.status_code == status.HTTP_400_BAD_REQUEST
         assert response.data["title"] is not None
 
-    def test_if_user_is_admin_return_201(self, api_client):
-        api_client.force_authenticate(user=User(is_staff=True))
-        response = api_client.post("/store/collections/", {"title": "A"})
+    def test_if_user_is_admin_return_201(self, create_collection, authenticate):
+        authenticate(is_staff=True)
+
+        response = create_collection({"title": "A"})
+
         assert response.status_code == status.HTTP_201_CREATED
         assert response.data["id"] > 0
