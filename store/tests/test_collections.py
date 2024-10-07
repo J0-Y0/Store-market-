@@ -22,34 +22,39 @@ todo:
 """
 
 
+@pytest.fixture
+def create_collection(api_client):
+    def do_create(collection):
+        return api_client.post("/store/collections/", collection)
+
+    return do_create
+
+
 @pytest.mark.django_db
 class TestCreateCollection:
-    def test_if_user_is_anonymous_return_401(self):
+
+    def test_if_user_is_anonymous_return_401(self, create_collection):
         # Arrange
 
         # act
-        client = APIClient()
-        response = client.post("/store/collections/", {"title": "A"})
+        response = create_collection({"title": "A"})
         # assert
         assert response.status_code == status.HTTP_401_UNAUTHORIZED
 
-    def test_if_user_is_not_admin_return_403(self):
+    def test_if_user_is_not_admin_return_403(self, api_client):
 
-        client = APIClient()
-        client.force_authenticate(user={})
-        response = client.post("/store/collections/", {"title": "A"})
+        api_client.force_authenticate(user={})
+        response = api_client.post("/store/collections/", {"title": "A"})
         assert response.status_code == status.HTTP_403_FORBIDDEN
 
-    def test_if_user_is_admin_and_invalid_data_return_400(self):
-        client = APIClient()
-        client.force_authenticate(user=User(is_staff=True))
-        response = client.post("/store/collections/", {"title": ""})
+    def test_if_user_is_admin_and_invalid_data_return_400(self, api_client):
+        api_client.force_authenticate(user=User(is_staff=True))
+        response = api_client.post("/store/collections/", {"title": ""})
         assert response.status_code == status.HTTP_400_BAD_REQUEST
         assert response.data["title"] is not None
 
-    def test_if_user_is_admin_return_201(self):
-        client = APIClient()
-        client.force_authenticate(user=User(is_staff=True))
-        response = client.post("/store/collections/", {"title": "A"})
+    def test_if_user_is_admin_return_201(self, api_client):
+        api_client.force_authenticate(user=User(is_staff=True))
+        response = api_client.post("/store/collections/", {"title": "A"})
         assert response.status_code == status.HTTP_201_CREATED
         assert response.data["id"] > 0
