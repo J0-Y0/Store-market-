@@ -13,7 +13,7 @@ class UserBrowsWebsite(HttpUser):
         self.client.get("/store/products/", name="products")
         self.client.get(
             f"/store/products/?collection_id={collection_id}",
-            name="products/collection",
+            name="products/:collection",
         )
 
     @task(2)
@@ -31,12 +31,12 @@ class UserBrowsWebsite(HttpUser):
         self.client.get(
             f"/store/carts/{self.cart_id}/items",
             json={"product_id": product_id, "quantity": 5},
-            name="/store/carts/items",
+            name="carts/items",
         )
 
     def on_start(self):
         print("on start -------")
 
-        response = self.client.post(f"/store/carts/")
+        response = self.client.post(f"/store/carts/", name="cart:initial")
         data = response.json()
         self.cart_id = data["id"]
