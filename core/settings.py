@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     "rest_framework",
     "rest_framework_simplejwt",
     "django_filters",
-    "debug_toolbar",
     "djoser",
     "drf_spectacular",
     "authentication",
@@ -46,8 +45,8 @@ INSTALLED_APPS = [
     "import_export",
 ]
 
+
 MIDDLEWARE = [
-    "debug_toolbar.middleware.DebugToolbarMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -56,6 +55,15 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
+if DEBUG:
+    INSTALLED_APPS += [
+        # "silk",
+        # "debug_toolbar",
+    ]
+    MIDDLEWARE += [
+        # "debug_toolbar.middleware.DebugToolbarMiddleware",
+        # "silk.middleware.SilkyMiddleware",
+    ]
 
 ROOT_URLCONF = "core.urls"
 

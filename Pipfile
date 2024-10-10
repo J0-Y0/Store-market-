@@ -23,6 +23,8 @@ model-bakery = "*"
 [dev-packages]
 pytest = "*"
 pytest-django = "*"
+locust = "*"
+django-silk = "*"
 
 [requires]
 python_version = "3.10"
