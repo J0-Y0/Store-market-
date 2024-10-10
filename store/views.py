@@ -44,7 +44,7 @@ class CustomerViewSet(ModelViewSet):
 class ProductViewSet(ModelViewSet):
     serializer_class = ProductSerializer
 
-    queryset = Product.objects.all()
+    queryset = Product.objects.prefetch_related("images").all()
     filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
     filterset_class = ProductFilter
     search_fields = ["title"]
