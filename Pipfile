@@ -19,6 +19,7 @@ redis = "*"
 celery = "*"
 django-import-export = "*"
 model-bakery = "*"
+whitenoise = "*"
 
 [dev-packages]
 pytest = "*"
