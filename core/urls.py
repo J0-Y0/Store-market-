@@ -3,6 +3,7 @@ from django.conf.urls.static import static
 from django.conf import settings
 from django.urls import path, include
 from debug_toolbar.toolbar import debug_toolbar_urls
+from django.views.generic import TemplateView
 from drf_spectacular.views import (
     SpectacularAPIView,
     SpectacularRedocView,
@@ -11,6 +12,7 @@ from drf_spectacular.views import (
 
 
 urlpatterns = [
+    path("", TemplateView.as_view(template_name="common/index.html")),
     path("admin/", admin.site.urls),
     path("auth/", include("djoser.urls")),
     path("auth/", include("djoser.urls.jwt")),
