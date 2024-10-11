@@ -157,7 +157,7 @@ LOGGING = {
     "disable_existing_loggers": False,
     "formatters": {
         "verbose": {
-            "format": " {asctime} ({levelname})  {name} - message} ",
+            "format": " {asctime}  ({levelname}) | {name}| {message} ",
             "style": "{",
         }
     },
@@ -179,6 +179,6 @@ LOGGING = {
 }
 # https://docs.python.org/3/library/logging.html#logrecord-attributes
 
-# import logging
+import logging
 
-# logging.captureWarnings(True)
+logging.captureWarnings(True)
