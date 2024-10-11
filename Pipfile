@@ -20,6 +20,8 @@ celery = "*"
 django-import-export = "*"
 model-bakery = "*"
 whitenoise = "*"
+waitress = "*"
+waitress-serve = "*"
 
 [dev-packages]
 pytest = "*"

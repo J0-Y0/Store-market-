@@ -155,9 +155,15 @@ SPECTACULAR_SETTINGS = {
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
+    "formatters": {
+        "verbose": {
+            "format": " {asctime} ({levelname})  {name} - message} ",
+            "style": "{",
+        }
+    },
     "handlers": {
         "file": {
-            "level": "ERROR",
+            "level": "DEBUG",
             "class": "logging.FileHandler",
             "filename": ".log/general.log",
             "formatter": "verbose",
@@ -166,14 +172,13 @@ LOGGING = {
     "loggers": {
         "": {
             "handlers": ["file"],
-            "level": "ERROR",
-            # "propagate": True,
+            "level": "DEBUG",
+            "propagate": False,
         },
     },
-    "formatters": {
-        "verbose": {
-            "format": " {asctime} ({levelname})  {name}  {message}",
-            "style": "{",
-        }
-    },
 }
+# https://docs.python.org/3/library/logging.html#logrecord-attributes
+
+# import logging
+
+# logging.captureWarnings(True)
