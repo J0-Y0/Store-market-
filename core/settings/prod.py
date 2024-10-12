@@ -1,7 +1,9 @@
 from .common import *
 
 DEBUG = False
-ALLOWED_HOSTS = ["127.0.0.15"]
+ALLOWED_HOSTS = [
+    "info.jos.com",
+]
 # replace with production  database
 # DATABASES = {
 #     "default": {

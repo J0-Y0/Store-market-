@@ -8,6 +8,9 @@ import os
 
 load_dotenv()
 DEBUG = True
+ALLOWED_HOSTS = [
+    "info.jos.com",
+]
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",

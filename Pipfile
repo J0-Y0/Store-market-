@@ -22,6 +22,7 @@ model-bakery = "*"
 whitenoise = "*"
 waitress = "*"
 pywin32 = "*"
+pyinstaller = "*"
 
 [dev-packages]
 pytest = "*"
