@@ -157,15 +157,21 @@ LOGGING = {
     "disable_existing_loggers": False,
     "formatters": {
         "verbose": {
-            "format": " {asctime}  ({levelname}) | {name}| {message} ",
+            "format": "{asctime}  ({levelname}) | {name}| {message}",
             "style": "{",
-        }
+        },
     },
     "handlers": {
         "file": {
             "level": "DEBUG",
             "class": "logging.FileHandler",
             "filename": ".log/general.log",
+            "formatter": "verbose",
+        },
+        "service_file": {
+            "level": "DEBUG",
+            "class": "logging.FileHandler",
+            "filename": ".log/service.log",  # Service log file
             "formatter": "verbose",
         },
     },
@@ -175,8 +181,14 @@ LOGGING = {
             "level": "DEBUG",
             "propagate": False,
         },
+        "django_service": {  # Specific logger for service logs,
+            "handlers": ["service_file"],
+            "level": "DEBUG",
+            "propagate": False,
+        },
     },
 }
+
 # https://docs.python.org/3/library/logging.html#logrecord-attributes
 
 import logging

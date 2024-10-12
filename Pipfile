@@ -21,6 +21,7 @@ django-import-export = "*"
 model-bakery = "*"
 whitenoise = "*"
 waitress = "*"
+pywin32 = "*"
 
 [dev-packages]
 pytest = "*"
