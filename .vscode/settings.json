@@ -2,7 +2,9 @@
 "python.pipenvPath": "pipenv",
 "cSpell.words": [
     "DBPASSWORD",
-    "orderitem"
+    "orderitem",
+    "servicemanager",
+    "serviceutil"
 ],
 "python.testing.pytestArgs": [
     "."

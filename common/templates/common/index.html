@@ -11,6 +11,7 @@
             margin: 0;
             padding: 0;
             background-color: #f5f5f5;
+            
         }
         header {
             background-color: #4A90E2;
@@ -41,8 +42,25 @@
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
-        h1 {
+        h1, h2 {
             color: #333;
+        }
+        .card {
+            background: #f9f9f9;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card a {
+            text-decoration: none;
+            color: #4A90E2;
+            font-weight: bold;
         }
         footer {
             text-align: center;
@@ -52,6 +70,11 @@
             position: relative;
             bottom: 0;
             width: 100%;
+        }
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
     </style>
 </head>
@@ -63,9 +86,10 @@
 
 <nav>
     <a href="#home">Home</a>
-    <a href="#products">Products</a>
-    <a href="#about">About Us</a>
-    <a href="#contact">Contact</a>
+    <a href="/store/">Store Api Root</a>
+    <a href="/api/schema/redoc/">Redoc</a>
+    <a href="/api/schema/swagger-ui/">Swagger</a>
+    <a href="/admin">CMS admin</a>
 </nav>
 
 <div class="container">
@@ -73,12 +97,32 @@
     <p>
         Store-Market is a scalable eCommerce app built with Django, Django REST Framework, and an SQL database. 
         It features secure APIs for user authentication, product management, and order processing, with a dynamic 
-        React front-end and efficient SQL data handling.
+        efficient SQL data handling, JWT authentication and authorization, testing automation, and performance optimization including caching and ORM optimization with database indexing.
     </p>
+
+    <h2>Featured Links</h2>
+    <div class="cards-container">
+        <div class="card">
+            <h3><a href="/store/">Store API Root</a></h3>
+            <p>Access the main API for product management and order processing.</p>
+        </div>
+        <div class="card">
+            <h3><a href="/api/schema/redoc/">API Documentation (Redoc)</a></h3>
+            <p>Explore the API documentation with Redoc interface.</p>
+        </div>
+        <div class="card">
+            <h3><a href="/api/schema/swagger-ui/">API Documentation (Swagger)</a></h3>
+            <p>View the API documentation in the Swagger UI format.</p>
+        </div>
+        <div class="card">
+            <h3><a href="/admin">CMS Admin</a></h3>
+            <p>Access the admin panel for customer relationship management.</p>
+        </div>
+    </div>
 </div>
 
 <footer>
-    <p>&copy; 2024 Sotere-market. All rights reserved.</p>
+    <p>&copy; 2024 Sotere-market. All rights reserved. Coded by <a href="https://github.com/J0-Y0/" style="color: white;">Yosef Emayau</a>.</p>
 </footer>
 
 </body>

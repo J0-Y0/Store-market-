@@ -23,7 +23,7 @@ from common.serializers import *
 class CustomerViewSet(ModelViewSet):
     serializer_class = CustomerSerializer
     queryset = Customer.objects.all()
-    permission_classes = [CustomDjangoModelPermissions]
+    permission_classes = [CustomDjangoModelPermissions, permissions.IsAdminUser]
 
     @action(
         detail=False,
