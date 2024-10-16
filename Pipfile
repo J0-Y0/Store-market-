@@ -23,6 +23,7 @@ whitenoise = "*"
 waitress = "*"
 pywin32 = "*"
 pyinstaller = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 pytest = "*"
