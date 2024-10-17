@@ -50,7 +50,7 @@ ROOT_URLCONF = "core.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [os.path.join(BASE_DIR, "templates")],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -146,6 +146,16 @@ DJOSER = {
     #     "user_create": "authentication.serializers.UserCreateSerializer",
     #     "current_user": "authentication.serializers.UserSerializer",
     # },
+    # "ACTIVATION_URL": os.getenv("FRONTEND_ADDRESS") + "/account/activate/{uid}/{token}",
+    # "PASSWORD_RESET_CONFIRM_URL": os.getenv("FRONTEND_ADDRESS")
+    # + "/account/reset/confirm/{uid}/{token}",
+    "EMAIL": {
+        "activation": "core.email.ActivationEmail",
+        "confirmation": "djoser.email.ConfirmationEmail",
+        "password_reset": "djoser.email.PasswordResetEmail",
+        "password_changed_confirmation": "djoser.email.PasswordChangedConfirmationEmail",
+        "username_reset": "djoser.email.UsernameResetEmail",
+    },
 }
 SIMPLE_JWT = {
     "AUTH_HEADER_TYPES": ("JWT",),
