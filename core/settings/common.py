@@ -3,6 +3,9 @@ from pathlib import Path
 from dotenv import load_dotenv
 from datetime import timedelta
 
+import logging
+from django.urls import reverse_lazy  # For generating URLs for models and views
+from django.utils.translation import gettext_lazy as _  # For translation support
 
 load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -196,7 +199,79 @@ LOGGING = {
 
 # https://docs.python.org/3/library/logging.html#logrecord-attributes
 
-import logging
+
+UNFOLD = {
+    # "SITE_URL": "/store/",
+    "SIDEBAR": {
+        "show_search": True,
+        "show_all_applications": True,
+        "navigation": [
+            {
+                "title": _("Authorization"),
+                "separator": True,
+                "collapsible": False,
+                "icon": "dashboard",
+                "items": [
+                    {
+                        "title": _("Users"),
+                        "icon": "person",
+                        "link": reverse_lazy("admin:authentication_user_changelist"),
+                        "separator": True,
+                    },
+                    {
+                        "title": _("Group"),
+                        "icon": "groups",
+                        "link": reverse_lazy("admin:auth_group_changelist"),
+                    },
+                    {
+                        "title": _("Customers"),
+                        "icon": "people_alt",
+                        "link": reverse_lazy("admin:store_customer_changelist"),
+                    },
+                ],
+            },
+            {
+                "title": _("Stor And Sales"),
+                "separator": True,
+                "collapsible": False,
+                "icon": "dashboard",
+                "items": [
+                    {
+                        "title": _("Product"),
+                        "icon": "storefront",
+                        "link": reverse_lazy("admin:store_product_changelist"),
+                    },
+                    {
+                        "title": _("Orders"),
+                        "icon": "list_alt",
+                        "link": reverse_lazy("admin:store_order_changelist"),
+                    },
+                    {
+                        "title": _("Order Items"),
+                        "icon": "assignment",
+                        "link": reverse_lazy("admin:store_orderitem_changelist"),
+                    },
+                    {
+                        "title": _("Cart"),
+                        "icon": "shopping_cart",
+                        "link": reverse_lazy("admin:store_cart_changelist"),
+                    },
+                    {
+                        "title": _("Cart Items"),
+                        "icon": "inventory",
+                        "link": reverse_lazy("admin:store_cartitem_changelist"),
+                    },
+                    {
+                        "title": _("Collections"),
+                        "icon": "collections",
+                        "link": reverse_lazy("admin:store_collection_changelist"),
+                    },
+                ],
+            },
+        ],
+    },
+}
+
 
 logging.captureWarnings(True)
 CORS_ALLOWED_ORIGINS = [os.getenv("FRONTEND_ADDRESS")]
