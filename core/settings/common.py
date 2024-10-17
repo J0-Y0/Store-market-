@@ -137,10 +137,10 @@ DJOSER = {
     "SEND_ACTIVATION_EMAIL": True,  # send activation link to the user ,initially account is inactive
     "SEND_CONFIRMATION_EMAIL": True,  # send when user registration completed and activated
     "ACTIVATION_URL": "activate/{uid}/{token}",
-    "SERIALIZERS": {
-        "user_create": "authentication.serializers.UserCreateSerializer",
-        "current_user": "authentication.serializers.UserSerializer",
-    },
+    # "SERIALIZERS": {
+    #     "user_create": "authentication.serializers.UserCreateSerializer",
+    #     "current_user": "authentication.serializers.UserSerializer",
+    # },
 }
 SIMPLE_JWT = {
     "AUTH_HEADER_TYPES": ("JWT",),

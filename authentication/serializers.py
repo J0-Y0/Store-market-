@@ -5,15 +5,15 @@ from djoser.serializers import (
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 
 
-class UserCreateSerializer(BaseUserCreateSerializer):
-    class Meta(BaseUserCreateSerializer.Meta):
-        fields = ["first_name", "last_name", "email", "username", "password"]
+# class UserCreateSerializer(BaseUserCreateSerializer):
+#     class Meta(BaseUserCreateSerializer.Meta):
+#         fields = ["first_name", "last_name", "email", "password"]
 
 
-class UserSerializer(BaseUserSerializer):
+# class UserSerializer(BaseUserSerializer):
 
-    class Meta(BaseUserSerializer.Meta):
-        fields = ["id", "first_name", "last_name", "email", "username"]
+#     class Meta(BaseUserSerializer.Meta):
+#         fields = ["id", "first_name", "last_name", "email"]
 
 
 class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
