@@ -7,6 +7,12 @@ from django.contrib.contenttypes.admin import GenericTabularInline
 from django.urls import reverse
 from .models import *
 from common.models import *
+from unfold.admin import ModelAdmin, TabularInline
+from unfold.contrib.import_export.forms import (
+    ExportForm,
+    ImportForm,
+    SelectableFieldsExportForm,
+)
 
 
 from django.db.models import Count, F
@@ -43,7 +49,7 @@ def clear_inventory(self, request, queryset):
 
 
 # inline child list
-class OrderItemInline(admin.TabularInline):
+class OrderItemInline(TabularInline):
     model = OrderItem
     autocomplete_fields = ["product"]
     extra = 0
@@ -54,7 +60,7 @@ class OrderItemInline(admin.TabularInline):
 
 
 # inline child list
-class OrderItemInline(admin.TabularInline):
+class OrderItemInline(TabularInline):
     model = OrderItem
     autocomplete_fields = ["product"]
     extra = 0
@@ -64,12 +70,12 @@ class OrderItemInline(admin.TabularInline):
     max_num = 4
 
 
-class CartItemInline(admin.TabularInline):
+class CartItemInline(TabularInline):
     model = CartItem
     extra = 1
 
 
-class CommentInline(GenericTabularInline):
+class CommentInline(GenericTabularInline, TabularInline):
     model = Comment
     extra = 1  # Number of empty comments to display for adding new ones
 
@@ -84,7 +90,7 @@ class ContentTagInline(GenericTabularInline):
     extra = 1
 
 
-class ProductImageInline(admin.TabularInline):
+class ProductImageInline(TabularInline):
     model = ProductImage
     extra = 0  # Number of empty comments to display for adding new ones
     readonly_fields = ["thumbnail"]
@@ -98,7 +104,7 @@ class ProductImageInline(admin.TabularInline):
 
 
 @admin.register(Customer)
-class CustomerAdmin(admin.ModelAdmin):
+class CustomerAdmin(ModelAdmin):
     list_display = [
         "user__first_name",
         "user__last_name",
@@ -135,7 +141,7 @@ from import_export.admin import ImportExportModelAdmin
 
 
 @admin.register(Product)
-class ProductAdmin(ImportExportModelAdmin):
+class ProductAdmin(ModelAdmin, ImportExportModelAdmin):
     # action
     actions = [clear_inventory]
 
@@ -152,6 +158,11 @@ class ProductAdmin(ImportExportModelAdmin):
     list_editable = ["price"]
     list_per_page = 10
     search_fields = ["title", "description"]
+    import_form_class = ImportForm
+    export_form_class = ExportForm
+    compressed_fields = True
+    # list_fullwidth = True
+    # list_horizontal_scrollbar_top = True
 
     ordering = ["title"]
 
@@ -174,7 +185,7 @@ class ProductAdmin(ImportExportModelAdmin):
 
 
 @admin.register(Collection)
-class CollectionAdmin(admin.ModelAdmin):
+class CollectionAdmin(ModelAdmin):
     list_display = ["id", "title", "product_count", "created_at"]
     list_editable = ["title"]
     search_fields = ["title"]
@@ -196,7 +207,7 @@ class CollectionAdmin(admin.ModelAdmin):
 
 
 @admin.register(Order)
-class OrderAdmin(admin.ModelAdmin):
+class OrderAdmin(ModelAdmin):
     list_display = ["id", "created_at", "customer", "items_count", "payment_status"]
     list_filter = ["payment_status", "created_at"]
     search_fields = ["customer__first_name", "customer__last_name", "customer__email"]
@@ -224,7 +235,7 @@ class OrderAdmin(admin.ModelAdmin):
 
 
 @admin.register(OrderItem)
-class OrderItemAdmin(admin.ModelAdmin):
+class OrderItemAdmin(ModelAdmin):
     list_display = [
         "id",
         "order",
@@ -256,7 +267,7 @@ class OrderItemAdmin(admin.ModelAdmin):
 
 
 @admin.register(Cart)
-class CartAdmin(admin.ModelAdmin):
+class CartAdmin(ModelAdmin):
     list_display = [
         "id",
         "created_at",
@@ -276,21 +287,21 @@ class CartAdmin(admin.ModelAdmin):
 
 
 @admin.register(CartItem)
-class CartItemAdmin(admin.ModelAdmin):
+class CartItemAdmin(ModelAdmin):
     list_display = ["cart", "product", "quantity"]
     search_fields = ["cart__id", "product__title"]
     ordering = ["cart"]
 
 
 @admin.register(Address)
-class AddressAdmin(admin.ModelAdmin):
+class AddressAdmin(ModelAdmin):
     list_display = ["customer", "region", "city"]
     search_fields = ["customer__first_name", "customer__last_name", "region", "city"]
     ordering = ["customer", "region", "city"]
 
 
 @admin.register(Promotion)
-class PromotionAdmin(admin.ModelAdmin):
+class PromotionAdmin(ModelAdmin):
     list_display = ["title", "discount_value", "start_date", "end_date"]
     search_fields = ["title"]
     ordering = ["start_date"]
