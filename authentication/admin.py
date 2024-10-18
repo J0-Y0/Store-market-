@@ -12,9 +12,10 @@ class UserAdmin(BaseAdmin, ModelAdmin):
     form = UserChangeForm
     add_form = UserCreationForm
     change_password_form = AdminPasswordChangeForm
+
     add_fieldsets = [
         ("Personal info", {"fields": ["first_name", "last_name", "email"]}),
-        ("Authentication", {"fields": ["username", "password1", "password2"]}),
+        ("Authentication", {"fields": ["password1", "password2"]}),
         (
             "User type",
             {
@@ -27,9 +28,20 @@ class UserAdmin(BaseAdmin, ModelAdmin):
         ),
         # ("Permissions", {"fields": ["groups", "user_permissions"]}),
     ]
-    # list_prefetch_related = ["Permissions"]]
 
     readonly_fields = ["last_login", "date_joined"]
+    list_display = [
+        "first_name",
+        "last_name",
+        "email",
+        "is_staff",
+        "is_active",
+    ]
+
+    # def get_fieldsets(self, request, obj=None):
+    #     if obj:  # Change view
+    #         return self.change_fieldsets
+    #     return self.add_fieldsets  # Add view
 
 
 from django.contrib.auth.admin import GroupAdmin as BaseGroupAdmin
