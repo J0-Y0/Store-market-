@@ -112,7 +112,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = "localhost"
-EMAIL_PORT = 2525
+EMAIL_PORT = 25
 EMAIL_HOST_USER = ""  # os.getenv("jo_dev_mail")
 EMAIL_HOST_PASSWORD = ""  # os.getenv("jo_dev_token")
 # EMAIL_USE_TLS = True
@@ -140,21 +140,21 @@ DJOSER = {
     "USERNAME_CHANGED_EMAIL_CONFIRMATION": True,  # send email when email/username changed
     "PASSWORD_CHANGED_EMAIL_CONFIRMATION": True,  # send email when password changed
     "SEND_ACTIVATION_EMAIL": True,  # send activation link to the user ,initially account is inactive
-    "SEND_CONFIRMATION_EMAIL": True,  # send when user registration completed and activated
-    "ACTIVATION_URL": "activate/{uid}/{token}",
+    "SEND_CONFIRMATION_EMAIL": False,  # send when user registration completed and activated
+    # "ACTIVATION_URL": "activate/{uid}/{token}",
     # "SERIALIZERS": {
     #     "user_create": "authentication.serializers.UserCreateSerializer",
     #     "current_user": "authentication.serializers.UserSerializer",
     # },
-    # "ACTIVATION_URL": os.getenv("FRONTEND_ADDRESS") + "/account/activate/{uid}/{token}",
-    # "PASSWORD_RESET_CONFIRM_URL": os.getenv("FRONTEND_ADDRESS")
-    # + "/account/reset/confirm/{uid}/{token}",
+    "ACTIVATION_URL": os.getenv("FRONTEND_ADDRESS") + "/account/activate/{uid}/{token}",
+    "PASSWORD_RESET_CONFIRM_URL": os.getenv("FRONTEND_ADDRESS")
+    + "/account/reset/confirm/{uid}/{token}",
     "EMAIL": {
-        "activation": "core.email.ActivationEmail",
-        "confirmation": "djoser.email.ConfirmationEmail",
-        "password_reset": "djoser.email.PasswordResetEmail",
-        "password_changed_confirmation": "djoser.email.PasswordChangedConfirmationEmail",
-        "username_reset": "djoser.email.UsernameResetEmail",
+        "activation": "authentication.email.ActivationEmail",
+        "confirmation": "authentication.email.ConfirmationEmail",
+        "password_reset": "authentication.email.PasswordResetEmail",
+        "password_changed_confirmation": "authentication.email.PasswordChangedConfirmationEmail",
+        "username_reset": "authentication.email.UsernameResetEmail",
     },
 }
 SIMPLE_JWT = {

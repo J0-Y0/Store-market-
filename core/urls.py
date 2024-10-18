@@ -13,6 +13,7 @@ from drf_spectacular.views import (
 
 urlpatterns = [
     path("", TemplateView.as_view(template_name="common/index.html")),
+    path("jo", TemplateView.as_view(template_name="activation.html")),
     path("admin/", admin.site.urls),
     path("auth/", include("djoser.urls")),
     path("auth/", include("djoser.urls.jwt")),
