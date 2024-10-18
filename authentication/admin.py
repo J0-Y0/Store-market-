@@ -29,7 +29,7 @@ class UserAdmin(BaseAdmin, ModelAdmin):
         # ("Permissions", {"fields": ["groups", "user_permissions"]}),
     ]
 
-    readonly_fields = ["last_login", "date_joined"]
+    readonly_fields = ["last_login", "date_joined", "username"]
     list_display = [
         "first_name",
         "last_name",
