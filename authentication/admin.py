@@ -30,3 +30,14 @@ class UserAdmin(BaseAdmin, ModelAdmin):
     # list_prefetch_related = ["Permissions"]]
 
     readonly_fields = ["last_login", "date_joined"]
+
+
+from django.contrib.auth.admin import GroupAdmin as BaseGroupAdmin
+from django.contrib.auth.models import Group
+
+admin.site.unregister(Group)
+
+
+@admin.register(Group)
+class GroupAdmin(BaseGroupAdmin, ModelAdmin):
+    pass
