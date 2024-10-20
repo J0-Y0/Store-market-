@@ -28,8 +28,8 @@ class Product(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     collection = models.ForeignKey("Collection", on_delete=models.PROTECT)
 
-    comments = GenericRelation("common.Comment")  # Generic relation to Comment
-    likes = GenericRelation("common.Like")  # Generic relation to Like
+    # comments = GenericRelation("common.Comment")  # Generic relation to Comment
+    # likes = GenericRelation("common.Like")  # Generic relation to Like
     tags = GenericRelation("common.ContentTag")  # Generic relation to Tag
 
     def __str__(self):
@@ -37,6 +37,15 @@ class Product(models.Model):
 
     class Meta:
         ordering = ["-last_update"]
+
+
+class FeedBack(models.Model):
+    Product = models.ForeignKey(
+        Product, on_delete=models.CASCADE, related_name="feedbacks"
+    )
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    comment = models.TextField(max_length=500)
+    rate = models.IntegerField(validators=[MinValueValidator(1), MaxValueValidator(5)])
 
 
 class ProductImage(models.Model):
