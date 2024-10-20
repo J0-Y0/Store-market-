@@ -103,6 +103,11 @@ class ProductImageInline(TabularInline):
         return ""
 
 
+class FeedBackInline(TabularInline):
+    model = FeedBack
+    extra = 1
+
+
 @admin.register(Customer)
 class CustomerAdmin(ModelAdmin):
     list_display = [
@@ -166,7 +171,7 @@ class ProductAdmin(ModelAdmin, ImportExportModelAdmin):
 
     ordering = ["title"]
 
-    inlines = [ProductImageInline, CommentInline, ContentTagInline]
+    inlines = [ProductImageInline, FeedBackInline, ContentTagInline]
 
     autocomplete_fields = ["collection"]
     prepopulated_fields = {"description": ["title"]}
